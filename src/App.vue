@@ -1,11 +1,34 @@
-<script setup></script>
+<script setup>
+import Header from '@/components/layout/Header.vue';
+import Footer from '@/components/layout/Footer.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="flex flex-col min-h-screen">
+    <Header />
+
+    <main class="flex-1">
+      <router-view v-slot="{ Component }">
+        <transition name="fade" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </main>
+
+    <Footer />
+  </div>
+
 </template>
 
-<style scoped></style>
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25 ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+
+}
+</style>
