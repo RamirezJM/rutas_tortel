@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const HomeView = () => import('@views/HomeView.vue')
 const RutaView = () => import('@views/RutaView.vue')
+const HitoView = () => import('@views/HitoView.vue')
+const TerminosView = () => import('@views/TerminosView.vue')
 
 const routes = [
   {
@@ -13,6 +15,16 @@ const routes = [
     path: '/ruta/:id',
     name: 'ruta',
     component: RutaView,
+  },
+  {
+    path: '/ruta/:rutaId/hito/:hitoId',
+    name: 'hito',
+    component: HitoView,
+  },
+  {
+    path: '/terminos-de-uso',
+    name: 'terminos',
+    component: TerminosView,
   },
   {
     path: '/:pathMatch(.*)*',
