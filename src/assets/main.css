@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+:root {
+  --primary: green;
+  --danger: red;
+}
