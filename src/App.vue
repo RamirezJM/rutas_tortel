@@ -1,11 +1,11 @@
 <script setup>
-import Header from '@/components/layout/Header.vue';
-import Footer from '@/components/layout/Footer.vue';
+import AppHeader from '@/components/layout/AppHeader.vue';
+import AppFooter from '@/components/layout/AppFooter.vue';
 </script>
 
 <template>
   <div class="flex flex-col min-h-screen">
-    <Header />
+    <AppHeader />
 
     <main class="flex-1">
       <router-view v-slot="{ Component }">
@@ -15,7 +15,7 @@ import Footer from '@/components/layout/Footer.vue';
       </router-view>
     </main>
 
-    <Footer />
+    <AppFooter />
   </div>
 
 </template>
