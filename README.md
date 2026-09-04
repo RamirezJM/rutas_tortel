@@ -1,2 +1,2 @@
 # rutas_tortel
-Sitio web del proyecto 'Rutas de Tortel'
+Sitio web del proyecto Fondart 'Rutas de Tortel'
