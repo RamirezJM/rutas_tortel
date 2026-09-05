@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-const HomeView = () => import('@views/HomeView.vue')
-const RutaView = () => import('@views/RutaView.vue')
-const HitoView = () => import('@views/HitoView.vue')
-const TerminosView = () => import('@views/TerminosView.vue')
+const HomeView = () => import('@/views/HomeView.vue')
+const RutaView = () => import('@/views/RutaView.vue')
+const HitoView = () => import('@/views/HitoView.vue')
+const TerminosView = () => import('@/views/TerminosView.vue')
 
 const routes = [
   {
@@ -12,7 +12,7 @@ const routes = [
     component: HomeView,
   },
   {
-    path: '/ruta/:id',
+    path: '/ruta/:rutaId',
     name: 'ruta',
     component: RutaView,
   },
