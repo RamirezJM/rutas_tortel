@@ -41,19 +41,18 @@ function cerrarMenu() {
 
       <!-- Logo / nombre del sitio -->
       <router-link to="/"
-        class="font-display text-white text-xl font-bold tracking-wide hover:opacity-80 transition-opacity"
+        class="font-display text-white text-sm font-bold max-w-20 tracking-wide hover:opacity-80 transition-opacity"
         @click="cerrarMenu">
         <!-- Reemplazar con logo SVG cuando llegue guía de diseño -->
-        Tortel
+        Rutas Patrimoniales de Tortel
       </router-link>
 
       <!-- Links desktop — ocultos en móvil -->
-      <ul class="hidden md:flex items-center gap-8">
+      <ul class="hidden lg:flex items-center gap-8">
         <li>
-          <router-link to="/"
-            class="text-white font-medium border border-white p-2 rounded-sm hover:text-pink-800 hover:border-pink-800 transition-colors"
-            active-class="text-red-700 border border-red-700">
-            {{ t('nav.inicio') }}
+          <router-link to="/" class="text-white font-medium border border-white p-2 rounded-sm"
+            exact-active-class="bg-white !text-emerald-600">
+            {{ t('inicio') }}
           </router-link>
         </li>
         <!--
@@ -62,9 +61,10 @@ function cerrarMenu() {
           en el navbar sin tocar este componente.
         -->
         <li v-for="ruta in rutas" :key="ruta.id">
-          <router-link :to="`/ruta/${ruta.id}`"
-            class="text-white font-medium border border-white p-2 rounded-sm hover:text-pink-800 hover:border-pink-800  transition-colors"
-            active-class="text-acento border-b border-acento">
+          <router-link :to="`/ruta/${ruta.id}`" class="text-white font-medium border border-white  p-2 rounded-sm"
+            exact-active-class="bg-white" :style="$route.path.startsWith(`/ruta/${ruta.id}`)
+              ? { color: ruta.color }
+              : {}">
             {{ ruta.nombre }}
           </router-link>
         </li>
@@ -81,7 +81,7 @@ function cerrarMenu() {
         </button>
 
         <!-- Botón hamburguesa — solo en móvil -->
-        <button @click="menuAbierto = !menuAbierto" class="md:hidden text-white p-1"
+        <button @click="menuAbierto = !menuAbierto" class="lg:hidden text-white p-1"
           :aria-label="menuAbierto ? 'Cerrar menú' : 'Abrir menú'" :aria-expanded="menuAbierto">
           <!--
             Tres líneas que se transforman en X al abrir.
@@ -109,7 +109,7 @@ function cerrarMenu() {
       Transition de Vue anima la entrada y salida.
     -->
     <transition name="menu">
-      <div v-show="menuAbierto" class="md:hidden bg-black/70 backdrop-blur-sm px-6 py-4 flex flex-col">
+      <div v-show="menuAbierto" class="lg:hidden bg-black/70 backdrop-blur-sm px-6 py-4 flex flex-col">
         <router-link to="/"
           class="text-white font-medium py-3 border-b border-white/10 hover:text-acento transition-colors"
           active-class="text-acento" @click="cerrarMenu">

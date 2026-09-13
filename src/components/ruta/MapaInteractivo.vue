@@ -52,7 +52,7 @@ function onMapReady() {
 function crearIcono(numero) {
   return L.divIcon({
     html: `
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 42" width="32" height="42">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 42" width="24" height="32">
         <ellipse cx="16" cy="41" rx="6" ry="2" fill="rgba(0,0,0,0.2)" />
         <path
           d="M16 0 C7.163 0 0 7.163 0 16 C0 28 16 42 16 42 C16 42 32 28 32 16 C32 7.163 24.837 0 16 0Z"
@@ -70,15 +70,15 @@ function crearIcono(numero) {
       </svg>
     `,
     className: '',
-    iconSize: [32, 42],
-    iconAnchor: [16, 42],
+    iconSize: [24, 32],
+    iconAnchor: [12, 24],
     popupAnchor: [0, -42]
   })
 }
 </script>
 
 <template>
-  <div class="w-full h-96 rounded-lg overflow-hidden">
+  <div class="w-full h-screen rounded-lg overflow-hidden">
 
     <!--
       ref="mapaRef" conecta este elemento con la variable mapaRef del script.
@@ -86,12 +86,12 @@ function crearIcono(numero) {
       es el momento correcto para llamar fitBounds, ya que antes
       el mapa no tiene dimensiones calculadas.
     -->
-    <LMap ref="mapaRef" :zoom="zoom" :center="centro" :options="{ scrollWheelZoom: false }" class="w-full h-full"
-      @ready="onMapReady">
+    <LMap ref="mapaRef" :zoom="zoom" :center="centro" :options="{ scrollWheelZoom: false, maxZoom: 19 }"
+      class="w-full h-full" @ready="onMapReady">
 
       <LTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' layer-type="base"
-        name="OpenStreetMap" />
+        :max-zoom="19" name="OpenStreetMap" />
 
       <!--
         LPolyline dibuja la línea que conecta los hitos en orden.
