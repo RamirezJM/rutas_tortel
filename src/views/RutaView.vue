@@ -21,8 +21,8 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
 
 <template>
   <div>
-    <section class="relative flex flex-col min-h-screen overflow-hidden max-w-6xl mx-auto">
-      <img :src="ruta.imagen_portada" alt="" class="absolute object-cover object-top -z-10">
+    <section class="relative flex flex-col min-h-screen overflow-hidden max-w-8xl mx-auto">
+      <img :src="ruta.imagen_portada" alt="" class="absolute w-full h-full object-cover object-top -z-10">
       <div :style="{ backgroundColor: ruta.color }" class="mix-blend-multiply absolute inset-0"></div>
 
       <AppNavbar />

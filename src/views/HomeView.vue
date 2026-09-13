@@ -21,7 +21,7 @@ const { t } = useI18n()
       'relative' permite que los hijos absolute se posicionen aquí.
       'min-h-screen' ocupa toda la pantalla al cargar.
     -->
-    <section class="relative flex flex-col min-h-screen overflow-hidden max-w-6xl mx-auto">
+    <section class="relative flex flex-col min-h-screen overflow-hidden max-w-8xl mx-auto">
 
       <!-- Imagen de fondo — tres tamaños para responsive -->
       <!--   <img :src="HeroSm" alt="" fetchpriority="high"
@@ -34,7 +34,7 @@ const { t } = useI18n()
       <picture>
         <source media="(max-width:600px)" :srcset="HeroSm">
         <source media="(max-width:900px)" :srcset="HeroMd">
-        <img :src="HeroLg" alt="" class="absolute object-cover object-bottom  -z-10">
+        <img :src="HeroLg" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
       </picture>
 
       <div class="bg-emerald-600 mix-blend-multiply absolute inset-0"></div>
