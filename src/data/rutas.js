@@ -5,7 +5,7 @@ export const rutas = [
     descripcion:
       'Lorem ipsum descripción de la ruta histórica. Texto placeholder hasta recibir contenido final. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos accusantium dolorem. Quibusdam quia dolorem, mollitia facilis maiores ad sint alias iste ipsum numquam animi libero sit, neque laborum temporibus!',
     imagen_portada: '/images/rutas/hero-lg.jpg',
-    color: '#8B4513',
+    color: '#efdd57',
     duracion: '2 horas',
     dificultad: 'Fácil',
     distancia: '1,5 kilometros',
@@ -446,7 +446,7 @@ export const rutas = [
     descripcion:
       'Lorem ipsum descripción de la ruta naturaleza y cultura. Texto placeholder hasta recibir contenido final. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos accusantium dolorem. Quibusdam quia dolorem, mollitia facilis maiores ad sint alias iste ipsum numquam animi libero sit, neque laborum temporibus!',
     imagen_portada: '/images/rutas/hero-lg.jpg',
-    color: '#5EA65A',
+    color: '#Ec7133',
     duracion: '3 horas',
     dificultad: 'Media',
     distancia: '3 kilometros',
@@ -886,7 +886,7 @@ export const rutas = [
     descripcion:
       'Lorem ipsum descripción de la ruta histórica. Texto placeholder hasta recibir contenido final. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos accusantium dolorem. Quibusdam quia dolorem, mollitia facilis maiores ad sint alias iste ipsum numquam animi libero sit, neque laborum temporibus!',
     imagen_portada: '/images/rutas/hero-lg.jpg',
-    color: '#551ADB',
+    color: '#c8738c',
     duracion: '1,5 horas',
     dificultad: 'Difícil',
     distancia: '4 kilometros',
@@ -898,7 +898,7 @@ export const rutas = [
         descripcion_completa:
           'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797657, -73.534048],
-        imagen: '/images/rutas/hero-lg.jpg',
+        imagen: '/images/rutas/naturaleza/naturaleza-1.webp',
         galeria: [
           '/images/hitos/colonial-1-a.jpg',
           '/images/hitos/colonial-1-b.jpg',
