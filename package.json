@@ -18,6 +18,7 @@
     "@vue-leaflet/vue-leaflet": "^0.10.1",
     "leaflet": "^1.9.4",
     "primevue": "^4.5.5",
+    "sal.js": "^0.8.5",
     "vue": "^3.5.38",
     "vue-i18n": "^10.0.8",
     "vue-router": "^5.1.0"
