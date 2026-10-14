@@ -8,6 +8,7 @@ import PrimeVue from 'primevue/config'
 import Aura from '@primevue/themes/aura'
 
 import './assets/main.css'
+import 'sal.js/dist/sal.css'
 
 const app = createApp(App)
 const head = createHead()
