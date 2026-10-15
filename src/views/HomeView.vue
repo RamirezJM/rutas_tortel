@@ -8,7 +8,9 @@ import RutaCard from '@/components/home/RutaCard.vue'
 import { rutas } from '@/data/rutas'
 import HeroSm from '@/assets/images/hero-sm.jpg'
 import HeroMd from '@/assets/images/hero-md.jpg'
-import HeroLg from '@/assets/images/hero-lg.jpg'
+/* import HeroLg from '@/assets/images/hero-lg.jpg' */
+import HeroNew from '@/assets/images/hero-new.jpg'
+
 
 const { t } = useI18n()
 </script>
@@ -34,11 +36,11 @@ const { t } = useI18n()
       <picture>
         <source media="(max-width:600px)" :srcset="HeroSm">
         <source media="(max-width:900px)" :srcset="HeroMd">
-        <img :src="HeroLg" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
+        <img :src="HeroNew" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
       </picture>
 
-      <div class="bg-emerald-600 mix-blend-multiply absolute inset-0"></div>
-
+      <div class="bg-teal-600 mix-blend-multiply absolute inset-0"></div>
+      <!-- <div class="bg-fuchsia-400 mix-blend-multiply absolute inset-0"></div> -->
       <!--  <div class="absolute inset-x-0 bottom-0 h-16 bg-linear-to-t from-emerald-900 to-transparent pointer-events-none">
       </div>
  -->
@@ -56,9 +58,9 @@ const { t } = useI18n()
 
       <!-- Texto del hero -->
       <div class="flex-1 flex flex-col items-center justify-center text-center px-6 py-20 md:py-32">
-        <h1 class="font-display text-white text-4xl md:text-6xl font-bold leading-tight drop-shadow-lg mb-4">
+        <h1 class="font-display text-white text-4xl md:text-8xl font-serif font-bold leading-tight drop-shadow-lg mb-4">
           <!-- {{ t('hero.titulo') }} -->
-          Rutas Patrimoniales
+          Rutas de Tortel
         </h1>
         <!--   <p class="text-white/90 text-lg md:text-xl max-w-2xl drop-shadow mb-10">
           {{ t('hero.subtitulo') }}
