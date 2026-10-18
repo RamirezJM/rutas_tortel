@@ -1,6 +1,10 @@
 @import 'tailwindcss';
 
-:root {
-  --primary: green;
-  --danger: red;
+@theme {
+  --color-primary: #74ABB5;
+  --ruta-amarillo: #EFDD57;
+  --ruta-rosado: #C8738C;
+  --ruta-naranja: ;
+
+
 }
