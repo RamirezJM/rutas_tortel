@@ -39,7 +39,7 @@ const { t } = useI18n()
         <img :src="HeroNew" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
       </picture>
 
-      <div class="bg-teal-600 mix-blend-multiply absolute inset-0"></div>
+      <div class="bg-primary mix-blend-multiply absolute inset-0"></div>
       <!-- <div class="bg-fuchsia-400 mix-blend-multiply absolute inset-0"></div> -->
       <!--  <div class="absolute inset-x-0 bottom-0 h-16 bg-linear-to-t from-emerald-900 to-transparent pointer-events-none">
       </div>
