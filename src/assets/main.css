@@ -1,10 +1,41 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Sitka';
+  src: url('/fonts/SitkaText.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas';
+  src: url('/fonts/NeueHaasGroteskTextPro.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-primary: #74ABB5;
   --ruta-amarillo: #EFDD57;
   --ruta-rosado: #C8738C;
   --ruta-naranja: ;
 
+  --font-display: 'Sitka', serif;
+  --font-body: 'Neue Haas', sans-serif;
 
+
+}
+
+body {
+  font-family: var(--font-body);
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
 }
