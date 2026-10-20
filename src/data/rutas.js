@@ -5,7 +5,7 @@ export const rutas = [
     descripcion:
       'Las pasarelas de Tortel no solo conectan distintos sectores del pueblo: también permiten recorrer su historia. Esta ruta invita a descubrir cómo fue creciendo la localidad, reconociendo antiguos espacios de encuentro, viviendas, servicios y lugares vinculados al trabajo y la vida comunitaria. A lo largo del recorrido, la madera aparece como parte fundamental de esta historia, desde la construcción de pasarelas y viviendas hasta la carpintería de ribera y otros saberes desarrollados en el territorio. Una forma de conocer Tortel siguiendo las huellas de quienes lo construyeron y habitaron a lo largo del tiempo.',
     imagen_portada: '/images/rutas/historicas-main.jpg',
-    color: '#efdd57',
+    color: '#F2DC57',
     duracion: '2 horas',
     dificultad: 'Fácil',
     distancia: '1,5 kilometros',
@@ -446,7 +446,7 @@ export const rutas = [
     descripcion:
       'En Tortel, el bosque, el agua y la vida del pueblo se entrelazan a cada paso. Esta ruta invita a recorrer esa relación a través de pasarelas, miradores y espacios culturales, observando de cerca musgos, líquenes, chilcos y otras especies del bosque austral, mientras aparecen esculturas, lugares de encuentro y expresiones vinculadas a la historia y los oficios locales. Desde las rocas cubiertas de vegetación hasta el arroyo, la playa y la desembocadura del río, el recorrido propone descubrir cómo naturaleza y cultura conviven y dan forma al paisaje cotidiano de Tortel.',
     imagen_portada: '/images/rutas/hero-lg.jpg',
-    color: '#Ec7133',
+    color: '#EE779C',
     duracion: '3 horas',
     dificultad: 'Media',
     distancia: '3 kilometros',
@@ -886,7 +886,7 @@ export const rutas = [
     descripcion:
       'Descubrir Tortel desde el agua es descubrirla desde otra perspectiva. Esta ruta marítima invita a navegar por la bahía y contemplar el pueblo, sus pasarelas y el bosque desde un paisaje que cambia a medida que avanza el recorrido. La navegación permite acercarse a la historia de Tortel y a su estrecha relación con el agua, mientras se observan aves y otros elementos del entorno natural. Una experiencia para disfrutar la bahía con otros ritmos y comprender por qué navegar ha sido parte fundamental de la vida en este territorio.',
     imagen_portada: '/images/rutas/hero-lg.jpg',
-    color: '#c8738c',
+    color: '#ED7133',
     duracion: '1,5 horas',
     dificultad: 'Difícil',
     distancia: '4 kilometros',
