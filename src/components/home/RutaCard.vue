@@ -1,8 +1,9 @@
 <script setup>
 // RutaCard.vue — Card de cada ruta en la landing
 // Recibe el objeto ruta completo como prop
+import { ref, onMounted } from 'vue'
 import rutaImage from '@/assets/images/maritima-main.jpg'
-import { useSal } from '@/composables/useSal';
+/* import { useSal } from '@/composables/useSal'; */
 
 defineProps({
   ruta: {
@@ -14,7 +15,22 @@ defineProps({
     required: true
   }
 })
-useSal()
+
+const elemento = ref(null)
+
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        elemento.value.style.opacity = '0.5'
+        observer.disconnect()
+      }
+    },
+    { threshold: 0.1 }
+  )
+  observer.observe(elemento.value)
+})
+/* useSal() */
 </script>
 
 <template>
@@ -27,8 +43,9 @@ useSal()
       <h2 class="text-emerald-900 font-medium text-3xl md:text-6xl md:text-center md:items-center">{{ ruta.nombre }}
       </h2>
       <p>{{ ruta.descripcion }}</p>
-      <span class="absolute -top-5 left-0 text-9xl md:-top-20 md:text-[12rem] font-black opacity-50 -z-10"
-        :style="{ color: ruta.color }" data-sal="fade-in" data-sal-duration="1000">0{{ numero }}</span>
+      <span class="absolute -top-5 left-0 text-9xl md:-top-20 md:text-[12rem] font-black -z-10"
+        :style="{ color: ruta.color }" ref="elemento">0{{ numero
+        }}</span>
       <router-link :to="`/ruta/${ruta.id}`"
         class="text-lg font-semibold border border-emerald-900 w-fit py-1 px-2 rounded-md">Ver
         ruta</router-link>
@@ -38,4 +55,9 @@ useSal()
   </article>
 </template>
 
-<style scoped></style>
+<style scoped>
+span {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+</style>
