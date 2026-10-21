@@ -3,7 +3,6 @@
 // Recibe el objeto ruta completo como prop
 import { ref, onMounted } from 'vue'
 import rutaImage from '@/assets/images/maritima-main.jpg'
-/* import { useSal } from '@/composables/useSal'; */
 
 defineProps({
   ruta: {
@@ -30,7 +29,7 @@ onMounted(() => {
   )
   observer.observe(elemento.value)
 })
-/* useSal() */
+
 </script>
 
 <template>

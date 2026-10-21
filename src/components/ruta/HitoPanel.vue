@@ -11,8 +11,9 @@ defineProps({
 
 <template>
   <div v-if="hito">
-    <h3>{{ hito.nombre }}</h3>
-    <p>{{ hito.descripcion_breve }}</p>
+    <h3 class="text-red-500">{{ hito.nombre }}</h3>
+    <!-- <p>{{ hito.descripcion_breve }}</p> -->
+     <img src="/images/rutas/hero-lg.jpg" alt="">
     <router-link :to="`/ruta/${hito.rutaId}/hito/${hito.id}`">
       Ver más
     </router-link>

@@ -107,7 +107,8 @@ function crearIcono(numero) {
         <LPopup>
           <div class="min-w-48">
             <h3 class="font-semibold text-sm mb-1">{{ hito.nombre }}</h3>
-            <p class="text-xs text-gray-600 mb-2">{{ hito.descripcion_breve }}</p>
+           <!--  <p class="text-xs text-gray-600 mb-2">{{ hito.descripcion_breve }}</p> -->
+              <img src="/images/rutas/hero-lg.jpg" alt="" class="w-25">
             <router-link :to="`/ruta/${$route.params.rutaId}/hito/${hito.id}`"
               class="text-xs font-medium hover:underline" :style="`color: ${colorRuta}`">
               Ver más →

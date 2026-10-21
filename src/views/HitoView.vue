@@ -38,7 +38,7 @@ const adyacentes = computed(() => getHitosAdyacentes(route.params.rutaId, route.
         <div class="flex flex-col items-center gap-6">
           <h1 class="text-2xl font-medium font-serif text-center">{{ hito.nombre }}</h1>
           <p class="max-w-2xl">{{ hito.descripcion_completa }}</p>
-          <img :src="hito.imagen" alt="" class=" aspect-video object-cover w-full max-w-4xl mx-auto my-8">
+          <img :src="hito.imagen" alt="" class=" aspect-video object-cover w-full max-w-6xl mx-auto my-8">
         </div>
 
 

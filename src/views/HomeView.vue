@@ -11,7 +11,6 @@ import HeroMd from '@/assets/images/hero-md.jpg'
 /* import HeroLg from '@/assets/images/hero-lg.jpg' */
 import HeroNew from '@/assets/images/hero-new.jpg'
 
-
 const { t } = useI18n()
 </script>
 
@@ -39,7 +38,9 @@ const { t } = useI18n()
         <img :src="HeroNew" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
       </picture>
 
-      <div class="bg-primary mix-blend-multiply absolute inset-0"></div>
+      <!-- <div class="bg-primary mix-blend-multiply absolute inset-0"></div> -->
+      <div class="bg-[#0b3c44] mix-blend-multiply absolute inset-0"></div>
+
       <!-- <div class="bg-fuchsia-400 mix-blend-multiply absolute inset-0"></div> -->
       <!--  <div class="absolute inset-x-0 bottom-0 h-16 bg-linear-to-t from-emerald-900 to-transparent pointer-events-none">
       </div>
@@ -58,17 +59,26 @@ const { t } = useI18n()
 
       <!-- Texto del hero -->
       <div class="flex-1 flex flex-col items-center justify-center text-center px-6 py-20 md:py-32">
-        <h1 class="font-display text-white text-4xl md:text-8xl font-serif font-bold leading-tight drop-shadow-lg mb-4">
-          <!-- {{ t('hero.titulo') }} -->
+        <!--   <h1 class="text-white text-4xl md:text-8xl font-serif font-bold leading-tight drop-shadow-lg mb-4">
+
           Rutas de Tortel
+        </h1> -->
+        <h1
+          class="flex flex-col items-start text-light text-4xl md:text-8xl font-display font-bold leading-tight drop-shadow-lg mb-4">
+          <!-- Primera fila: "Rutas" + Círculos -->
+          <div class="flex items-center gap-3">
+            <span>Rutas</span>
+            <div class="flex items-center gap-1.5">
+              <span class="w-10 h-10 rounded-full bg-red-500"></span>
+              <span class="w-10 h-10 rounded-full bg-amber-500"></span>
+              <span class="w-10 h-10 rounded-full bg-emerald-500"></span>
+            </div>
+          </div>
+
+          <!-- Segunda fila -->
+          <span>de Tortel</span>
         </h1>
-        <!--   <p class="text-white/90 text-lg md:text-xl max-w-2xl drop-shadow mb-10">
-          {{ t('hero.subtitulo') }}
-        </p> -->
-        <!--    <a href="#rutas"
-          class="inline-block bg-acento text-white font-semibold px-8 py-3 rounded-full hover:opacity-90 transition-opacity shadow-lg">
-          {{ t('hero.cta') }}
-        </a> -->
+
       </div>
 
     </section>

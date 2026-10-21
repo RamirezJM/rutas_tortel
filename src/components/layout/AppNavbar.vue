@@ -13,6 +13,7 @@
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { rutas } from '@/data/rutas'
+import Logo from '@/assets/images/logo2.png'
 
 const { t, locale } = useI18n()
 
@@ -41,18 +42,20 @@ function cerrarMenu() {
 
       <!-- Logo / nombre del sitio -->
       <router-link to="/"
-        class="font-display text-white text-sm font-bold max-w-20 tracking-wide hover:opacity-80 transition-opacity"
+        class="font-display text-light text-sm font-bold max-w-20 tracking-wide hover:opacity-80 transition-opacity"
         @click="cerrarMenu">
         <!-- Reemplazar con logo SVG cuando llegue guía de diseño -->
-        Rutas Patrimoniales de Tortel
+        <!-- Rutas Patrimoniales de Tortel -->
+        <img :src="Logo" alt="" class="w-25 p-2 rounded-lg">
       </router-link>
 
       <!-- Links desktop — ocultos en móvil -->
       <ul class="hidden lg:flex items-center gap-8">
         <li>
-          <router-link to="/" class="text-white font-medium border border-white p-2 rounded-sm"
-            exact-active-class="bg-white !text-emerald-600">
-            {{ t('inicio') }}
+          <router-link to="/" class="text-light font-medium border border-light p-2 rounded-sm"
+            exact-active-class="bg-white !text-teal-600">
+            <!-- {{ t('inicio') }} -->
+            Inicio
           </router-link>
         </li>
         <!--
@@ -61,7 +64,7 @@ function cerrarMenu() {
           en el navbar sin tocar este componente.
         -->
         <li v-for="ruta in rutas" :key="ruta.id">
-          <router-link :to="`/ruta/${ruta.id}`" class="text-white font-medium border border-white  p-2 rounded-sm"
+          <router-link :to="`/ruta/${ruta.id}`" class="text-light font-medium border border-light  p-2 rounded-sm"
             exact-active-class="bg-white" :style="$route.path.startsWith(`/ruta/${ruta.id}`)
               ? { color: ruta.color }
               : {}">

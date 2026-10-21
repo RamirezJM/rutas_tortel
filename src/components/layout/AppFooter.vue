@@ -4,7 +4,7 @@
 
 <template>
 
-  <footer class="bg-emerald-900 p-8 text-white">
+  <footer class="bg-primary p-8 text-white">
     <div class="flex flex-col md:flex-row gap-6 justify-around items-center max-w-4xl mx-auto">
       <p class="text-sm font-semibold  max-w-20 tracking-wide">Rutas de Tortel</p>
       <div class="flex flex-col items-center ">
