@@ -14,6 +14,11 @@ const props = defineProps({
   colorRuta: {
     type: String,
     default: '#2c5f2e'
+  },
+  trazado: {
+    type: Array,
+    required: false,
+    default: () => []
   }
 })
 
@@ -28,7 +33,16 @@ const hitoActivo = ref(null)
 
 // Array de coordenadas en orden — alimenta la polyline.
 // Es el mismo array de hitos pero extrayendo solo las coordenadas.
-const coordenadasRuta = props.hitos.map(h => h.coordenadas)
+
+
+/* const coordenadasRuta = props.hitos.map(h => h.coordenadas) */
+
+
+/* const coordenadasRuta = props.trazado */
+
+
+
+
 
 // Referencia al componente LMap para acceder a la instancia de Leaflet.
 // Necesaria para llamar fitBounds sobre el mapa una vez montado.
@@ -37,7 +51,13 @@ const mapaRef = ref(null)
 // Se ejecuta cuando el mapa termina de inicializarse.
 // En ese momento calculamos los límites del conjunto de markers
 // y ajustamos el zoom para que todos quepan en pantalla.
-function onMapReady() {
+
+
+
+
+
+
+/* function onMapReady() {
   if (props.hitos.length < 2) return  // con un solo hito no tiene sentido
 
   // L.latLngBounds calcula el rectángulo que contiene todas las coordenadas
@@ -48,6 +68,25 @@ function onMapReady() {
   // pegados al borde del mapa.
   mapaRef.value.leafletObject.fitBounds(bounds, { padding: [40, 40] })
 }
+ */
+
+
+
+function onMapReady() {
+  // Combina coordenadas de hitos y trazado para el fitBounds
+  const coordenadasHitos = props.hitos.map(h => h.coordenadas)
+  const coordenadasTrazado = props.trazado.length > 0 ? props.trazado : []
+  const todasLasCoordenadas = [...coordenadasHitos, ...coordenadasTrazado]
+
+  if (todasLasCoordenadas.length < 2) return
+
+  const bounds = L.latLngBounds(todasLasCoordenadas)
+  mapaRef.value.leafletObject.fitBounds(bounds, { padding: [40, 40] })
+}
+
+
+
+
 
 function crearIcono(numero) {
   return L.divIcon({
@@ -100,15 +139,23 @@ function crearIcono(numero) {
         :opacity controla la transparencia.
         La línea va debajo de los markers porque se declara antes en el template.
       -->
-      <LPolyline :lat-lngs="coordenadasRuta" :color="colorRuta" :weight="3" :opacity="0.7" />
+
+
+
+      <!--  <LPolyline :lat-lngs="coordenadasRuta" :color="colorRuta" :weight="3" :opacity="0.7" /> -->
+
+      <LPolyline v-if="props.trazado.length > 0" :lat-lngs="props.trazado" :color="colorRuta" :weight="5"
+        :opacity="0.9" />
+
+
 
       <LMarker v-for="(hito, index) in hitos" :key="hito.id" :lat-lng="hito.coordenadas" :icon="crearIcono(index + 1)"
         @click="hitoActivo = hito">
         <LPopup>
           <div class="min-w-48">
             <h3 class="font-semibold text-sm mb-1">{{ hito.nombre }}</h3>
-           <!--  <p class="text-xs text-gray-600 mb-2">{{ hito.descripcion_breve }}</p> -->
-              <img src="/images/rutas/hero-lg.jpg" alt="" class="w-25">
+            <!--  <p class="text-xs text-gray-600 mb-2">{{ hito.descripcion_breve }}</p> -->
+            <img src="/images/rutas/hero-lg.jpg" alt="" class="w-25">
             <router-link :to="`/ruta/${$route.params.rutaId}/hito/${hito.id}`"
               class="text-xs font-medium hover:underline" :style="`color: ${colorRuta}`">
               Ver más →
