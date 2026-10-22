@@ -185,7 +185,28 @@ export const rutas = [
       },
       {
         id: 9,
-        nombre: 'Hito 9 — Escuela vieja',
+        nombre: 'Hito 9 — Cuartel de Bomberos',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.801759, -73.536726],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
+      {
+        id: 10,
+        nombre: 'Hito 10 — Escuela antigua',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.802538, -73.537858],
@@ -205,8 +226,8 @@ export const rutas = [
         },
       },
       {
-        id: 10,
-        nombre: 'Hito 10 — Iglesia católica',
+        id: 11,
+        nombre: 'Hito 11 — Iglesia católica',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803030, -73.537972],
@@ -226,7 +247,7 @@ export const rutas = [
         },
       },
       {
-        id: 11,
+        id: 12,
         nombre: 'Hito 12 — Escultura padre Ronchi',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
@@ -247,8 +268,8 @@ export const rutas = [
         },
       },
       {
-        id: 12,
-        nombre: 'Hito 11 — Radio Madipro',
+        id: 13,
+        nombre: 'Hito 13 — Radio Madipro',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803132, -73.537999],
@@ -269,8 +290,8 @@ export const rutas = [
       },
 
       {
-        id: 13,
-        nombre: 'Hito 13 — Muncipalidad',
+        id: 14,
+        nombre: 'Hito 14 — Muncipalidad',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803291, -73.537732],
@@ -290,8 +311,8 @@ export const rutas = [
         },
       },
       {
-        id: 14,
-        nombre: 'Hito 14 — Comité Eléctrico',
+        id: 15,
+        nombre: 'Hito 15 — Comité Eléctrico',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803464, -73.537996],
@@ -311,11 +332,11 @@ export const rutas = [
         },
       },
       {
-        id: 15,
-        nombre: 'Hito 13 — Centro cívico',
+        id: 16,
+        nombre: 'Hito 16 — Plaza de Armas',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.803761, -73.537311],
+        coordenadas: [-47.803633, -73.537499],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -332,8 +353,29 @@ export const rutas = [
         },
       },
       {
-        id: 16,
-        nombre: 'Hito 16 — Almacenes ECA',
+        id: 17,
+        nombre: 'Hito 17 — Capitanía de Puerto',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.803840, -73.537281],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
+      {
+        id: 18,
+        nombre: 'Hito 18 — Almacenes ECA',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803756, -73.538156],
@@ -353,29 +395,8 @@ export const rutas = [
         },
       },
       {
-        id: 17,
-        nombre: 'Hito 17 — Lancha padre Ronchi',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.803679, -73.538694],
-        imagen: '/images/rutas/hero-lg.jpg',
-        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
-        creditos: {
-          autor: 'Nombre de la Propietaria',
-          año: 2024,
-          licencia: 'Todos los derechos reservados',
-          terminos: 'https://tusitio.cl/terminos-de-uso',
-        },
-      },
-      {
-        id: 18,
-        nombre: 'Hito 18 — Ex-aserradero',
+        id: 19,
+        nombre: 'Hito 19 — Ex-aserradero',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803445, -73.538702],
@@ -395,8 +416,30 @@ export const rutas = [
         },
       },
       {
-        id: 19,
-        nombre: 'Hito 19 — Junquillos',
+        id: 20,
+        nombre: 'Hito 20 — Lancha padre Ronchi',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.803679, -73.538694],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
+
+      {
+        id: 21,
+        nombre: 'Hito 21 — Junquillo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804509, -73.547059],
@@ -417,25 +460,50 @@ export const rutas = [
       },
     ],
     trazado: [
-      [-47.797992, -73.531748], //hito1
-      [-47.797868, -73.531491], //hito2
-      [-47.798011, -73.535460], //hito3
-      [-47.800615, -73.535660], //hito4
-      [-47.801168, -73.535930], //hito5
-      [-47.801295, -73.535775], //hito6
-      [-47.801453, -73.536332], //hito7
-      [-47.801607, -73.536906], //hito8
-      [-47.802538, -73.537858], //hito9
-      [-47.803049, -73.537880], //hito10
-      [-47.802538, -73.537992], //hito11
-      [-47.803132, -73.537999], //hito12
-      [-47.803291, -73.537732], //hito13
-      [-47.803464, -73.537996], //hito14
-      [-47.803761, -73.537311], //hito15
-      [-47.803756, -73.538156], //hito16
-      [-47.803679, -73.538694], //hito17
-      [-47.803445, -73.538702], //hito18
-      [-47.804509, -73.547059], //hito19
+      [-47.797992, -73.531748],
+      [-47.797974, -73.531576],
+      [-47.797857, -73.531540],
+      [-47.797162, -73.532730],
+      [-47.797092, -73.532887],
+      [-47.797064, -73.533179],
+      [-47.797068, -73.533386],
+      [-47.797223, -73.534169],
+      [-47.797616, -73.535080],
+      [-47.797911, -73.535495],
+      [-47.798110, -73.535728],
+      [-47.798188, -73.535783],
+      [-47.798844, -73.535837],
+      [-47.799548, -73.535539],
+      [-47.800049, -73.535450],
+      [-47.800515, -73.535605],
+      [-47.800591, -73.535774],
+      [-47.800648, -73.535758],
+      [-47.800706, -73.535804],
+      [-47.800799, -73.535796],
+      [-47.800875, -73.535914],
+      [-47.801111, -73.535985],
+      [-47.801201, -73.536038],
+      [-47.801290, -73.535947],
+      [-47.801413, -73.535903],
+      [-47.801459, -73.536253],
+      [-47.801663, -73.536723],
+      [-47.802230, -73.537263],
+      [-47.802271, -73.537323],
+      [-47.802730, -73.537525],
+      [-47.803077, -73.537787],
+      [-47.803070, -73.537970],
+      [-47.803105, -73.537997],
+      [-47.803146, -73.537968],
+      [-47.803168, -73.537800],
+
+
+
+
+
+
+
+
+
 
 
     ],
