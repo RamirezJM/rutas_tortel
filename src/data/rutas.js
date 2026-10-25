@@ -877,7 +877,7 @@ export const rutas = [
         nombre: 'Hito 16 — escultura arroyo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.804891, -73.542101],
+        coordenadas: [-47.804706, -73.542247],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -940,7 +940,7 @@ export const rutas = [
         nombre: 'Hito 19 — desembocadura',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.805087, -73.551340],
+        coordenadas: [-47.805517, -73.551718],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1078,10 +1078,58 @@ export const rutas = [
         [-47.803970, -73.538904],
         [-47.804247, -73.539322],
         [-47.804552, -73.539737]
-      ]
+      ],
+      // trazado centro ambiental
+      [
+        [-47.804013, -73.539245],
+        [-47.804083, -73.539525],
+        [-47.804118, -73.539640],
+        [-47.804170, -73.539708],
+        [-47.804247, -73.539739],
+        [-47.804322, -73.539717],
+        [-47.804421, -73.539727],
+        [-47.804552, -73.539737]
+      ],
+      [
+        [-47.804552, -73.539737],
+        [-47.804587, -73.539776],
+        [-47.804753, -73.539957],
+        [-47.804892, -73.540080],
+        [-47.805117, -73.540602],
+        [-47.805099, -73.540927],
+        [-47.805025, -73.541147],
+        [-47.805037, -73.541199],
+        [-47.805014, -73.541448],
+        [-47.804886, -73.541879],
+        [-47.804883, -73.541964],
+        [-47.804873, -73.542124],
+        [-47.804858, -73.542389],
+        [-47.805068, -73.542720],
+        [-47.805148, -73.542876],
+        [-47.805240, -73.543057],
+        [-47.805331, -73.543237],
+        [-47.805595, -73.543782],
+        [-47.805546, -73.543967],
+        [-47.805368, -73.544795],
+        [-47.805278, -73.545236],
+        [-47.805241, -73.545517],
+        [-47.805262, -73.545937],
+        [-47.805230, -73.546086],
+        [-47.805177, -73.546201],
+        [-47.805030, -73.546296],
+        [-47.805007, -73.546318],
+        [-47.805154, -73.546629],
+        [-47.805969, -73.547953],
+        [-47.806430, -73.548693],
+        [-47.806366, -73.548783],
+        [-47.805952, -73.550627],
+        [-47.805806, -73.550816],
+        [-47.805421, -73.551120]
 
-    ],
-  }, {
+      ]
+    ]
+  },
+  {
     id: 'maritima',
     nombre: 'Ruta Marítima',
     descripcion:
