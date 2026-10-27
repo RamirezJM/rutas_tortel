@@ -19,6 +19,10 @@ const props = defineProps({
     type: Array,
     required: false,
     default: () => []
+  },
+  trazadoOpcional: {
+    type: Array,
+    default: () => []
   }
 })
 
@@ -114,6 +118,7 @@ function crearIcono(numero) {
     popupAnchor: [0, -42]
   })
 }
+
 </script>
 
 <template>
@@ -146,6 +151,8 @@ function crearIcono(numero) {
 
       <LPolyline v-if="props.trazado.length > 0" :lat-lngs="props.trazado" :color="colorRuta" :weight="5"
         :opacity="0.9" />
+      <LPolyline v-if="props.trazadoOpcional.length > 0" :lat-lngs="props.trazadoOpcional" :color="colorRuta"
+        :weight="5" :opacity="0.9" :options="{ dashArray: '8, 8' }" />
 
 
 
