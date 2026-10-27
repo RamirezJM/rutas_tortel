@@ -1142,11 +1142,11 @@ export const rutas = [
     hitos: [
       {
         id: 1,
-        nombre: 'Hito 1 — Muelle natureza',
+        nombre: 'Hito 1 — Muelle señora Carmen (Muelle 3)',
         descripcion_breve: 'Texto corto para el popup del mapa. Máximo 2 líneas.',
         descripcion_completa:
           'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.797657, -73.534048],
+        coordenadas: [-47.797639, -73.534000],
         imagen: '/images/rutas/naturaleza/naturaleza-1.webp',
         galeria: [
           '/images/hitos/colonial-1-a.jpg',
@@ -1168,10 +1168,10 @@ export const rutas = [
       },
       {
         id: 2,
-        nombre: 'Hito 2 — bahia1',
+        nombre: 'Hito 2 — Poblamiento de la bahía',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.798282, -73.535012],
+        coordenadas: [-47.797834, -73.533402],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-2-a.jpg', '/images/hitos/colonial-2-b.jpg'],
         datos: {
@@ -1189,10 +1189,10 @@ export const rutas = [
       },
       {
         id: 3,
-        nombre: 'Hito 3 — bahia2',
+        nombre: 'Hito 3 — Paisaje austral',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.799826, -73.534549],
+        coordenadas: [-47.799526, -73.534217],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1210,10 +1210,10 @@ export const rutas = [
       },
       {
         id: 4,
-        nombre: 'Hito 4 — bahia3-pasarelas',
+        nombre: 'Hito 4 — Antiguos recorridos',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.801795, -73.534236],
+        coordenadas: [-47.800460, -73.534588],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1231,10 +1231,10 @@ export const rutas = [
       },
       {
         id: 5,
-        nombre: 'Hito 5 — bahia4',
+        nombre: 'Hito 5 — Bajo las pasarelas',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.802741, -73.535846],
+        coordenadas: [-47.801740, -73.534379],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1252,10 +1252,10 @@ export const rutas = [
       },
       {
         id: 6,
-        nombre: 'Hito 6 — bahia5-centro civico',
+        nombre: 'Hito 6 — Sector base',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.804186, -73.536047],
+        coordenadas: [-47.803685, -73.536090],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1273,10 +1273,10 @@ export const rutas = [
       },
       {
         id: 7,
-        nombre: 'Hito 7 — bahia6-plaza',
+        nombre: 'Hito 7 — La turbina',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.804217, -73.538608],
+        coordenadas: [-47.804428, -73.536870],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1294,10 +1294,10 @@ export const rutas = [
       },
       {
         id: 8,
-        nombre: 'Hito 8 — bahia7-turbina',
+        nombre: 'Hito 8 — Cultura y comunidad',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.805083, -73.539384],
+        coordenadas: [-47.804159, -73.538694],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1315,10 +1315,10 @@ export const rutas = [
       },
       {
         id: 9,
-        nombre: 'Hito 9 — bahia8-fiordo',
+        nombre: 'Hito 9 — Nueva costanera',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.806839, -73.539674],
+        coordenadas: [-47.805144, -73.539484],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1336,10 +1336,10 @@ export const rutas = [
       },
       {
         id: 10,
-        nombre: 'Hito 10 — muelle la puntilla',
+        nombre: 'Hito 10 — Hacia el fiordo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.805698, -73.543682],
+        coordenadas: [-47.805895, -73.540866],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1355,31 +1355,164 @@ export const rutas = [
           terminos: 'https://tusitio.cl/terminos-de-uso',
         },
       },
-
+      {
+        id: 11,
+        nombre: 'Hito 11 — Muelle La Bertola (Muelle 9)',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.805736, -73.543595],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
+      {
+        id: 12,
+        nombre: 'Hito 12 — Playa',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.807531, -73.548637],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
+      {
+        id: 13,
+        nombre: 'Hito 13 — Río Baker',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.793645, -73.547785],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
+      {
+        id: 14,
+        nombre: 'Hito 14 — Muelle aeródromo',
+        descripcion_breve: 'Texto corto para el popup del mapa.',
+        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        coordenadas: [-47.785239, -73.528048],
+        imagen: '/images/rutas/hero-lg.jpg',
+        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+        datos: {
+          duracion: '30 minutos',
+          dificultad: 'Moderada',
+          epoca: 'Siglo XVIII',
+          tipo: 'Arqueología',
+        },
+        creditos: {
+          autor: 'Nombre de la Propietaria',
+          año: 2024,
+          licencia: 'Todos los derechos reservados',
+          terminos: 'https://tusitio.cl/terminos-de-uso',
+        },
+      },
     ],
     trazado: [
-      [-47.797992, -73.531748], //hito1
-      [-47.797868, -73.531491], //hito2
-      [-47.798011, -73.535460], //hito3
-      [-47.800615, -73.535660], //hito4
-      [-47.801168, -73.535930], //hito5
-      [-47.801295, -73.535775], //hito6
-      [-47.801453, -73.536332], //hito7
-      [-47.801607, -73.536906], //hito8
-      [-47.802538, -73.537858], //hito9
-      [-47.803049, -73.537880], //hito10
-      [-47.802538, -73.537992], //hito11
-      [-47.803132, -73.537999], //hito12
-      [-47.803291, -73.537732], //hito13
-      [-47.803464, -73.537996], //hito14
-      [-47.803761, -73.537311], //hito15
-      [-47.803756, -73.538156], //hito16
-      [-47.803679, -73.538694], //hito17
-      [-47.803445, -73.538702], //hito18
-      [-47.804509, -73.547059], //hito19
-
-
+      [-47.797639, -73.534000],
+      [-47.797834, -73.533402],
+      [-47.798043, -73.534033],
+      [-47.798480, -73.534451],
+      [-47.798963, -73.534528],
+      [-47.799526, -73.534217],
+      [-47.800460, -73.534588],
+      [-47.801028, -73.534362],
+      [-47.801740, -73.534379],
+      [-47.802230, -73.535216],
+      [-47.802822, -73.536017],
+      [-47.803685, -73.536090],
+      [-47.804428, -73.536870],
+      [-47.804495, -73.537962],
+      [-47.804159, -73.538694],
+      [-47.804615, -73.538885],
+      [-47.805144, -73.539484],
+      [-47.805895, -73.540866],
+      [-47.805736, -73.543595]
     ],
+    // trazado opcional
+    trazadoOpcional: [
+      [-47.805736, -73.543595],
+      [-47.805860, -73.544461],
+      [-47.806263, -73.545508],
+      [-47.806893, -73.546474],
+      [-47.807407, -73.547407],
+      [-47.807531, -73.548637],
+      [-47.807354, -73.550584],
+      [-47.806835, -73.551583],
+      [-47.806216, -73.551817],
+      [-47.805571, -73.551889],
+      [-47.805356, -73.551818],
+      [-47.805153, -73.551614],
+      [-47.804701, -73.550997],
+      [-47.804408, -73.550708],
+      [-47.804095, -73.550409],
+      [-47.803842, -73.550251],
+      [-47.803645, -73.550249],
+      [-47.803303, -73.550422],
+      [-47.802674, -73.550931],
+      [-47.801968, -73.551588],
+      [-47.801733, -73.552087],
+      [-47.801593, -73.552428],
+      [-47.801439, -73.552625],
+      [-47.800968, -73.552868],
+      [-47.800631, -73.553001],
+      [-47.800164, -73.553041],
+      [-47.799691, -73.552905],
+      [-47.799337, -73.552652],
+      [-47.798624, -73.551515],
+      [-47.798319, -73.550887],
+      [-47.797981, -73.550704],
+      [-47.797213, -73.550573],
+      [-47.796778, -73.550497],
+      [-47.795985, -73.550303],
+      [-47.795345, -73.549465],
+      [-47.794469, -73.548509],
+      [-47.793645, -73.547785],
+      [-47.792307, -73.544250],
+      [-47.790155, -73.539447],
+      [-47.788697, -73.537613],
+      [-47.786384, -73.535742],
+      [-47.785499, -73.534478],
+      [-47.784962, -73.532454],
+      [-47.784906, -73.530312],
+      [-47.785029, -73.528964],
+      [-47.785239, -73.528048]
+
+
+
+    ]
   },
 
 ]
