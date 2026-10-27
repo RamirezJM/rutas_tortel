@@ -34,8 +34,8 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
           {{ ruta.nombre }}
         </h2>
         <p class="max-w-4xl mx-auto">{{ ruta.descripcion }}</p>
-        <MapaInteractivo :hitos="ruta.hitos" :trazado="ruta.trazado" :color-ruta="ruta.color"
-          :key="route.params.rutaId" />
+        <MapaInteractivo :hitos="ruta.hitos" :trazado="ruta.trazado" :trazado-opcional="ruta.trazadoOpcional"
+          :color-ruta="ruta.color" :key="route.params.rutaId" />
 
         <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-18">
           <div class="flex flex-col items-center gap-6 bg-gray-100 shadow-lg p-8 rounded-md">
