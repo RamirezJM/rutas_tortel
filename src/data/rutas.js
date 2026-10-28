@@ -554,22 +554,14 @@ export const rutas = [
       {
         id: 1,
         nombre: 'Hito 1 — Rotonda',
-        descripcion_breve: 'Texto corto para el popup del mapa. Máximo 2 líneas.',
-        descripcion_completa:
+        descripcion:
           'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.795865, -73.531423],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: [
-          '/images/hitos/colonial-1-a.jpg',
-          '/images/hitos/colonial-1-b.jpg',
-          '/images/hitos/colonial-1-c.jpg',
+          '/images/rutas/naturaleza/hitos/1-rotonda-a.webp',
+          '/images/rutas/naturaleza/hitos/1-rotonda-b.webp'
         ],
-        datos: {
-          duracion: '20 minutos',
-          dificultad: 'Fácil',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arquitectura religiosa',
-        },
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -580,17 +572,12 @@ export const rutas = [
       {
         id: 2,
         nombre: 'Hito 2 — Escalera principal',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.796611, -73.533620],
-        imagen: '/images/hitos/colonial-2.jpg',
-        galeria: ['/images/hitos/colonial-2-a.jpg', '/images/hitos/colonial-2-b.jpg'],
-        datos: {
-          duracion: '15 minutos',
-          dificultad: 'Fácil',
-          epoca: 'Siglo XIX',
-          tipo: 'Patrimonio civil',
-        },
+        thumbnail: '/images/hitos/colonial-2.jpg',
+        galeria: [
+          '/images/rutas/naturaleza/hitos/2-escalera.webp',
+        ],
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -601,17 +588,14 @@ export const rutas = [
       {
         id: 3,
         nombre: 'Hito 3 — La barda',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.798269, -73.535809],
-        imagen: '/images/rutas/hero-lg.jpg',
-        galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+        thumbnail: '/images/rutas/hero-lg.jpg',
+        galeria: [
+          '/images/hitos/colonial-3-a.jpg',
+          '/images/hitos/colonial-3-b.jpg'
+        ],
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -623,16 +607,11 @@ export const rutas = [
         id: 4,
         nombre: 'Hito 4 — Muro microbosque',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801975, -73.535132],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -644,16 +623,11 @@ export const rutas = [
         id: 5,
         nombre: 'Hito 5 — Plaza San Pedro',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.802022, -73.535499],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -665,16 +639,11 @@ export const rutas = [
         id: 6,
         nombre: 'Hito 6 — Costanera',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.802477, -73.537030],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -686,16 +655,11 @@ export const rutas = [
         id: 7,
         nombre: 'Hito 7 — Biblioteca pública Luis Cruz Martínez',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803296, -73.537247],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -707,16 +671,11 @@ export const rutas = [
         id: 8,
         nombre: 'Hito 8 — Plaza Kaweskar',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803888, -73.538361],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -728,16 +687,11 @@ export const rutas = [
         id: 9,
         nombre: 'Hito 9 — Escultura tejuelero',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803985, -73.539029],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -749,16 +703,11 @@ export const rutas = [
         id: 10,
         nombre: 'Hito 10 — casa de la cultura',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804005, -73.539166],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -770,16 +719,11 @@ export const rutas = [
         id: 11,
         nombre: 'Hito 11 — centro de interpretación',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804026, -73.539332],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -791,16 +735,11 @@ export const rutas = [
         id: 12,
         nombre: 'Hito 12 — escultura artesana kaweskar',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804072, -73.539126],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -813,16 +752,11 @@ export const rutas = [
         id: 13,
         nombre: 'Hito 13 — escultura canoa kaweskar',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804090, -73.539172],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -834,16 +768,11 @@ export const rutas = [
         id: 14,
         nombre: 'Hito 14 — mirador antena',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803614, -73.541006],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -855,16 +784,11 @@ export const rutas = [
         id: 15,
         nombre: 'Hito 15 — plaza orompello',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805164, -73.540798],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -876,16 +800,11 @@ export const rutas = [
         id: 16,
         nombre: 'Hito 16 — escultura arroyo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804706, -73.542247],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -897,16 +816,11 @@ export const rutas = [
         id: 17,
         nombre: 'Hito 17 — playa',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805758, -73.547631],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -918,16 +832,11 @@ export const rutas = [
         id: 18,
         nombre: 'Hito 18 — quincho playa',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805668, -73.551078],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -939,16 +848,11 @@ export const rutas = [
         id: 19,
         nombre: 'Hito 19 — desembocadura',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805517, -73.551718],
-        imagen: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
@@ -1144,7 +1048,7 @@ export const rutas = [
         id: 1,
         nombre: 'Hito 1 — Muelle señora Carmen (Muelle 3)',
         descripcion_breve: 'Texto corto para el popup del mapa. Máximo 2 líneas.',
-        descripcion_completa:
+        descripcion:
           'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797639, -73.534000],
         imagen: '/images/rutas/naturaleza/naturaleza-1.webp',
@@ -1195,12 +1099,7 @@ export const rutas = [
         coordenadas: [-47.799526, -73.534217],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-        datos: {
-          duracion: '30 minutos',
-          dificultad: 'Moderada',
-          epoca: 'Siglo XVIII',
-          tipo: 'Arqueología',
-        },
+
         creditos: {
           autor: 'Nombre de la Propietaria',
           año: 2024,
