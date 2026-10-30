@@ -557,7 +557,7 @@ export const rutas = [
         descripcion:
           'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.795865, -73.531423],
-        thumbnail: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/naturaleza/thumbnails/1-rotonda-sm.webp',
         galeria: [
           '/images/rutas/naturaleza/hitos/1-rotonda-a.webp',
           '/images/rutas/naturaleza/hitos/1-rotonda-b.webp'
@@ -574,7 +574,7 @@ export const rutas = [
         nombre: 'Hito 2 — Escalera principal',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.796611, -73.533620],
-        thumbnail: '/images/hitos/colonial-2.jpg',
+        thumbnail: '/images/rutas/naturaleza/thumbnails/2-escalera-sm.webp',
         galeria: [
           '/images/rutas/naturaleza/hitos/2-escalera.webp',
         ],
@@ -641,7 +641,7 @@ export const rutas = [
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.802477, -73.537030],
-        thumbnail: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/naturaleza/thumbnails/6-costanera-sm.webp',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
 
         creditos: {
@@ -657,7 +657,7 @@ export const rutas = [
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803296, -73.537247],
-        thumbnail: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/naturaleza/hitos/7-biblioteca-sm.webp',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
 
         creditos: {
@@ -689,7 +689,7 @@ export const rutas = [
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803985, -73.539029],
-        thumbnail: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/naturaleza/hitos/9-tejuelero-sm.webp',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
 
         creditos: {
@@ -705,7 +705,7 @@ export const rutas = [
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804005, -73.539166],
-        thumbnail: '/images/rutas/hero-lg.jpg',
+        thumbnail: '/images/rutas/naturaleza/hitos/2-escalera-sm.webp',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
 
         creditos: {
@@ -1112,7 +1112,7 @@ export const rutas = [
         nombre: 'Hito 4 — Antiguos recorridos',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.800460, -73.534588],
+        coordenadas: [-47.800428, -73.534531],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1133,7 +1133,7 @@ export const rutas = [
         nombre: 'Hito 5 — Bajo las pasarelas',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.801740, -73.534379],
+        coordenadas: [-47.801719, -73.534069],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1154,7 +1154,7 @@ export const rutas = [
         nombre: 'Hito 6 — Sector base',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.803685, -73.536090],
+        coordenadas: [-47.803792, -73.535913],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1175,7 +1175,7 @@ export const rutas = [
         nombre: 'Hito 7 — La turbina',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.804428, -73.536870],
+        coordenadas: [-47.804508, -73.536676],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1196,7 +1196,7 @@ export const rutas = [
         nombre: 'Hito 8 — Cultura y comunidad',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
-        coordenadas: [-47.804159, -73.538694],
+        coordenadas: [-47.804402, -73.538624],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
         datos: {
@@ -1346,17 +1346,24 @@ export const rutas = [
       [-47.798480, -73.534451],
       [-47.798963, -73.534528],
       [-47.799526, -73.534217],
-      [-47.800460, -73.534588],
-      [-47.801028, -73.534362],
-      [-47.801740, -73.534379],
-      [-47.802230, -73.535216],
+      [-47.800428, -73.534531],
+      [-47.801010, -73.534095],
+      [-47.801719, -73.534069],
+      [-47.802468, -73.534897],
+
       [-47.802822, -73.536017],
-      [-47.803685, -73.536090],
-      [-47.804428, -73.536870],
-      [-47.804495, -73.537962],
-      [-47.804159, -73.538694],
-      [-47.804615, -73.538885],
-      [-47.805144, -73.539484],
+
+      [-47.802823, -73.536018],
+
+      [-47.803792, -73.535913],
+
+      [-47.804508, -73.536676],
+
+      [-47.804620, -73.537938],
+
+      [-47.804402, -73.538624],
+
+      [-47.804811, -73.538806],
       [-47.805895, -73.540866],
       [-47.805736, -73.543595]
     ],
