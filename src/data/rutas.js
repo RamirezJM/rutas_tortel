@@ -13,9 +13,7 @@ export const rutas = [
       {
         id: 1,
         nombre: 'Hito 1 — Muelle Juana Vidal',
-        descripcion_breve: 'Texto corto para el popup del mapa. Máximo 2 líneas.',
-        descripcion_completa:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797992, -73.531748],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: [
@@ -39,8 +37,8 @@ export const rutas = [
       {
         id: 2,
         nombre: 'Hito 2 — Casa Vicente Ayán',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797868, -73.531491],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-2-a.jpg', '/images/hitos/colonial-2-b.jpg'],
@@ -60,8 +58,8 @@ export const rutas = [
       {
         id: 3,
         nombre: 'Hito 3 — Plaza Elicura',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.798011, -73.53546],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -81,8 +79,8 @@ export const rutas = [
       {
         id: 4,
         nombre: 'Hito 4 — Estación de vacio',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.800615, -73.53566],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -102,8 +100,8 @@ export const rutas = [
       {
         id: 5,
         nombre: 'Hito 5 — Casa caleta',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801168, -73.53593],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -123,8 +121,8 @@ export const rutas = [
       {
         id: 6,
         nombre: 'Hito 6 — Iglesia evangélica',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801295, -73.535775],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -144,8 +142,8 @@ export const rutas = [
       {
         id: 7,
         nombre: 'Hito 7 — Pasarela padre Ronchi',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801453, -73.536332],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -165,8 +163,8 @@ export const rutas = [
       {
         id: 8,
         nombre: 'Hito 8 — Primera población de Tortel',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801607, -73.536906],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -186,8 +184,8 @@ export const rutas = [
       {
         id: 9,
         nombre: 'Hito 9 — Cuartel de Bomberos',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801759, -73.536726],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -207,8 +205,8 @@ export const rutas = [
       {
         id: 10,
         nombre: 'Hito 10 — Escuela antigua',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.802538, -73.537858],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -228,8 +226,8 @@ export const rutas = [
       {
         id: 11,
         nombre: 'Hito 11 — Iglesia católica',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803030, -73.537972],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -249,8 +247,8 @@ export const rutas = [
       {
         id: 12,
         nombre: 'Hito 12 — Escultura padre Ronchi',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803063, -73.537894],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -270,8 +268,8 @@ export const rutas = [
       {
         id: 13,
         nombre: 'Hito 13 — Radio Madipro',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803132, -73.537999],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -292,8 +290,8 @@ export const rutas = [
       {
         id: 14,
         nombre: 'Hito 14 — Muncipalidad',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803291, -73.537732],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -313,8 +311,8 @@ export const rutas = [
       {
         id: 15,
         nombre: 'Hito 15 — Comité Eléctrico',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803464, -73.537996],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -334,8 +332,8 @@ export const rutas = [
       {
         id: 16,
         nombre: 'Hito 16 — Plaza de Armas',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803633, -73.537499],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -355,8 +353,8 @@ export const rutas = [
       {
         id: 17,
         nombre: 'Hito 17 — Capitanía de Puerto',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803840, -73.537281],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -376,8 +374,8 @@ export const rutas = [
       {
         id: 18,
         nombre: 'Hito 18 — Almacenes ECA',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803756, -73.538156],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -397,8 +395,8 @@ export const rutas = [
       {
         id: 19,
         nombre: 'Hito 19 — Ex-aserradero',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803445, -73.538702],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -418,8 +416,8 @@ export const rutas = [
       {
         id: 20,
         nombre: 'Hito 20 — Lancha padre Ronchi',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803679, -73.538694],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -440,8 +438,8 @@ export const rutas = [
       {
         id: 21,
         nombre: 'Hito 21 — Junquillo',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804509, -73.547059],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -606,7 +604,7 @@ export const rutas = [
       {
         id: 4,
         nombre: 'Hito 4 — Muro microbosque',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
+
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801975, -73.535132],
         thumbnail: '/images/rutas/hero-lg.jpg',
@@ -622,7 +620,7 @@ export const rutas = [
       {
         id: 5,
         nombre: 'Hito 5 — Plaza San Pedro',
-        descripcion_breve: 'Texto corto para el popup del mapa.',
+
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.802022, -73.535499],
         thumbnail: '/images/rutas/hero-lg.jpg',
@@ -1047,7 +1045,6 @@ export const rutas = [
       {
         id: 1,
         nombre: 'Hito 1 — Muelle señora Carmen (Muelle 3)',
-        descripcion_breve: 'Texto corto para el popup del mapa. Máximo 2 líneas.',
         descripcion:
           'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797639, -73.534000],
@@ -1074,7 +1071,7 @@ export const rutas = [
         id: 2,
         nombre: 'Hito 2 — Poblamiento de la bahía',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797834, -73.533402],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-2-a.jpg', '/images/hitos/colonial-2-b.jpg'],
@@ -1095,7 +1092,7 @@ export const rutas = [
         id: 3,
         nombre: 'Hito 3 — Paisaje austral',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.799526, -73.534217],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1111,7 +1108,7 @@ export const rutas = [
         id: 4,
         nombre: 'Hito 4 — Antiguos recorridos',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.800428, -73.534531],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1132,7 +1129,7 @@ export const rutas = [
         id: 5,
         nombre: 'Hito 5 — Bajo las pasarelas',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801719, -73.534069],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1153,7 +1150,7 @@ export const rutas = [
         id: 6,
         nombre: 'Hito 6 — Sector base',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803792, -73.535913],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1174,7 +1171,7 @@ export const rutas = [
         id: 7,
         nombre: 'Hito 7 — La turbina',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804508, -73.536676],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1195,7 +1192,7 @@ export const rutas = [
         id: 8,
         nombre: 'Hito 8 — Cultura y comunidad',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804402, -73.538624],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1216,7 +1213,7 @@ export const rutas = [
         id: 9,
         nombre: 'Hito 9 — Nueva costanera',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805144, -73.539484],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1237,7 +1234,7 @@ export const rutas = [
         id: 10,
         nombre: 'Hito 10 — Hacia el fiordo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805895, -73.540866],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1258,7 +1255,7 @@ export const rutas = [
         id: 11,
         nombre: 'Hito 11 — Muelle La Bertola (Muelle 9)',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805736, -73.543595],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1279,7 +1276,7 @@ export const rutas = [
         id: 12,
         nombre: 'Hito 12 — Playa',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.807531, -73.548637],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1300,7 +1297,7 @@ export const rutas = [
         id: 13,
         nombre: 'Hito 13 — Río Baker',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.793645, -73.547785],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
@@ -1321,7 +1318,7 @@ export const rutas = [
         id: 14,
         nombre: 'Hito 14 — Muelle aeródromo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
-        descripcion_completa: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+        descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.785239, -73.528048],
         imagen: '/images/rutas/hero-lg.jpg',
         galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
