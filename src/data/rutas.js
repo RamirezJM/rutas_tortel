@@ -12,7 +12,7 @@ export const rutas = [
     hitos: [
       {
         id: 1,
-        nombre: 'Hito 1 — Muelle Juana Vidal',
+        nombre: 'Hito 1 — Muelle Juana Vidal (Muelle 1)',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797992, -73.531748],
         imagen: '/images/rutas/hero-lg.jpg',
@@ -36,7 +36,7 @@ export const rutas = [
       },
       {
         id: 2,
-        nombre: 'Hito 2 — Casa Vicente Ayán',
+        nombre: 'Hito 2 — Casa familia Ayán',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.797868, -73.531491],
@@ -78,7 +78,7 @@ export const rutas = [
       },
       {
         id: 4,
-        nombre: 'Hito 4 — Estación de vacio',
+        nombre: 'Hito 4 — Estación de vacio Icafal',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.800615, -73.53566],
@@ -99,7 +99,7 @@ export const rutas = [
       },
       {
         id: 5,
-        nombre: 'Hito 5 — Casa caleta',
+        nombre: 'Hito 5 — Casa Caleta',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801168, -73.53593],
@@ -120,7 +120,7 @@ export const rutas = [
       },
       {
         id: 6,
-        nombre: 'Hito 6 — Iglesia evangélica',
+        nombre: 'Hito 6 — Iglesia de Dios Pentecostal',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801295, -73.535775],
@@ -141,7 +141,7 @@ export const rutas = [
       },
       {
         id: 7,
-        nombre: 'Hito 7 — Pasarela padre Ronchi',
+        nombre: 'Hito 7 — Pasarela Padre Antonio Ronchi',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801453, -73.536332],
@@ -162,7 +162,7 @@ export const rutas = [
       },
       {
         id: 8,
-        nombre: 'Hito 8 — Primera población de Tortel',
+        nombre: 'Hito 8 — Primera Población Serviu',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801607, -73.536906],
@@ -225,7 +225,7 @@ export const rutas = [
       },
       {
         id: 11,
-        nombre: 'Hito 11 — Iglesia católica',
+        nombre: 'Hito 11 — Capilla Nuestra Señora del Trabajo',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803030, -73.537972],
@@ -246,7 +246,7 @@ export const rutas = [
       },
       {
         id: 12,
-        nombre: 'Hito 12 — Escultura padre Ronchi',
+        nombre: 'Hito 12 — Escultura Padre Antonio Ronchi',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803063, -73.537894],
@@ -289,7 +289,7 @@ export const rutas = [
 
       {
         id: 14,
-        nombre: 'Hito 14 — Muncipalidad',
+        nombre: 'Hito 14 — Muncipalidad de Tortel',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803291, -73.537732],
@@ -310,7 +310,7 @@ export const rutas = [
       },
       {
         id: 15,
-        nombre: 'Hito 15 — Comité Eléctrico',
+        nombre: 'Hito 15 — Comité eléctrico',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803464, -73.537996],
@@ -373,7 +373,7 @@ export const rutas = [
       },
       {
         id: 18,
-        nombre: 'Hito 18 — Almacenes ECA',
+        nombre: 'Hito 18 — Almacén ECA',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803756, -73.538156],
@@ -415,7 +415,7 @@ export const rutas = [
       },
       {
         id: 20,
-        nombre: 'Hito 20 — Lancha padre Ronchi',
+        nombre: 'Hito 20 — Lancha Padre Antonio Ronchi',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803679, -73.538694],
@@ -585,7 +585,7 @@ export const rutas = [
       },
       {
         id: 3,
-        nombre: 'Hito 3 — La barda',
+        nombre: 'Hito 3 — La Barda',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.798269, -73.535809],
         thumbnail: '/images/rutas/hero-lg.jpg',
@@ -603,7 +603,7 @@ export const rutas = [
       },
       {
         id: 4,
-        nombre: 'Hito 4 — Muro microbosque',
+        nombre: 'Hito 4 — Microbosque',
 
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.801975, -73.535132],
@@ -683,7 +683,7 @@ export const rutas = [
       },
       {
         id: 9,
-        nombre: 'Hito 9 — Escultura tejuelero',
+        nombre: 'Hito 9 — Escultura Tejuelero',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803985, -73.539029],
@@ -699,7 +699,7 @@ export const rutas = [
       },
       {
         id: 10,
-        nombre: 'Hito 10 — casa de la cultura',
+        nombre: 'Hito 10 — Casa de la Cultura',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804005, -73.539166],
@@ -715,7 +715,7 @@ export const rutas = [
       },
       {
         id: 11,
-        nombre: 'Hito 11 — centro de interpretación',
+        nombre: 'Hito 11 — Centro de Interpretación Ambiental Copas',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804026, -73.539332],
@@ -731,7 +731,7 @@ export const rutas = [
       },
       {
         id: 12,
-        nombre: 'Hito 12 — escultura artesana kaweskar',
+        nombre: 'Hito 12 — Escultura joven artesana Kaweskar',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804072, -73.539126],
@@ -748,7 +748,7 @@ export const rutas = [
 
       {
         id: 13,
-        nombre: 'Hito 13 — escultura canoa kaweskar',
+        nombre: 'Hito 13 — Escultura Charkush Hallef',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804090, -73.539172],
@@ -764,7 +764,7 @@ export const rutas = [
       },
       {
         id: 14,
-        nombre: 'Hito 14 — mirador antena',
+        nombre: 'Hito 14 — Mirador Las Antenas',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803614, -73.541006],
@@ -780,7 +780,7 @@ export const rutas = [
       },
       {
         id: 15,
-        nombre: 'Hito 15 — plaza orompello',
+        nombre: 'Hito 15 — Plaza Orompello',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805164, -73.540798],
@@ -796,7 +796,7 @@ export const rutas = [
       },
       {
         id: 16,
-        nombre: 'Hito 16 — escultura arroyo',
+        nombre: 'Hito 16 — Arroyo Playa Ancha',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.804706, -73.542247],
@@ -812,7 +812,7 @@ export const rutas = [
       },
       {
         id: 17,
-        nombre: 'Hito 17 — playa',
+        nombre: 'Hito 17 — Playa',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805758, -73.547631],
@@ -828,7 +828,7 @@ export const rutas = [
       },
       {
         id: 18,
-        nombre: 'Hito 18 — quincho playa',
+        nombre: 'Hito 18 — Parque Costumbrista',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805668, -73.551078],
@@ -844,7 +844,7 @@ export const rutas = [
       },
       {
         id: 19,
-        nombre: 'Hito 19 — desembocadura',
+        nombre: 'Hito 19 — Desembocadura Río Baker',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.805517, -73.551718],
@@ -1148,7 +1148,7 @@ export const rutas = [
       },
       {
         id: 6,
-        nombre: 'Hito 6 — Sector base',
+        nombre: 'Hito 6 — Sector Base',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.803792, -73.535913],
@@ -1316,7 +1316,7 @@ export const rutas = [
       },
       {
         id: 14,
-        nombre: 'Hito 14 — Muelle aeródromo',
+        nombre: 'Hito 14 — Aeródromo',
         descripcion_breve: 'Texto corto para el popup del mapa.',
         descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
         coordenadas: [-47.785239, -73.528048],
