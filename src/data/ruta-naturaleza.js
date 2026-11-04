@@ -8,6 +8,11 @@ export default {
   descripcion:
     'En Tortel, el bosque, el agua y la vida del pueblo se entrelazan a cada paso. Esta ruta invita a recorrer esa relación a través de pasarelas, miradores y espacios culturales, observando de cerca musgos, líquenes, chilcos y otras especies del bosque austral, mientras aparecen esculturas, lugares de encuentro y expresiones vinculadas a la historia y los oficios locales. Desde las rocas cubiertas de vegetación hasta el arroyo, la playa y la desembocadura del río, el recorrido propone descubrir cómo naturaleza y cultura conviven y dan forma al paisaje cotidiano de Tortel.',
   imagen_portada: '/images/rutas/hero-lg.jpg',
+  galeria: [
+    '/images/rutas/naturaleza/galeria/1-escalera-mirador.webp',
+    '/images/rutas/naturaleza/galeria/2-biblioteca.webp',
+    '/images/rutas/naturaleza/galeria/3-playa.webp'
+  ],
   color: '#EE779C',
   duracion: '3 horas',
   dificultad: 'Media',

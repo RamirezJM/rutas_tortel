@@ -8,6 +8,11 @@ export default {
   descripcion:
     'Las pasarelas de Tortel no solo conectan distintos sectores del pueblo: también permiten recorrer su historia. Esta ruta invita a descubrir cómo fue creciendo la localidad, reconociendo antiguos espacios de encuentro, viviendas, servicios y lugares vinculados al trabajo y la vida comunitaria. A lo largo del recorrido, la madera aparece como parte fundamental de esta historia, desde la construcción de pasarelas y viviendas hasta la carpintería de ribera y otros saberes desarrollados en el territorio. Una forma de conocer Tortel siguiendo las huellas de quienes lo construyeron y habitaron a lo largo del tiempo.',
   imagen_portada: '/images/rutas/historicas-main.jpg',
+  galeria: [
+    '/images/rutas/historica/galeria/1-comite-electrico.webp',
+    '/images/rutas/historica/galeria/2-lancha-padre-ronchi.webp',
+    '/images/rutas/historica/galeria/3-plaza-armas.webp'
+  ],
   color: '#F2DC57',
   duracion: '2 horas',
   dificultad: 'Fácil',

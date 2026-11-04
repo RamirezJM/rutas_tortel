@@ -1,3 +1,6 @@
+const hitosImg = '/images/rutas/maritima/hitos/';
+const thumbnailsImg = '/images/rutas/maritima/thumbnails/';
+
 export default {
 
   id: 'maritima',
@@ -5,6 +8,11 @@ export default {
   descripcion:
     'Descubrir Tortel desde el agua es descubrirla desde otra perspectiva. Esta ruta marítima invita a navegar por la bahía y contemplar el pueblo, sus pasarelas y el bosque desde un paisaje que cambia a medida que avanza el recorrido. La navegación permite acercarse a la historia de Tortel y a su estrecha relación con el agua, mientras se observan aves y otros elementos del entorno natural. Una experiencia para disfrutar la bahía con otros ritmos y comprender por qué navegar ha sido parte fundamental de la vida en este territorio.',
   imagen_portada: '/images/rutas/hero-lg.jpg',
+  galeria: [
+    '/images/rutas/maritima/galeria/1-sector-base.webp',
+    '/images/rutas/maritima/galeria/2-pasarelas.webp',
+    '/images/rutas/maritima/galeria/3-rio-baker.webp'
+  ],
   color: '#ED7133',
   duracion: '1,5 horas',
   dificultad: 'Difícil',
@@ -16,18 +24,12 @@ export default {
       descripcion:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797639, -73.534000],
-      imagen: '/images/rutas/naturaleza/naturaleza-1.webp',
+      thumbnail: '/images/rutas/naturaleza/naturaleza-1.webp',
       galeria: [
         '/images/hitos/colonial-1-a.jpg',
         '/images/hitos/colonial-1-b.jpg',
         '/images/hitos/colonial-1-c.jpg',
       ],
-      datos: {
-        duracion: '20 minutos',
-        dificultad: 'Fácil',
-        epoca: 'Siglo XVIII',
-        tipo: 'Arquitectura religiosa',
-      },
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -38,11 +40,13 @@ export default {
     {
       id: 2,
       nombre: 'Hito 2 — Poblamiento de la bahía',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797834, -73.533402],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-2-a.jpg', '/images/hitos/colonial-2-b.jpg'],
+      thumbnail: '/images/rutas/hero-lg.jpg',
+      galeria: [
+        '/images/hitos/colonial-2-a.jpg',
+        '/images/hitos/colonial-2-b.jpg'
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -53,12 +57,12 @@ export default {
     {
       id: 3,
       nombre: 'Hito 3 — Paisaje austral',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.799526, -73.534217],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
-
+      thumbnail: `${thumbnailsImg}3-paisaje-austral-sm.webp`,
+      galeria: [
+        `${hitosImg}3-paisaje-austral.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -69,11 +73,12 @@ export default {
     {
       id: 4,
       nombre: 'Hito 4 — Antiguos recorridos',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.800428, -73.534531],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: '/images/rutas/hero-lg.jpg',
+      galeria: [
+        '/images/hitos/colonial-3-a.jpg',
+        '/images/hitos/colonial-3-b.jpg'],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -84,11 +89,14 @@ export default {
     {
       id: 5,
       nombre: 'Hito 5 — Bajo las pasarelas',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801719, -73.534069],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}5-bajo-las-pasarelas-sm.webp`,
+      galeria: [
+        `${hitosImg}5-bajo-las-pasarelas-a.webp`,
+        `${hitosImg}5-bajo-las-pasarelas-b.webp`,
+        `${hitosImg}5-bajo-las-pasarelas-c.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -99,11 +107,13 @@ export default {
     {
       id: 6,
       nombre: 'Hito 6 — Sector Base',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803792, -73.535913],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}6-sector-base-sm.webp`,
+      galeria: [
+        `${hitosImg}6-sector-base-a.webp`,
+        `${hitosImg}6-sector-base-b.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -114,11 +124,13 @@ export default {
     {
       id: 7,
       nombre: 'Hito 7 — La turbina',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804508, -73.536676],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: '/images/rutas/hero-lg.jpg',
+      galeria: [
+        '/images/hitos/colonial-3-a.jpg',
+        '/images/hitos/colonial-3-b.jpg'
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -129,11 +141,14 @@ export default {
     {
       id: 8,
       nombre: 'Hito 8 — Cultura y comunidad',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804402, -73.538624],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}8-cultura-comunidad-sm.webp`,
+      galeria: [
+        `${hitosImg}8-cultura-comunidad-a.webp`,
+        `${hitosImg}8-cultura-comunidad-b.webp`,
+        `${hitosImg}8-cultura-comunidad-c.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -144,11 +159,13 @@ export default {
     {
       id: 9,
       nombre: 'Hito 9 — Nueva costanera',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805144, -73.539484],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}9-nueva-costanera-sm.webp`,
+      galeria: [
+        `${hitosImg}9-nueva-costanera-a.webp`,
+        `${hitosImg}9-nueva-costanera-b.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -159,11 +176,12 @@ export default {
     {
       id: 10,
       nombre: 'Hito 10 — Hacia el fiordo',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805895, -73.540866],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}10-hacia-el-fiordo-sm.webp`,
+      galeria: [
+        `${hitosImg}11-hacia-el-fiordo.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -174,11 +192,12 @@ export default {
     {
       id: 11,
       nombre: 'Hito 11 — Muelle La Bertola (Muelle 9)',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805736, -73.543595],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}11-muelle-la-bertola-sm.webp`,
+      galeria: [
+        `${hitosImg}11-muelle-la-bertola.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -189,7 +208,6 @@ export default {
     {
       id: 12,
       nombre: 'Hito 12 — Playa',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.807531, -73.548637],
       imagen: '/images/rutas/hero-lg.jpg',
@@ -204,11 +222,14 @@ export default {
     {
       id: 13,
       nombre: 'Hito 13 — Río Baker',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.793645, -73.547785],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}13-rio-baker-sm.webp`,
+      galeria: [
+        `${hitosImg}13-rio-baker-a.webp`,
+        `${hitosImg}13-rio-baker-b.webp`,
+        `${hitosImg}13-rio-baker-c.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -219,11 +240,14 @@ export default {
     {
       id: 14,
       nombre: 'Hito 14 — Aeródromo',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.785239, -73.528048],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: `${thumbnailsImg}14-aerodromo-sm.webp`,
+      galeria: [
+        `${hitosImg}14-aerodromo-a.webp`,
+        `${hitosImg}14-aerodromo-b.webp`,
+        `${hitosImg}14-aerodromo-c.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
