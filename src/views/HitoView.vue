@@ -3,7 +3,8 @@
 // Recibe :rutaId y :hitoId desde la URL
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { useI18n } from 'vue-i18n'
+/* import { useI18n } from 'vue-i18n' */
+import Carousel from 'primevue/carousel'
 import { getHitoById, getHitosAdyacentes } from '@/utils/rutaHelpers'
 /* import { useImageSchema } from '@/composables/useImageSchema' */
 import AppNavbar from '@/components/layout/AppNavbar.vue'
@@ -11,12 +12,13 @@ import { getRutaById } from '@/utils/rutaHelpers'
 import IconLeft from '../components/icons/IconLeft.vue'
 import IconRight from '@/components/icons/IconRight.vue'
 
-const { t } = useI18n()
+/* const { t } = useI18n() */
 const route = useRoute()
 
 const ruta = computed(() => getRutaById(route.params.rutaId))
 const hito = computed(() => getHitoById(route.params.rutaId, route.params.hitoId))
 const adyacentes = computed(() => getHitosAdyacentes(route.params.rutaId, route.params.hitoId))
+const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
 
 // Inyecta el schema.org ImageObject en el <head> cuando el hito está disponible
 // Protección de fotografías via datos estructurados
@@ -38,7 +40,24 @@ const adyacentes = computed(() => getHitosAdyacentes(route.params.rutaId, route.
         <div class="flex flex-col items-center gap-6">
           <h1 class="text-2xl font-medium font-serif text-center">{{ hito.nombre }}</h1>
           <p class="max-w-2xl">{{ hito.descripcion }}</p>
-          <img :src="hito.imagen" alt="" class=" aspect-video object-cover w-full max-w-6xl mx-auto my-8">
+
+          <Carousel v-if="isGaleria" :key="hito.id" :value="hito.galeria" :num-visible="1" :num-scroll="1" class="mb-2">
+            <template #item="{ data }">
+              <img :src="data" :alt="hito.nombre" width="1200" height="800"
+                :loading="hito.galeria.indexOf(data) === 0 ? 'eager' : 'lazy'"
+                :fetchpriority="hito.galeria.indexOf(data) === 0 ? 'high' : 'auto'"
+                class="w-full h-auto aspect-3/2 object-cover rounded-xl" />
+            </template>
+          </Carousel>
+
+          <img v-else-if="hito.galeria?.length === 1" :src="hito.galeria[0]" :alt="hito.nombre" width="1200"
+            height="800" fetchpriority="high" class="w-full h-auto aspect-3/2 object-cover rounded-xl mb-2" />
+
+
+
+
+
+          <!-- <img :src="hito.imagen" alt="" class=" aspect-video object-cover w-full max-w-6xl mx-auto my-8"> -->
         </div>
 
 
@@ -63,7 +82,7 @@ const adyacentes = computed(() => getHitosAdyacentes(route.params.rutaId, route.
         </nav>
       </template>
       <template v-else>
-        <h1>{{ t('general.no_encontrado') }}</h1>
+        <h1>Hito no encontrado</h1>
       </template>
     </div>
   </div>
