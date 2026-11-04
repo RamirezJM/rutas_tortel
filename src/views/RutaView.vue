@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 /* import { useI18n } from 'vue-i18n' */
+import Carousel from 'primevue/carousel'
 import { getRutaById } from '@/utils/rutaHelpers'
 import MapaInteractivo from '@/components/ruta/MapaInteractivo.vue'
 import AppNavbar from '@/components/layout/AppNavbar.vue'
@@ -21,12 +22,52 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
 
 <template>
   <div>
-    <section class="relative flex flex-col min-h-screen overflow-hidden max-w-8xl mx-auto">
+    <!--  <section class="relative flex flex-col min-h-screen overflow-hidden max-w-8xl mx-auto">
       <img :src="ruta.imagen_portada" alt="" class="absolute w-full h-full object-cover object-top -z-10">
       <div :style="{ backgroundColor: ruta.color }" class="mix-blend-multiply absolute inset-0"></div>
 
       <AppNavbar />
+    </section> -->
+
+
+    <section class="relative isolate">
+
+      <Carousel :value="ruta.galeria" :num-visible="1" :num-scroll="1" circular :autoplay-interval="6000"
+        :show-navigators="false" :show-indicators="false">
+        <template #item="{ data }">
+          <img :src="data" :alt="ruta.nombre" width="1500" height="1000"
+            :loading="ruta.galeria.indexOf(data) === 0 ? 'eager' : 'lazy'"
+            :fetchpriority="ruta.galeria.indexOf(data) === 0 ? 'high' : 'auto'" class="w-full h-screen object-cover" />
+        </template>
+      </Carousel>
+
+      <div class="absolute inset-0 pointer-events-none mix-blend-multiply" :style="{ backgroundColor: ruta.color }">
+      </div>
+
+      <!-- Navbar y título sobre la imagen -->
+      <div class="absolute inset-0 flex flex-col pointer-events-none">
+        <AppNavbar class="pointer-events-auto" />
+        <div class="flex-1 flex items-center justify-center px-6 text-center">
+          <!-- <h1 class="font-display text-white text-4xl md:text-6xl font-bold drop-shadow-lg">
+            {{ ruta.nombre }}
+          </h1> -->
+        </div>
+      </div>
+
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="intro flex flex-col gap-6 items-center max-w-6xl my-6 mx-auto px-12">
       <template v-if="ruta">
