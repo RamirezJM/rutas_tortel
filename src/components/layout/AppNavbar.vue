@@ -11,18 +11,18 @@
 //   - Menú hamburguesa en móvil
 
 import { ref } from 'vue'
-import { useI18n } from 'vue-i18n'
+/* import { useI18n } from 'vue-i18n' */
 import { rutas } from '@/data/rutas'
 import Logo from '@/assets/images/logo2.png'
 
-const { t, locale } = useI18n()
+/* const { t, locale } = useI18n() */
 
 // Estado del menú móvil
 const menuAbierto = ref(false)
 
-function toggleIdioma() {
+/* function toggleIdioma() {
   locale.value = locale.value === 'es' ? 'en' : 'es'
-}
+} */
 
 function cerrarMenu() {
   menuAbierto.value = false
@@ -77,11 +77,11 @@ function cerrarMenu() {
       <div class="flex items-center gap-4">
 
         <!-- Toggle idioma -->
-        <button @click="toggleIdioma"
+        <!--   <button @click="toggleIdioma"
           class="text-white text-sm font-medium border border-white/40 rounded px-2 py-1 hover:bg-white/10 transition-colors"
           :aria-label="locale === 'es' ? 'Switch to English' : 'Cambiar a español'">
           {{ locale === 'es' ? 'EN' : 'ES' }}
-        </button>
+        </button> -->
 
         <!-- Botón hamburguesa — solo en móvil -->
         <button @click="menuAbierto = !menuAbierto" class="lg:hidden text-white p-1"
@@ -116,7 +116,7 @@ function cerrarMenu() {
         <router-link to="/"
           class="text-white font-medium py-3 border-b border-white/10 hover:text-acento transition-colors"
           active-class="text-acento" @click="cerrarMenu">
-          {{ t('nav.inicio') }}
+          Inicio
         </router-link>
 
         <router-link v-for="ruta in rutas" :key="ruta.id" :to="`/ruta/${ruta.id}`"
