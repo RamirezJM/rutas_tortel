@@ -1,12 +1,12 @@
 <script setup>
-
+import Logo from '@/assets/images/logo-sm.png'
 </script>
 
 <template>
 
   <footer class="bg-primary p-8 text-white">
     <div class="flex flex-col md:flex-row gap-6 justify-around items-center max-w-4xl mx-auto">
-      <p class="text-sm font-semibold  max-w-20 tracking-wide">Rutas de Tortel</p>
+      <img :src="Logo" alt="" class="w-30 rounded-lg">
       <div class="flex flex-col items-center ">
         <p class="text-lg font-medium">Rutas de Tortel</p>
         <p>Caleta Tortel, XI Región de Aysén</p>
