@@ -46,7 +46,7 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
               <img :src="data" :alt="hito.nombre" width="1200" height="800"
                 :loading="hito.galeria.indexOf(data) === 0 ? 'eager' : 'lazy'"
                 :fetchpriority="hito.galeria.indexOf(data) === 0 ? 'high' : 'auto'"
-                class="w-full h-auto aspect-3/2 object-cover rounded-xl" />
+                class="w-full h-auto aspect-3/2 object-cover rounded-md" />
             </template>
           </Carousel>
 
@@ -65,18 +65,18 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
 
 
         <!-- Navegación anterior / siguiente -->
-        <nav class="flex gap-6 justify-between items-center my-12 w-full max-w-4xl mx-auto">
+        <nav class="flex gap-6 justify-between items-center my-4 w-full max-w-4xl mx-auto">
           <router-link v-if="adyacentes.anterior" :to="`/ruta/${route.params.rutaId}/hito/${adyacentes.anterior.id}`"
-            class="me-auto flex flex-col items-center">
+            class="me-auto flex flex-col flex-1 items-center h-50">
             <IconLeft :color="ruta.color" :size="80" />
-            <p class="text-lg font-medium">Anterior</p>
+            <p class="text-lg font-semibold">Anterior</p>
             <p class="text-center">{{ adyacentes.anterior.nombre }}</p>
 
           </router-link>
           <router-link v-if="adyacentes.siguiente" :to="`/ruta/${route.params.rutaId}/hito/${adyacentes.siguiente.id}`"
-            class="ms-auto flex flex-col items-center">
+            class="ms-auto flex flex-col flex-1 items-center h-50">
             <IconRight :color="ruta.color" :size="80" />
-            <p class="text-lg font-medium">Siguiente</p>
+            <p class="text-lg font-semibold">Siguiente</p>
             <p class="text-center">{{ adyacentes.siguiente.nombre }}</p>
           </router-link>
         </nav>
