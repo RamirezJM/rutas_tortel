@@ -2,7 +2,7 @@
 // HomeView.vue — Landing page
 // Contiene: hero con navbar superpuesto + sección de cards de rutas
 
-import { useI18n } from 'vue-i18n'
+/* import { useI18n } from 'vue-i18n' */
 import AppNavbar from '@/components/layout/AppNavbar.vue'
 import RutaCard from '@/components/home/RutaCard.vue'
 import { rutas } from '@/data/rutas'
@@ -11,7 +11,7 @@ import HeroMd from '@/assets/images/hero-md.jpg'
 /* import HeroLg from '@/assets/images/hero-lg.jpg' */
 import HeroNew from '@/assets/images/hero-new.jpg'
 
-const { t } = useI18n()
+/* const { t } = useI18n() */
 </script>
 
 <template>
@@ -64,7 +64,7 @@ const { t } = useI18n()
           Rutas de Tortel
         </h1> -->
         <h1
-          class="flex flex-col items-start text-light text-4xl md:text-8xl font-display font-bold leading-tight drop-shadow-lg mb-4">
+          class="flex flex-col items-start text-light text-5xl md:text-8xl font-display font-bold leading-tight drop-shadow-lg mb-4">
           <!-- Primera fila: "Rutas" + Círculos -->
           <div class="flex items-center gap-3">
             <span>Rutas</span>
@@ -85,12 +85,49 @@ const { t } = useI18n()
 
     <!-- Sección de rutas — fuera del hero, flujo normal -->
     <section id="rutas" class="py-16 px-6 md:px-12">
-      <h2 class="font-display text-3xl font-semibold text-center mb-12">
-        {{ t('rutas.titulo') }}
-      </h2>
-      <div class="grid grid-cols-1 gap-8 md:gap-16 lg:gap-32 max-w-6xl mx-auto">
-        <RutaCard v-for="(ruta, index) in rutas" :key="ruta.id" :ruta="ruta" :numero="index + 1" />
+      <div class="mb-20 max-w-2xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-center mb-12">
+          Sobre el proyecto
+        </h2>
+        <p class="my-2">Tortel tiene muchas historias que contar y distintas formas de descubrirlas.
+        </p>
+        <p class="my-2"> Rutas de Tortel es un proyecto de interpretación cultural y patrimonial que propone recorrer la
+          localidad
+          desde nuevas perspectivas, conectando sus paisajes con las historias, los oficios y las formas de vida de
+          quienes la habitan. </p>
+        <p class="my-2">A través de tres recorridos por tierra y agua, te invitamos a mirar más allá de lo evidente, a
+          detenerte en
+          los
+          detalles y descubrir nuevas maneras de conocer este territorio.</p>
       </div>
+      <div class="grid grid-cols-1 gap-8 md:gap-16 lg:gap-32 max-w-6xl mx-auto my-12 lg:my-6">
+        <RutaCard v-for="(ruta, index) in rutas" :key="ruta.id" :ruta="ruta" :numero="index + 1" class="my-12" />
+      </div>
+
+      <div class="mb-20 max-w-2xl mx-auto">
+        <h2 class="font-display text-3xl font-semibold text-center mb-12">
+          Un proyecto construido con muchas voces
+        </h2>
+        <p class="my-2">
+          Rutas de Tortel ha sido posible gracias a las personas que compartieron sus recuerdos, historias y
+          conocimientos sobre la localidad. Sus relatos nos ayudaron a reconstruir parte de su historia, comprender las
+          transformaciones del territorio y descubrir detalles que no siempre aparecen en los libros o archivos.
+        </p>
+        <p class="my-2">
+          Agradecemos especialmente a quienes dedicaron su tiempo a conversar con nosotros y aportar sus experiencias
+          para dar forma a los contenidos de estas rutas:
+        </p>
+        <ul class="my-2">
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+          <li>lorem ipsum</li>
+        </ul>
+
+
+      </div>
+
     </section>
 
   </div>
