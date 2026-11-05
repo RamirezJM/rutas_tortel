@@ -33,16 +33,16 @@ onMounted(() => {
 </script>
 
 <template>
-  <article class="flex flex-col md:flex-row gap-6 items-center odd:md:flex-row-reverse">
-    <div class="text-center">
+  <article class="flex flex-col md:flex-row gap-20 md:gap-6 items-center odd:md:flex-row-reverse">
+    <div class="text-center md:flex-1">
       <img :src="rutaImage" alt="" class=" object-cover">
     </div>
 
-    <div class="flex flex-col gap-6 relative h-100 justify-center max-w-lg">
-      <h2 class="text-emerald-900 font-medium text-3xl md:text-6xl md:text-center md:items-center">{{ ruta.nombre }}
+    <div class="flex flex-col md:flex-1 gap-6 relative h-100 justify-center max-w-lg">
+      <h2 class="text-emerald-900 font-medium text-4xl md:text-6xl md:text-center md:items-center">{{ ruta.nombre }}
       </h2>
-      <p>{{ ruta.descripcion }}</p>
-      <span class="absolute -top-5 left-0 text-9xl md:-top-20 md:text-[12rem] font-black -z-10"
+      <p class="mt-10">{{ ruta.descripcion }}</p>
+      <span class="absolute -top-20 left-0 text-9xl md:-top-20 md:text-[12rem] font-black -z-10"
         :style="{ color: ruta.color }" ref="elemento">0{{ numero
         }}</span>
       <router-link :to="`/ruta/${ruta.id}`"
