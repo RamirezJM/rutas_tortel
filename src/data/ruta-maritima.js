@@ -5,8 +5,55 @@ export default {
 
   id: 'maritima',
   nombre: 'Ruta Marítima',
-  descripcion:
+  bajada_titulo: 'La historia desde el agua',
+  descripcion_card:
     'Descubrir Tortel desde el agua es descubrirla desde otra perspectiva. Esta ruta marítima invita a navegar por la bahía y contemplar el pueblo, sus pasarelas y el bosque desde un paisaje que cambia a medida que avanza el recorrido. La navegación permite acercarse a la historia de Tortel y a su estrecha relación con el agua, mientras se observan aves y otros elementos del entorno natural. Una experiencia para disfrutar la bahía con otros ritmos y comprender por qué navegar ha sido parte fundamental de la vida en este territorio.',
+  descripcion_ruta: [
+    'En Tortel, el agua ha sido mucho más que una característica del paisaje. Durante décadas, la navegación permitió conectar lugares, transportar materiales y abastecer a sus habitantes, en un territorio donde desplazarse por tierra no siempre fue posible. Las embarcaciones formaron parte de la vida cotidiana y del desarrollo de una localidad estrechamente vinculada a los ríos, canales y fiordos',
+    'Recorrer la bahía permite acercarse a esa historia y reconocer cómo el asentamiento fue tomando forma junto a la costa. Desde la embarcación es posible observar la disposición de las viviendas, las pasarelas que conectan distintos sectores y la presencia del bosque que rodea el pueblo.',
+    'La ruta contempla un recorrido principal por la bahía hasta el sector de Playa Ancha y una versión extendida que continúa remontando el río Baker hasta el aeródromo de Tortel. Ambas alternativas permiten descubrir el territorio desde el agua, incorporando distintas perspectivas de su historia y su paisaje.',
+    'Una oportunidad para comprender Tortel desde una perspectiva que ha sido fundamental para quienes lo habitan: la del agua.'
+  ],
+  caracteristicas: [
+    {
+      titulo: '01. Tortel desde el agua',
+      descripcion: 'Observa cómo se distribuyen las viviendas, las pasarelas y los distintos sectores del pueblo a lo largo de la bahía. Una perspectiva que permite comprender cómo el asentamiento se ha adaptado a las condiciones del territorio.'
+    },
+    {
+      titulo: '02. Historias de navegación',
+      descripcion: 'Descubre cómo las embarcaciones han permitido conectar lugares, transportar personas y materiales, y sostener la vida cotidiana en un territorio donde el agua ha sido una de las principales vías de comunicación.'
+    },
+    {
+      titulo: '03. Las pasarelas desde el agua',
+      descripcion: 'Descubre cómo se construyen y sostienen las pasarelas de Tortel, observando desde el agua sus estructuras y sistemas de apoyo. Una perspectiva diferente que permite comprender las soluciones constructivas desarrolladas para conectar los distintos sectores del pueblo en un territorio de pendientes, rocas y mareas.'
+    },
+    {
+      titulo: '04. La naturaleza de la bahía',
+      descripcion: 'Contempla el bosque desde la costa y observa las aves que habitan o recorren este entorno. Una oportunidad para reconocer la diversidad natural de la bahía y su relación con el paisaje que rodea Tortel.'
+    }
+  ],
+  recorrido: {
+    introduccion: 'Para realizar la Ruta Marítima puedes contactar a operadores turísticos locales que ofrecen servicios de navegación por la bahía de Tortel. Consulta directamente con ellos las alternativas de recorrido, horarios, tarifas y disponibilidad. Las salidas están sujetas a las condiciones meteorológicas y de navegación.',
+    consejos: [
+      {
+        consejo: 'Vestimenta',
+        descripcion: 'lleva ropa abrigada e impermeable, incluso en días soleados. Durante la navegación, el viento y la sensación térmica pueden hacer que la temperatura se perciba más baja.'
+      },
+      {
+        consejo: 'Calzado',
+        descripcion: 'utiliza zapatos cómodos, con suela antideslizante, especialmente para subir y bajar de la embarcación.'
+      },
+      {
+        consejo: 'Seguridad',
+        descripcion: 'sigue las indicaciones del guía y utiliza el chaleco salvavidas durante toda la navegación. Evita desplazarte dentro de la embarcación sin autorización.'
+      },
+      {
+        titulo: 'Condiciones meteorológicas',
+        descripcion: 'la realización del recorrido depende del estado del tiempo y de las condiciones de navegación. La salida puede modificarse o suspenderse por razones de seguridad.'
+      }
+    ]
+
+  },
   imagen_portada: '/images/rutas/hero-lg.jpg',
   galeria: [
     '/images/rutas/maritima/galeria/1-sector-base.webp',
@@ -14,9 +61,11 @@ export default {
     '/images/rutas/maritima/galeria/3-rio-baker.webp'
   ],
   color: '#ED7133',
+  modalidad: 'guiada, en embarcación',
   duracion: '1,5 horas',
   dificultad: 'Difícil',
   distancia: '4 kilometros',
+  acceso: 'Mediante contratación de un servicio de navegación con operadores locales',
   hitos: [
     {
       id: 1,

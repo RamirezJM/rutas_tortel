@@ -5,8 +5,54 @@ export default {
 
   id: 'historica',
   nombre: 'Pasarelas Históricas',
-  descripcion:
+  bajada_titulo: 'Entre la madera y las formas de habitar',
+  descripcion_card:
     'Las pasarelas de Tortel no solo conectan distintos sectores del pueblo: también permiten recorrer su historia. Esta ruta invita a descubrir cómo fue creciendo la localidad, reconociendo antiguos espacios de encuentro, viviendas, servicios y lugares vinculados al trabajo y la vida comunitaria. A lo largo del recorrido, la madera aparece como parte fundamental de esta historia, desde la construcción de pasarelas y viviendas hasta la carpintería de ribera y otros saberes desarrollados en el territorio. Una forma de conocer Tortel siguiendo las huellas de quienes lo construyeron y habitaron a lo largo del tiempo.',
+  descripcion_ruta: [
+    'En Tortel, las pasarelas son mucho más que una forma de desplazarse. A través de ellas es posible reconocer cómo fue creciendo la localidad, cómo se organizaron sus distintos sectores y cómo se fue construyendo la vida cotidiana en un territorio donde el agua y la naturaleza han condicionado las formas de habitar.',
+    'Esta ruta propone seguir las huellas de ese proceso. En el camino aparecen antiguos espacios de encuentro, viviendas, servicios y lugares vinculados al trabajo y la organización comunitaria. Cada uno permite acercarse a distintas etapas de la historia local y comprender cómo se fue transformando el asentamiento.',
+    'La madera atraviesa todo el recorrido. Está presente en las pasarelas, las construcciones y los oficios que han acompañado el desarrollo de Tortel. Detrás de estos elementos hay conocimientos, técnicas y decisiones que hablan de la relación entre sus habitantes y el entorno.',
+    'Pasarelas Históricas invita a recorrer el pueblo con otra mirada: no solo para conocer sus lugares más representativos, sino también para comprender las historias y los saberes que les han dado forma.'
+  ],
+  caracteristicas: [
+    {
+      titulo: '01. Los primeros espacios del pueblo',
+      descripcion: 'Desde los muelles hasta las antiguas casas de tejuelas, descubre algunos de los lugares que permiten reconstruir el desarrollo de la localidad y sus formas de ocupación del territorio.'
+    },
+    {
+      titulo: '02. Una comunidad que se organiza',
+      descripcion: 'La antigua escuela, el comité eléctrico, la radio y otros espacios permiten acercarse a las iniciativas e instituciones que han acompañado la vida cotidiana de Tortel.'
+    },
+    {
+      titulo: '03. Personas que dejaron huella',
+      descripcion: 'Las construcciones y lugares asociados al padre Antonio Ronchi abren una mirada hacia las personas y las iniciativas que han formado parte de las transformaciones del pueblo.'
+    },
+    {
+      titulo: '04. La madera como oficio y material',
+      descripcion: 'El antiguo aserradero y el sector de Junquillo permiten explorar el papel de la madera en el trabajo local, desde su procesamiento hasta la carpintería de ribera.'
+    }
+  ],
+  recorrido: {
+    introduccion: 'Las pasarelas de Tortel permiten explorar la localidad a pie, pero su trazado incluye escaleras, pendientes y desniveles. Antes de comenzar, considera estas recomendaciones',
+    consejos: [
+      {
+        consejo: 'Calzado y vestimenta',
+        descripcion: 'utiliza zapatos cómodos, con buena adherencia, y lleva ropa impermeable. Las pasarelas de madera pueden volverse resbaladizas con la lluvia.'
+      },
+      {
+        consejo: 'Condiciones físicas',
+        descripcion: 'el recorrido requiere subir y bajar escaleras, por lo que puede resultar exigente para personas con movilidad reducida. No es una ruta universalmente accesible.'
+      },
+      {
+        consejo: 'Tiempo y ritmo',
+        descripcion: 'realiza el recorrido a tu propio ritmo y considera algunas pausas para explorar los puntos de interés.'
+      },
+      {
+        consejo: 'Respeto por el entorno',
+        descripcion: 'las pasarelas son también espacios de circulación cotidiana para los habitantes de Tortel. Respeta los accesos a las viviendas y evita obstruir el paso.'
+      }
+    ]
+  },
   imagen_portada: '/images/rutas/historicas-main.jpg',
   galeria: [
     '/images/rutas/historica/galeria/1-comite-electrico.webp',
@@ -14,9 +60,11 @@ export default {
     '/images/rutas/historica/galeria/3-plaza-armas.webp'
   ],
   color: '#F2DC57',
+  modalidad: 'autoguiada, peatonal',
   duracion: '2 horas',
   dificultad: 'Fácil',
   distancia: '1,5 kilometros',
+  acceso: 'gratuito',
 
   hitos: [
     {

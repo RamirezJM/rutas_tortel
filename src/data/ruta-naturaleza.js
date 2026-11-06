@@ -5,8 +5,55 @@ export default {
 
   id: 'naturaleza',
   nombre: 'Naturaleza y Cultura',
-  descripcion:
+  bajada_titulo: 'El paisaje que compartimos',
+  descripcion_card:
     'En Tortel, el bosque, el agua y la vida del pueblo se entrelazan a cada paso. Esta ruta invita a recorrer esa relación a través de pasarelas, miradores y espacios culturales, observando de cerca musgos, líquenes, chilcos y otras especies del bosque austral, mientras aparecen esculturas, lugares de encuentro y expresiones vinculadas a la historia y los oficios locales. Desde las rocas cubiertas de vegetación hasta el arroyo, la playa y la desembocadura del río, el recorrido propone descubrir cómo naturaleza y cultura conviven y dan forma al paisaje cotidiano de Tortel.',
+  descripcion_ruta: [
+    'En Tortel, el paisaje se construye a partir de una relación constante entre el entorno natural y las formas de vida de sus habitantes. El bosque se extiende entre las viviendas, la vegetación crece sobre las rocas y las pasarelas permiten desplazarse por un territorio donde el agua está siempre presente.',
+    'Esta ruta invita a observar esas relaciones desde distintas perspectivas. A lo largo del recorrido, los pequeños detalles de la vegetación, los cambios del terreno y las vistas hacia la desembocadura permiten conocer la diversidad de ambientes que conviven en un mismo lugar.',
+    'También aparecen esculturas, espacios de encuentro y expresiones culturales que muestran cómo las personas han utilizado, interpretado y transformado su entorno. Cada uno ofrece una oportunidad para descubrir los vínculos entre el paisaje, los conocimientos locales y la vida cotidiana.',
+    'Naturaleza y Cultura propone recorrer Tortel con una mirada atenta, reconociendo que aquello que llamamos paisaje es también un espacio compartido, donde distintas formas de vida se encuentran y se relacionan.'
+  ],
+  caracteristicas: [
+    {
+      titulo: '01. La vida del bosque austral',
+      descripcion: 'Descubre la diversidad de especies que habitan el entorno de Tortel. Musgos, líquenes, helechos y otras plantas permiten observar cómo la vegetación crece y se adapta a las condiciones de humedad, luz y relieve'
+    },
+    {
+      titulo: '02. El agua y sus paisajes',
+      descripcion: 'Desde los pequeños arroyos hasta la desembocadura del río, reconoce la presencia del agua y su influencia en los distintos ambientes que forman parte del paisaje de Tortel.'
+    },
+    {
+      titulo: '03. El arte en el espacio público',
+      descripcion: 'Esculturas, plazas y otros espacios culturales permiten descubrir distintas formas de representar el territorio, expresar la identidad local y relacionarse con el entorno.'
+    },
+    {
+      titulo: '04. Un territorio compartido',
+      descripcion: 'Observa cómo las pasarelas, los miradores y las construcciones conviven con la vegetación y el relieve, revelando las distintas maneras en que las personas habitan y transforman el paisaje.'
+    }
+  ],
+  recorrido: {
+    introduccion: 'Las pasarelas de Tortel permiten explorar la localidad a pie, pero su trazado incluye escaleras, pendientes y desniveles. Antes de comenzar, considera estas recomendaciones',
+    consejos: [
+      {
+        consejo: 'Calzado y vestimenta',
+        descripcion: 'utiliza zapatos cómodos, con buena adherencia, y lleva ropa impermeable. Las pasarelas de madera pueden volverse resbaladizas con la lluvia.'
+      },
+      {
+        consejo: 'Condiciones físicas',
+        descripcion: 'el recorrido requiere subir y bajar escaleras, por lo que puede resultar exigente para personas con movilidad reducida. No es una ruta universalmente accesible.'
+      },
+      {
+        consejo: 'Tiempo y ritmo',
+        descripcion: 'realiza el recorrido a tu propio ritmo y considera algunas pausas para explorar los puntos de interés.'
+      },
+      {
+        consejo: 'Respeto por el entorno',
+        descripcion: 'las pasarelas son también espacios de circulación cotidiana para los habitantes de Tortel. Respeta los accesos a las viviendas y evita obstruir el paso.'
+      }
+    ]
+  },
+
   imagen_portada: '/images/rutas/hero-lg.jpg',
   galeria: [
     '/images/rutas/naturaleza/galeria/1-escalera-mirador.webp',
@@ -14,9 +61,11 @@ export default {
     '/images/rutas/naturaleza/galeria/3-playa.webp'
   ],
   color: '#EE779C',
+  modalidad: 'autoguiada, peatonal',
   duracion: '3 horas',
   dificultad: 'Media',
   distancia: '3 kilometros',
+  acceso: 'gratuito',
   hitos: [
     {
       id: 1,
@@ -108,7 +157,6 @@ export default {
     {
       id: 6,
       nombre: 'Hito 6 — Costanera',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.802477, -73.537030],
       thumbnail: `${thumbnailsImg}6-costanera-sm.webp`,
@@ -125,7 +173,6 @@ export default {
     {
       id: 7,
       nombre: 'Hito 7 — Biblioteca pública Luis Cruz Martínez',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803296, -73.537247],
       thumbnail: `${thumbnailsImg}7-biblioteca-sm.webp`,
@@ -143,7 +190,6 @@ export default {
     {
       id: 8,
       nombre: 'Hito 8 — Plaza Kaweskar',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803888, -73.538361],
       thumbnail: '/images/rutas/hero-lg.jpg',
@@ -160,7 +206,6 @@ export default {
     {
       id: 9,
       nombre: 'Hito 9 — Escultura Tejuelero',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803985, -73.539029],
       thumbnail: `${thumbnailsImg}9-tejuelero-sm.webp`,
@@ -177,7 +222,6 @@ export default {
     {
       id: 10,
       nombre: 'Hito 10 — Casa de la Cultura',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804005, -73.539166],
       thumbnail: `${thumbnailsImg}10-casa-cultura-sm.webp`,
@@ -195,7 +239,6 @@ export default {
     {
       id: 11,
       nombre: 'Hito 11 — Centro de Interpretación Ambiental Copas',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804026, -73.539332],
       thumbnail: `${thumbnailsImg}11-centro-interpretacion-sm.webp`,
@@ -212,7 +255,6 @@ export default {
     {
       id: 12,
       nombre: 'Hito 12 — Escultura joven artesana Kaweskar',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804072, -73.539126],
       thumbnail: `${thumbnailsImg}12-escultura-artesana-sm.webp`,
@@ -231,7 +273,6 @@ export default {
     {
       id: 13,
       nombre: 'Hito 13 — Escultura Charkush Hallef',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804090, -73.539172],
       thumbnail: '/images/rutas/hero-lg.jpg',
@@ -249,7 +290,6 @@ export default {
     {
       id: 14,
       nombre: 'Hito 14 — Mirador Las Antenas',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803614, -73.541006],
       thumbnail: '/images/rutas/hero-lg.jpg',
@@ -267,7 +307,6 @@ export default {
     {
       id: 15,
       nombre: 'Hito 15 — Plaza Orompello',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805164, -73.540798],
       thumbnail: `${thumbnailsImg}15-plaza-orompello-sm.webp`,
@@ -285,7 +324,6 @@ export default {
     {
       id: 16,
       nombre: 'Hito 16 — Arroyo Playa Ancha',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804706, -73.542247],
       thumbnail: `${thumbnailsImg}16-arroyo-sm.webp`,
@@ -303,7 +341,6 @@ export default {
     {
       id: 17,
       nombre: 'Hito 17 — Playa',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805758, -73.547631],
       thumbnail: `${thumbnailsImg}17-playa-sm.webp`,
@@ -322,7 +359,6 @@ export default {
     {
       id: 18,
       nombre: 'Hito 18 — Parque Costumbrista',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805668, -73.551078],
       thumbnail: `${thumbnailsImg}18-parque-costumbrista-sm.webp`,
@@ -341,7 +377,6 @@ export default {
     {
       id: 19,
       nombre: 'Hito 19 — Desembocadura Río Baker',
-      descripcion_breve: 'Texto corto para el popup del mapa.',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805517, -73.551718],
       thumbnail: `${thumbnailsImg}19-desembocadura-sm.webp`,
