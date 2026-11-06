@@ -41,7 +41,7 @@ onMounted(() => {
     <div class="flex flex-col md:flex-1 gap-6 relative h-100 justify-center max-w-lg">
       <h2 class="text-emerald-900 font-medium text-4xl md:text-6xl md:text-center md:items-center">{{ ruta.nombre }}
       </h2>
-      <p class="mt-10">{{ ruta.descripcion }}</p>
+      <p class="mt-10">{{ ruta.descripcion_card }}</p>
       <span class="absolute -top-20 left-0 text-9xl md:-top-20 md:text-[12rem] font-black -z-10"
         :style="{ color: ruta.color }" ref="elemento">0{{ numero
         }}</span>
