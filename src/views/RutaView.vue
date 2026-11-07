@@ -57,28 +57,19 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <section class="intro flex flex-col gap-6 items-center max-w-6xl my-6 mx-auto px-12">
       <template v-if="ruta">
-        <h2 class="font-display text-3xl font-semibold text-center mb-12">
+        <h2 class="font-display text-3xl font-semibold text-center relative">
           {{ ruta.nombre }}
+          <div class="w-60 h-8 absolute -mt-5 translate-x-30 -z-1 opacity-50" :style="{ backgroundColor: ruta.color }">
+          </div>
         </h2>
-        <p class="max-w-4xl mx-auto">{{ ruta.descripcion }}</p>
+        <p class="text-xl font-medium text-center my-2">{{ ruta.bajada_titulo }}</p>
+        <p v-for="(parrafo, i) in ruta.descripcion_ruta" :key="i" class="max-w-2xl mx-auto">{{ parrafo }}</p>
         <MapaInteractivo :hitos="ruta.hitos" :trazado="ruta.trazado" :trazado-opcional="ruta.trazadoOpcional"
-          :color-ruta="ruta.color" :key="route.params.rutaId" />
+          :color-ruta="ruta.color" :key="route.params.rutaId" class="my-8" />
 
-        <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-18">
+        <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-8">
           <div class="flex flex-col items-center gap-6 bg-gray-100 shadow-lg p-8 rounded-md">
             <h2 class="text-lg font-medium">Distancia</h2>
             <p>{{ ruta.distancia }}</p>
@@ -96,6 +87,26 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
             <IconDuracion :color="ruta.color" :size="80" class="-order-1" />
           </div>
 
+        </section>
+
+        <section class="px-12 max-w-6xl">
+          <h3 class="text-display text-2xl font-semibold text-center">Lo que descubrirás</h3>
+          <div v-for="car in ruta.caracteristicas" :key="car.titulo">
+            <h4>{{ car.titulo }}</h4>
+            <p>{{ car.descripcion }}</p>
+          </div>
+        </section>
+
+        <section class="px-12 max-w-6xl">
+          <h3 class="text-display text-2xl font-semibold text-center">Recorrido</h3>
+          <p>{{ ruta.recorrido.introduccion }}</p>
+          <ul class="ps-4">
+            <li v-for="tip in ruta.recorrido.consejos" :key="tip.consejo" class="relative my-2">
+              <span class="absolute -left-4 top-2 size-2 rounded-full" :style="{ backgroundColor: ruta.color }"></span>
+              <strong>{{ tip.consejo }}:</strong>
+              {{ tip.descripcion }}
+            </li>
+          </ul>
         </section>
 
       </template>
