@@ -48,7 +48,7 @@ export default {
         descripcion: 'sigue las indicaciones del guía y utiliza el chaleco salvavidas durante toda la navegación. Evita desplazarte dentro de la embarcación sin autorización.'
       },
       {
-        titulo: 'Condiciones meteorológicas',
+        consejo: 'Condiciones meteorológicas',
         descripcion: 'la realización del recorrido depende del estado del tiempo y de las condiciones de navegación. La salida puede modificarse o suspenderse por razones de seguridad.'
       }
     ]
