@@ -8,7 +8,9 @@ import MapaInteractivo from '@/components/ruta/MapaInteractivo.vue'
 import AppNavbar from '@/components/layout/AppNavbar.vue'
 import IconDificultad from '@/components/icons/IconDificultad.vue'
 import IconDistancia from '@/components/icons/IconDistancia.vue'
-import IconDuracion from '../components/icons/IconDuracion.vue'
+import IconDuracion from '@/components/icons/IconDuracion.vue'
+import IconAcceso from '@/components/icons/IconAcceso.vue'
+import IconModalidad from '@/components/icons/IconModalidad.vue'
 
 /* const { t } = useI18n() */
 const route = useRoute()
@@ -69,41 +71,61 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
         <MapaInteractivo :hitos="ruta.hitos" :trazado="ruta.trazado" :trazado-opcional="ruta.trazadoOpcional"
           :color-ruta="ruta.color" :key="route.params.rutaId" class="my-8" />
 
-        <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-8">
-          <div class="flex flex-col items-center gap-6 bg-gray-100 shadow-lg p-8 rounded-md">
-            <h2 class="text-lg font-medium">Distancia</h2>
+        <!-- <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-8"> -->
+        <section class="flex flex-wrap justify-center gap-6 my-8">
+          <div
+            class="flex flex-col basis-48 items-center gap-6 shadow-md p-6 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+            <h2 class="text-lg font-semibold">Modalidad</h2>
+            <p class="text-center">{{ ruta.modalidad }}</p>
+            <IconModalidad :color="ruta.color" :size="80" class="-order-1" />
+          </div>
+
+
+          <div
+            class="flex flex-col basis-48 items-center gap-6  shadow-md p-6 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+            <h2 class="text-lg font-semibold">Distancia</h2>
             <p>{{ ruta.distancia }}</p>
             <IconDistancia :color="ruta.color" :size="80" class="-order-1" />
           </div>
-          <div class="flex flex-col items-center gap-6 bg-gray-100 shadow-lg p-8 rounded-md">
-            <h2 class="text-lg font-medium">Dificultad</h2>
+
+          <div
+            class="flex flex-col basis-48 items-center gap-6  shadow-md p-6 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+            <h2 class="text-lg font-semibold">Dificultad</h2>
             <p>{{ ruta.dificultad }}</p>
             <IconDificultad :color="ruta.color" :size="80" class="-order-1" />
-
           </div>
-          <div class="flex flex-col items-center gap-6 bg-gray-100 shadow-lg p-8 rounded-md">
-            <h2 class="text-lg font-medium">Duración</h2>
+
+          <div
+            class="flex flex-col basis-48 items-center gap-6 b shadow-md p-6 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+            <h2 class="text-lg font-semibold">Duración</h2>
             <p>{{ ruta.duracion }}</p>
             <IconDuracion :color="ruta.color" :size="80" class="-order-1" />
           </div>
 
+          <div
+            class="flex flex-col basis-48 items-center gap-6  shadow-md p-6 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+            <h2 class="text-lg font-semibold">Acceso</h2>
+            <p>{{ ruta.acceso }}</p>
+            <IconAcceso :color="ruta.color" :size="80" class="-order-1" />
+          </div>
+
         </section>
 
-        <section class="px-12 max-w-6xl">
-          <h3 class="text-display text-2xl font-semibold text-center">Lo que descubrirás</h3>
-          <div v-for="car in ruta.caracteristicas" :key="car.titulo">
-            <h4>{{ car.titulo }}</h4>
+        <section class="px-12 max-w-6xl py-6 my-8">
+          <h3 class="text-display text-2xl font-semibold text-center mb-10">Lo que descubrirás</h3>
+          <div v-for="car in ruta.caracteristicas" :key="car.titulo" class="max-w-2xl mx-auto">
+            <h4 class="text-lg font-semibold my-4">{{ car.titulo }}</h4>
             <p>{{ car.descripcion }}</p>
           </div>
         </section>
 
-        <section class="px-12 max-w-6xl">
-          <h3 class="text-display text-2xl font-semibold text-center">Recorrido</h3>
-          <p>{{ ruta.recorrido.introduccion }}</p>
-          <ul class="ps-4">
-            <li v-for="tip in ruta.recorrido.consejos" :key="tip.consejo" class="relative my-2">
-              <span class="absolute -left-4 top-2 size-2 rounded-full" :style="{ backgroundColor: ruta.color }"></span>
-              <strong>{{ tip.consejo }}:</strong>
+        <section class="px-12 max-w-6xl py-6 my-8">
+          <h3 class="text-display text-2xl font-semibold text-center mb-10">Recorrido</h3>
+          <p class="mb-4 max-w-2xl mx-auto">{{ ruta.recorrido.introduccion }}:</p>
+          <ul class="ps-4 max-w-2xl">
+            <li v-for="tip in ruta.recorrido.consejos" :key="tip.consejo" class="relative my-4">
+              <span class="absolute -left-4 top-2 size-3 rounded-full" :style="{ backgroundColor: ruta.color }"></span>
+              <strong class="ms-2">{{ tip.consejo }}:</strong>
               {{ tip.descripcion }}
             </li>
           </ul>
