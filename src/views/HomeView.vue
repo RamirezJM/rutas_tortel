@@ -6,10 +6,9 @@
 import AppNavbar from '@/components/layout/AppNavbar.vue'
 import RutaCard from '@/components/home/RutaCard.vue'
 import { rutas } from '@/data/rutas'
-import HeroSm from '@/assets/images/hero-sm.jpg'
-import HeroMd from '@/assets/images/hero-md.jpg'
-/* import HeroLg from '@/assets/images/hero-lg.jpg' */
-import HeroNew from '@/assets/images/hero-new.jpg'
+import HeroSm from '@/assets/images/hero-sm.webp'
+import HeroMd from '@/assets/images/hero-md.webp'
+import HeroLg from '@/assets/images/hero-lg.webp'
 
 /* const { t } = useI18n() */
 </script>
@@ -35,7 +34,7 @@ import HeroNew from '@/assets/images/hero-new.jpg'
       <picture>
         <source media="(max-width:600px)" :srcset="HeroSm">
         <source media="(max-width:900px)" :srcset="HeroMd">
-        <img :src="HeroNew" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
+        <img :src="HeroLg" alt="" class="absolute w-full h-full object-cover object-bottom -z-10">
       </picture>
 
       <!-- <div class="bg-primary mix-blend-multiply absolute inset-0"></div> -->
