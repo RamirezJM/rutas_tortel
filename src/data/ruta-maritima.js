@@ -54,7 +54,7 @@ export default {
     ]
 
   },
-  imagen_portada: '/images/rutas/hero-lg.jpg',
+  imagen_portada: '/images/rutas/maritima/maritima-card.webp',
   galeria: [
     '/images/rutas/maritima/galeria/1-sector-base.webp',
     '/images/rutas/maritima/galeria/2-pasarelas.webp',

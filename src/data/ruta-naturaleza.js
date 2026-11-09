@@ -54,7 +54,7 @@ export default {
     ]
   },
 
-  imagen_portada: '/images/rutas/hero-lg.jpg',
+  imagen_portada: '/images/rutas/naturaleza/naturaleza-card.webp',
   galeria: [
     '/images/rutas/naturaleza/galeria/1-escalera-mirador.webp',
     '/images/rutas/naturaleza/galeria/2-biblioteca.webp',

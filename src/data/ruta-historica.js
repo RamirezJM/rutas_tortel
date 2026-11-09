@@ -53,7 +53,7 @@ export default {
       }
     ]
   },
-  imagen_portada: '/images/rutas/historicas-main.jpg',
+  imagen_portada: '/images/rutas/historica/historicas-card.webp',
   galeria: [
     '/images/rutas/historica/galeria/1-comite-electrico.webp',
     '/images/rutas/historica/galeria/2-lancha-padre-ronchi.webp',
