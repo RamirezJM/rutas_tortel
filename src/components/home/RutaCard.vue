@@ -2,7 +2,7 @@
 // RutaCard.vue — Card de cada ruta en la landing
 // Recibe el objeto ruta completo como prop
 import { ref, onMounted } from 'vue'
-import rutaImage from '@/assets/images/maritima-main.jpg'
+
 
 defineProps({
   ruta: {
@@ -21,7 +21,7 @@ onMounted(() => {
   const observer = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
-        elemento.value.style.opacity = '0.5'
+        elemento.value.style.opacity = '0.4'
         observer.disconnect()
       }
     },
@@ -33,16 +33,16 @@ onMounted(() => {
 </script>
 
 <template>
-  <article class="flex flex-col md:flex-row gap-20 md:gap-6 items-center odd:md:flex-row-reverse">
+  <article class="flex flex-col lg:flex-row gap-20 lg:gap-6 items-center odd:lg:flex-row-reverse">
     <div class="text-center md:flex-1">
-      <img :src="rutaImage" alt="" class=" object-cover">
+      <img :src="ruta.imagen_portada" :alt="ruta.nombre" class=" object-cover">
     </div>
 
-    <div class="flex flex-col md:flex-1 gap-6 relative h-100 justify-center max-w-lg">
-      <h2 class="text-emerald-900 font-medium text-4xl md:text-6xl md:text-center md:items-center">{{ ruta.nombre }}
+    <div class="flex flex-col lg:flex-1 gap-6 relative h-100 justify-center max-w-2xl">
+      <h2 class="text-emerald-900 font-medium text-4xl lg:text-6xl lg:text-center lg:items-center">{{ ruta.nombre }}
       </h2>
       <p class="mt-10">{{ ruta.descripcion_card }}</p>
-      <span class="absolute -top-20 left-0 text-9xl md:-top-20 md:text-[12rem] font-black -z-10"
+      <span class="absolute -top-20 left-0 text-9xl md:-top-10 lg:-top-20 lg:text-[12rem] font-black -z-10"
         :style="{ color: ruta.color }" ref="elemento">0{{ numero
         }}</span>
       <router-link :to="`/ruta/${ruta.id}`"
