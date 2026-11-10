@@ -63,7 +63,8 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
       <template v-if="ruta">
         <h2 class="font-display text-3xl font-semibold text-center relative">
           {{ ruta.nombre }}
-          <div class="w-60 h-8 absolute -mt-5 translate-x-30 -z-1 opacity-50" :style="{ backgroundColor: ruta.color }">
+          <div class="w-40 lg:w-50 h-8 absolute -mt-5 translate-x-30 -z-1 opacity-50"
+            :style="{ backgroundColor: ruta.color }">
           </div>
         </h2>
         <p class="text-xl font-medium text-center my-2">{{ ruta.bajada_titulo }}</p>
@@ -79,7 +80,6 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
             <p class="text-center">{{ ruta.modalidad }}</p>
             <IconModalidad :color="ruta.color" :size="80" class="-order-1" />
           </div>
-
 
           <div
             class="flex flex-col basis-48 items-center gap-6  shadow-md p-6 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
@@ -111,7 +111,7 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
 
         </section>
 
-        <section class="px-12 max-w-6xl py-6 my-8">
+        <section class="max-w-6xl py-6 my-8">
           <h3 class="text-display text-2xl font-semibold text-center mb-10">Lo que descubrirás</h3>
           <div v-for="car in ruta.caracteristicas" :key="car.titulo" class="max-w-2xl mx-auto">
             <h4 class="text-lg font-semibold my-4">{{ car.titulo }}</h4>
@@ -119,7 +119,7 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
           </div>
         </section>
 
-        <section class="px-12 max-w-6xl py-6 my-8">
+        <section class="max-w-6xl py-6 my-8">
           <h3 class="text-display text-2xl font-semibold text-center mb-10">Recorrido</h3>
           <p class="mb-4 max-w-2xl mx-auto">{{ ruta.recorrido.introduccion }}:</p>
           <ul class="ps-4 max-w-2xl">
