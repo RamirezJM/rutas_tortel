@@ -30,7 +30,7 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
 <template>
   <div>
 
-    <section class="bg-gray-700 max-w-6xl mx-auto">
+    <section class="bg-[#0b3c44] max-w-6xl mx-auto">
       <AppNavbar />
 
     </section>
@@ -38,7 +38,11 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
 
       <template v-if="hito">
         <div class="flex flex-col items-center gap-6">
-          <h1 class="text-2xl font-medium font-serif text-center">{{ hito.nombre }}</h1>
+          <div class="flex justify-center items-center gap-6">
+            <img :src="hito.icono" :alt="hito.nombre" class="w-20">
+            <h1 class="text-xl font-medium font-serif text-center">{{ hito.nombre }}</h1>
+          </div>
+
           <p class="max-w-2xl">{{ hito.descripcion }}</p>
 
           <Carousel v-if="isGaleria" :key="hito.id" :value="hito.galeria" :num-visible="1" :num-scroll="1" class="mb-2">
@@ -46,12 +50,12 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
               <img :src="data" :alt="hito.nombre" width="1200" height="800"
                 :loading="hito.galeria.indexOf(data) === 0 ? 'eager' : 'lazy'"
                 :fetchpriority="hito.galeria.indexOf(data) === 0 ? 'high' : 'auto'"
-                class="w-full h-auto aspect-3/2 object-cover rounded-md" />
+                class="w-full h-auto object-contain rounded-sm" />
             </template>
           </Carousel>
 
           <img v-else-if="hito.galeria?.length === 1" :src="hito.galeria[0]" :alt="hito.nombre" width="1200"
-            height="800" fetchpriority="high" class="w-full h-auto aspect-3/2 object-cover rounded-xl mb-2" />
+            height="800" fetchpriority="high" class="w-full h-auto aspect-3/2 object-contain rounded-sm mb-2" />
 
 
 
