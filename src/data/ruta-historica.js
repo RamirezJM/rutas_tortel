@@ -1,5 +1,6 @@
 const hitosImg = '/images/rutas/historica/hitos/';
 const thumbnailsImg = '/images/rutas/historica/thumbnails/';
+const iconosImg = '/images/rutas/historica/iconos/';
 
 export default {
 
@@ -73,6 +74,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797992, -73.531748],
       thumbnail: `${thumbnailsImg}1-muelle-juana-vidal-sm.webp`,
+      icono: `${iconosImg}1-muelle-juana-vidal.webp`,
       galeria: [
         `${hitosImg}1-muelle-juana-vidal.webp`
       ],
@@ -89,6 +91,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797868, -73.531491],
       thumbnail: `${thumbnailsImg}2-casa-ayan-sm.webp`,
+      icono: `${iconosImg}2-casa-ayan.webp`,
       galeria: [
         `${hitosImg}2-casa-ayan.webp`
       ],
@@ -105,6 +108,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.798011, -73.53546],
       thumbnail: `${thumbnailsImg}3-plaza-elicura.webp`,
+      icono: `${iconosImg}3-plaza-elicura.webp`,
       galeria: [
         `${hitosImg}3-plaza-elicura-a.webp`,
         `${hitosImg}3-plaza-elicura-b.webp`,
@@ -123,6 +127,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.800615, -73.53566],
       thumbnail: '/images/rutas/hero-lg.jpg',
+      icono: `${iconosImg}4-estacion-vacio.webp`,
       galeria: [
         '/images/hitos/colonial-3-a.jpg',
         '/images/hitos/colonial-3-b.jpg'
@@ -140,6 +145,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801168, -73.53593],
       thumbnail: `${thumbnailsImg}5-casa-caleta-sm.webp`,
+      icono: `${iconosImg}5-casa-caleta.webp`,
       galeria: [
         `${hitosImg}5-casa-caleta-a.webp`,
         `${hitosImg}5-casa-caleta-b.webp`
@@ -157,6 +163,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801295, -73.535775],
       thumbnail: `${thumbnailsImg}6-iglesia-pentecostal-sm.webp`,
+      icono: `${iconosImg}6-iglesia-pentecostal.webp`,
       galeria: [
         `${hitosImg}6-iglesia-pentecostal-a.webp`,
         `${hitosImg}6-iglesia-pentecostal-b.webp`,
@@ -175,6 +182,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801453, -73.536332],
       thumbnail: '/images/rutas/hero-lg.jpg',
+      icono: `${iconosImg}7-pasarela-padre-ronchi.webp`,
       galeria: [
         '/images/hitos/colonial-3-a.jpg',
         '/images/hitos/colonial-3-b.jpg'
@@ -192,6 +200,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801607, -73.536906],
       thumbnail: `${thumbnailsImg}8-primera-poblacion-sm.webp`,
+      icono: `${iconosImg}8-primera-poblacion.webp`,
       galeria: [
         `${hitosImg}8-primera-poblacion-a.webp`,
         `${hitosImg}8-primera-poblacion-b.webp`
@@ -209,6 +218,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801759, -73.536726],
       thumbnail: `${thumbnailsImg}9-bomberos-sm.webp`,
+      icono: `${iconosImg}9-cuartel-bomberos.webp`,
       galeria: [
         `${hitosImg}9-bomberos.webp`
       ],
@@ -225,6 +235,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.802538, -73.537858],
       thumbnail: `${thumbnailsImg}10-escuela-antigua-sm.webp`,
+      icono: `${iconosImg}10-escuela-antigua.webp`,
       galeria: [
         `${hitosImg}10-escuela-antigua-a.webp`,
         `${hitosImg}10-escuela-antigua-b.webp`],
@@ -241,10 +252,12 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803030, -73.537972],
       thumbnail: `${thumbnailsImg}11-capilla-catolica-sm.webp`,
+      icono: `${iconosImg}11-capilla-catolica.webp`,
       galeria: [
-        `${hitosImg}11-capilla-catolica-a.webp`,
-        `${hitosImg}11-capilla-catolica-b.webp`,
-        `${hitosImg}11-capilla-catolica-c.webp`
+        /* `${hitosImg}11-capilla-catolica-a.webp`, */
+        `${hitosImg}11-capilla-catolica-c.webp`,
+        `${hitosImg}11-capilla-catolica-b.webp`
+
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -259,6 +272,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803063, -73.537894],
       thumbnail: `${thumbnailsImg}12-escultura-padre-ronchi-sm.webp`,
+      icono: `${iconosImg}12-escultura-padre-ronchi.webp`,
       galeria: [
         `${hitosImg}12-escultura-padre-ronchi.webp`
       ],
@@ -275,6 +289,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803132, -73.537999],
       thumbnail: `${thumbnailsImg}13-radio-madipro.sm.webp`,
+      icono: `${iconosImg}13-radio-madipro.webp`,
       galeria: [
         `${hitosImg}13-radio-madipro-a.webp`,
         `${hitosImg}13-radio-madipro-b.webp`],
@@ -292,6 +307,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803291, -73.537732],
       thumbnail: `${thumbnailsImg}14-municipalidad-sm.webp`,
+      icono: `${iconosImg}14-municipalidad.webp`,
       galeria: [
         `${hitosImg}14-municipalidad-a.webp`,
         `${hitosImg}14-municipalidad-b.webp`
@@ -309,6 +325,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803464, -73.537996],
       thumbnail: `${thumbnailsImg}15-comite-electrico.sm.webp`,
+      icono: `${iconosImg}15-comite-electrico.webp`,
       galeria: [
         `${hitosImg}15-comite-electrico.webp`
       ],
@@ -325,6 +342,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803633, -73.537499],
       thumbnail: `${thumbnailsImg}16-plaza-armas-sm.webp`,
+      icono: `${iconosImg}16-plaza-armas.webp`,
       galeria: [
         `${hitosImg}16-plaza-armas-a.webp`,
         `${hitosImg}16-plaza-armas-b.webp`,
@@ -342,6 +360,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803840, -73.537281],
       thumbnail: `${thumbnailsImg}17-capitania-puerto-sm.webp`,
+      icono: `${iconosImg}17-capitania-puerto.webp`,
       galeria: [
         `${hitosImg}17-capitania-puerto-a.webp`,
         `${hitosImg}17-capitania-puerto-b.webp`,
@@ -360,6 +379,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803756, -73.538156],
       thumbnail: `${thumbnailsImg}18-eca-sm.webp`,
+      icono: `${iconosImg}18-eca.webp`,
       galeria: [
         `${hitosImg}18-eca.webp`
       ],
@@ -376,6 +396,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803445, -73.538702],
       thumbnail: ``,
+      icono: `${iconosImg}19-ex-aserradero.webp`,
       galeria: [
         '/images/hitos/colonial-3-a.jpg',
         '/images/hitos/colonial-3-b.jpg'
@@ -393,6 +414,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803679, -73.538694],
       thumbnail: `${thumbnailsImg}20-lancha-padre-ronchi-sm.webp`,
+      icono: `${iconosImg}20-lancha-padre-ronchi.webp`,
       galeria: [
         `${hitosImg}20-lancha-padre-ronchi-a.webp`,
         `${hitosImg}20-lancha-padre-ronchi-b.webp`
@@ -411,6 +433,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804509, -73.547059],
       thumbnail: `${thumbnailsImg}21-junquillo-sm.webp`,
+      icono: `${iconosImg}21-junquillo.webp`,
       galeria: [
         `${hitosImg}21-junquillo-a.webp`,
         `${hitosImg}21-junquillo-b.webp`,

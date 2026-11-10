@@ -1,5 +1,6 @@
 const hitosImg = '/images/rutas/maritima/hitos/';
 const thumbnailsImg = '/images/rutas/maritima/thumbnails/';
+const iconosImg = '/images/rutas/maritima/iconos/';
 
 export default {
 
@@ -33,7 +34,7 @@ export default {
     }
   ],
   recorrido: {
-    introduccion: 'Para realizar la Ruta Marítima puedes contactar a operadores turísticos locales que ofrecen servicios de navegación por la bahía de Tortel. Consulta directamente con ellos las alternativas de recorrido, horarios, tarifas y disponibilidad. Las salidas están sujetas a las condiciones meteorológicas y de navegación.',
+    introduccion: 'Para realizar la Ruta Marítima puedes contactar a operadores turísticos locales que ofrecen servicios de navegación por la bahía de Tortel. Consulta directamente con ellos las alternativas de recorrido, horarios, tarifas y disponibilidad. Las salidas están sujetas a las condiciones meteorológicas y de navegación',
     consejos: [
       {
         consejo: 'Vestimenta',
@@ -74,6 +75,7 @@ export default {
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797639, -73.534000],
       thumbnail: '/images/rutas/naturaleza/naturaleza-1.webp',
+      icono: `${iconosImg}1-muelle-3.webp`,
       galeria: [
         '/images/hitos/colonial-1-a.jpg',
         '/images/hitos/colonial-1-b.jpg',
@@ -92,6 +94,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797834, -73.533402],
       thumbnail: '/images/rutas/hero-lg.jpg',
+      icono: `${iconosImg}2-poblamiento-bahia.webp`,
       galeria: [
         '/images/hitos/colonial-2-a.jpg',
         '/images/hitos/colonial-2-b.jpg'
@@ -109,6 +112,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.799526, -73.534217],
       thumbnail: `${thumbnailsImg}3-paisaje-austral-sm.webp`,
+      icono: `${iconosImg}3-paisaje-austral.webp`,
       galeria: [
         `${hitosImg}3-paisaje-austral.webp`
       ],
@@ -125,6 +129,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.800428, -73.534531],
       thumbnail: '/images/rutas/hero-lg.jpg',
+      icono: `${iconosImg}4-antiguos-recorridos.webp`,
       galeria: [
         '/images/hitos/colonial-3-a.jpg',
         '/images/hitos/colonial-3-b.jpg'],
@@ -141,6 +146,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801719, -73.534069],
       thumbnail: `${thumbnailsImg}5-bajo-las-pasarelas-sm.webp`,
+      icono: `${iconosImg}5-bajo-las-pasarelas.webp`,
       galeria: [
         `${hitosImg}5-bajo-las-pasarelas-a.webp`,
         `${hitosImg}5-bajo-las-pasarelas-b.webp`,
@@ -159,6 +165,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803792, -73.535913],
       thumbnail: `${thumbnailsImg}6-sector-base-sm.webp`,
+      icono: `${iconosImg}6-sector-base.webp`,
       galeria: [
         `${hitosImg}6-sector-base-a.webp`,
         `${hitosImg}6-sector-base-b.webp`
@@ -176,6 +183,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804508, -73.536676],
       thumbnail: '/images/rutas/hero-lg.jpg',
+      icono: `${iconosImg}7-turbina.webp`,
       galeria: [
         '/images/hitos/colonial-3-a.jpg',
         '/images/hitos/colonial-3-b.jpg'
@@ -193,6 +201,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804402, -73.538624],
       thumbnail: `${thumbnailsImg}8-cultura-comunidad-sm.webp`,
+      icono: `${iconosImg}8-cultura-comunidad.webp`,
       galeria: [
         `${hitosImg}8-cultura-comunidad-a.webp`,
         `${hitosImg}8-cultura-comunidad-b.webp`,
@@ -211,6 +220,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805144, -73.539484],
       thumbnail: `${thumbnailsImg}9-nueva-costanera-sm.webp`,
+      icono: `${iconosImg}9-nueva-costanera.webp`,
       galeria: [
         `${hitosImg}9-nueva-costanera-a.webp`,
         `${hitosImg}9-nueva-costanera-b.webp`
@@ -228,6 +238,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805895, -73.540866],
       thumbnail: `${thumbnailsImg}10-hacia-el-fiordo-sm.webp`,
+      icono: `${iconosImg}10-hacia-fiordo.webp`,
       galeria: [
         `${hitosImg}11-hacia-el-fiordo.webp`
       ],
@@ -244,6 +255,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.805736, -73.543595],
       thumbnail: `${thumbnailsImg}11-muelle-la-bertola-sm.webp`,
+      icono: `${iconosImg}11-muelle-9.webp`,
       galeria: [
         `${hitosImg}11-muelle-la-bertola.webp`
       ],
@@ -259,8 +271,12 @@ export default {
       nombre: 'Hito 12 — Playa',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.807531, -73.548637],
-      imagen: '/images/rutas/hero-lg.jpg',
-      galeria: ['/images/hitos/colonial-3-a.jpg', '/images/hitos/colonial-3-b.jpg'],
+      thumbnail: '/images/rutas/hero-lg.jpg',
+      icono: `${iconosImg}12-playa.webp`,
+      galeria: [
+        '/images/hitos/colonial-3-a.jpg',
+        '/images/hitos/colonial-3-b.jpg'
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -274,6 +290,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.793645, -73.547785],
       thumbnail: `${thumbnailsImg}13-rio-baker-sm.webp`,
+      icono: `${iconosImg}13-rio-baker.webp`,
       galeria: [
         `${hitosImg}13-rio-baker-a.webp`,
         `${hitosImg}13-rio-baker-b.webp`,
@@ -292,6 +309,7 @@ export default {
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.785239, -73.528048],
       thumbnail: `${thumbnailsImg}14-aerodromo-sm.webp`,
+      icono: `${iconosImg}14-aerodromo.webp`,
       galeria: [
         `${hitosImg}14-aerodromo-a.webp`,
         `${hitosImg}14-aerodromo-b.webp`,
