@@ -109,11 +109,11 @@ export default {
       nombre: 'Hito 3 — La Barda',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.798269, -73.535809],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}3-la-barda-sm.webp`,
       icono: `${iconosImg}3-la-barda.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}3-la-barda-a.webp`,
+        `${hitosImg}3-la-barda-b.webp`
       ],
 
       creditos: {
@@ -128,11 +128,11 @@ export default {
       nombre: 'Hito 4 — Microbosque',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801975, -73.535132],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}4-microbosque-sm.webp`,
       icono: `${iconosImg}4-microbosque.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}4-microbosque-a.webp`,
+        `${hitosImg}4-microbosque-b.webp`
       ],
 
       creditos: {
@@ -147,11 +147,11 @@ export default {
       nombre: 'Hito 5 — Plaza San Pedro',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.802022, -73.535499],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}5-plaza-san-pedro-sm.webp`,
       icono: `${iconosImg}5-plaza-san-pedro.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}5-plaza-san-pedro-a.webp`,
+        `${hitosImg}5-plaza-san-pedro-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -200,11 +200,11 @@ export default {
       nombre: 'Hito 8 — Plaza Kaweskar',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803888, -73.538361],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}8-plaza-kaweskar-sm.webp`,
       icono: `${iconosImg}8-plaza-kaweskar.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'],
+        `${hitosImg}8-plaza-kaweskar.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -255,7 +255,9 @@ export default {
       thumbnail: `${thumbnailsImg}11-centro-interpretacion-sm.webp`,
       icono: `${iconosImg}11-centro-interpretacion.webp`,
       galeria: [
-        `${hitosImg}11-centro-interpretacion-a.webp`
+        `${hitosImg}11-centro-interpretacion-a.webp`,
+        `${hitosImg}11-centro-interpretacion-b.webp`,
+        `${hitosImg}11-centro-interpretacion-c.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -288,11 +290,10 @@ export default {
       nombre: 'Hito 13 — Escultura Charkush Hallef',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.804090, -73.539172],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}13-escultura-charkush-hallef-sm.webp`,
       icono: `${iconosImg}13-charkush-hallef.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}13-escultura-charkush-hallef.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -306,11 +307,12 @@ export default {
       nombre: 'Hito 14 — Mirador Las Antenas',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803614, -73.541006],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}14-mirador-las-antenas-sm.webp`,
       icono: `${iconosImg}14-mirador.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}14-mirador-las-antenas-a.webp`,
+        `${hitosImg}14-mirador-las-antenas-b.webp`,
+        `${hitosImg}14-mirador-las-antenas-c.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',

@@ -107,7 +107,7 @@ export default {
       nombre: 'Hito 3 — Plaza Elicura',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.798011, -73.53546],
-      thumbnail: `${thumbnailsImg}3-plaza-elicura.webp`,
+      thumbnail: `${thumbnailsImg}3-plaza-elicura-sm.webp`,
       icono: `${iconosImg}3-plaza-elicura.webp`,
       galeria: [
         `${hitosImg}3-plaza-elicura-a.webp`,
@@ -126,11 +126,11 @@ export default {
       nombre: 'Hito 4 — Estación de vacio Icafal',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.800615, -73.53566],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}4-estacion-vacio-sm.webp`,
       icono: `${iconosImg}4-estacion-vacio.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}4-estacion-vacio-a.webp`,
+        `${hitosImg}4-estacion-vacio-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -181,11 +181,12 @@ export default {
       nombre: 'Hito 7 — Pasarela Padre Antonio Ronchi',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.801453, -73.536332],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}7-pasarela-padre-ronchi-sm.webp`,
       icono: `${iconosImg}7-pasarela-padre-ronchi.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}7-pasarela-padre-ronchi-a.webp`,
+        `${hitosImg}7-pasarela-padre-ronchi-b.webp`,
+        `${hitosImg}7-pasarela-padre-ronchi-c.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -288,11 +289,13 @@ export default {
       nombre: 'Hito 13 — Radio Madipro',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803132, -73.537999],
-      thumbnail: `${thumbnailsImg}13-radio-madipro.sm.webp`,
+      thumbnail: `${thumbnailsImg}13-radio-madipro-sm.webp`,
       icono: `${iconosImg}13-radio-madipro.webp`,
       galeria: [
         `${hitosImg}13-radio-madipro-a.webp`,
-        `${hitosImg}13-radio-madipro-b.webp`],
+        `${hitosImg}13-radio-madipro-b.webp`,
+        `${hitosImg}13-radio-madipro-c.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -324,7 +327,7 @@ export default {
       nombre: 'Hito 15 — Comité eléctrico',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803464, -73.537996],
-      thumbnail: `${thumbnailsImg}15-comite-electrico.sm.webp`,
+      thumbnail: `${thumbnailsImg}15-comite-electrico-sm.webp`,
       icono: `${iconosImg}15-comite-electrico.webp`,
       galeria: [
         `${hitosImg}15-comite-electrico.webp`
@@ -381,7 +384,8 @@ export default {
       thumbnail: `${thumbnailsImg}18-eca-sm.webp`,
       icono: `${iconosImg}18-eca.webp`,
       galeria: [
-        `${hitosImg}18-eca.webp`
+        `${hitosImg}18-eca-a.webp`,
+        `${hitosImg}18-eca-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -395,11 +399,10 @@ export default {
       nombre: 'Hito 19 — Ex-aserradero',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.803445, -73.538702],
-      thumbnail: ``,
+      thumbnail: `${thumbnailsImg}19-ex-aserradero-sm.webp`,
       icono: `${iconosImg}19-ex-aserradero.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}19-ex-aserradero.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',

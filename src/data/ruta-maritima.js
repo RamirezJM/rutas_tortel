@@ -74,12 +74,11 @@ export default {
       descripcion:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797639, -73.534000],
-      thumbnail: '/images/rutas/naturaleza/naturaleza-1.webp',
+      thumbnail: `${thumbnailsImg}1-muelle-carmen-sm.webp`,
       icono: `${iconosImg}1-muelle-3.webp`,
       galeria: [
-        '/images/hitos/colonial-1-a.jpg',
-        '/images/hitos/colonial-1-b.jpg',
-        '/images/hitos/colonial-1-c.jpg',
+        `${hitosImg}1-muelle-carmen-a.webp`,
+        `${hitosImg}1-muelle-carmen-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -93,11 +92,11 @@ export default {
       nombre: 'Hito 2 — Poblamiento de la bahía',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.797834, -73.533402],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}2-poblamiento-bahia-sm.webp`,
       icono: `${iconosImg}2-poblamiento-bahia.webp`,
       galeria: [
-        '/images/hitos/colonial-2-a.jpg',
-        '/images/hitos/colonial-2-b.jpg'
+        `${hitosImg}2-poblamiento-bahia-a.webp`,
+        `${hitosImg}2-poblamiento-bahia-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -114,7 +113,9 @@ export default {
       thumbnail: `${thumbnailsImg}3-paisaje-austral-sm.webp`,
       icono: `${iconosImg}3-paisaje-austral.webp`,
       galeria: [
-        `${hitosImg}3-paisaje-austral.webp`
+        `${hitosImg}3-paisaje-austral-a.webp`,
+        `${hitosImg}3-paisaje-austral-b.webp`,
+        `${hitosImg}3-paisaje-austral-c.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -128,11 +129,13 @@ export default {
       nombre: 'Hito 4 — Antiguos recorridos',
       descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
       coordenadas: [-47.800428, -73.534531],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}4-antiguos-recorridos-sm.webp`,
       icono: `${iconosImg}4-antiguos-recorridos.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'],
+        `${hitosImg}4-antiguos-recorridos-a.webp`,
+        `${hitosImg}4-antiguos-recorridos-b.webp`,
+        `${hitosImg}4-antiguos-recorridos-c.webp`
+      ],
       creditos: {
         autor: 'Rutas de Tortel',
         año: 2026,
@@ -240,7 +243,7 @@ export default {
       thumbnail: `${thumbnailsImg}10-hacia-el-fiordo-sm.webp`,
       icono: `${iconosImg}10-hacia-fiordo.webp`,
       galeria: [
-        `${hitosImg}11-hacia-el-fiordo.webp`
+        `${hitosImg}10-hacia-el-fiordo.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
