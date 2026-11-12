@@ -1,5 +1,5 @@
 <script setup>
-
+import DynamicDialog from 'primevue/dynamicdialog';
 import AppFooter from '@/components/layout/AppFooter.vue';
 </script>
 
@@ -14,7 +14,7 @@ import AppFooter from '@/components/layout/AppFooter.vue';
         </transition>
       </router-view>
     </main>
-
+    <DynamicDialog />
     <AppFooter />
   </div>
 
