@@ -45,7 +45,8 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
 
           <p class="max-w-2xl">{{ hito.descripcion }}</p>
 
-          <Carousel v-if="isGaleria" :key="hito.id" :value="hito.galeria" :num-visible="1" :num-scroll="1" class="mb-2">
+          <Carousel v-if="isGaleria" :key="hito.id" :value="hito.galeria" :num-visible="1" :num-scroll="1"
+            class="mb-2 hito-slider">
             <template #item="{ data }">
               <img :src="data" :alt="hito.nombre" width="1200" height="800"
                 :loading="hito.galeria.indexOf(data) === 0 ? 'eager' : 'lazy'"
@@ -92,3 +93,29 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
   </div>
 
 </template>
+
+
+<style scoped>
+/* Confirma los nombres de clase en DevTools: pueden variar levemente */
+:deep(.p-carousel-content-container) {
+  position: relative;
+}
+
+.hito-slider:deep(.p-carousel-prev-button),
+.hito-slider:deep(.p-carousel-next-button) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgb(0 0 0 / 0.8);
+  color: white;
+}
+
+.hito-slider:deep(.p-carousel-prev-button) {
+  left: 0.5rem;
+}
+
+.hito-slider:deep(.p-carousel-next-button) {
+  right: 0.5rem;
+}
+</style>
