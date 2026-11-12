@@ -38,7 +38,7 @@ function cerrarMenu() {
   <nav class="relative z-10 w-full">
 
     <!-- Barra principal -->
-    <div class="flex items-center justify-between px-6 py-10 md:px-12">
+    <div class="flex items-center justify-between px-6 py-2 md:px-12 bg-transparent backdrop-blur-md">
 
       <!-- Logo / nombre del sitio -->
       <router-link to="/"
@@ -53,7 +53,7 @@ function cerrarMenu() {
       <ul class="hidden lg:flex items-center gap-8">
         <li>
           <router-link to="/" class="text-light font-medium border border-light p-2 rounded-sm"
-            exact-active-class="bg-white !text-teal-600">
+            exact-active-class="bg-gray-600 border-primary text-light">
             <!-- {{ t('inicio') }} -->
             Inicio
           </router-link>
@@ -65,7 +65,7 @@ function cerrarMenu() {
         -->
         <li v-for="ruta in rutas" :key="ruta.id">
           <router-link :to="`/ruta/${ruta.id}`" class="text-light font-medium border border-light  p-2 rounded-sm"
-            exact-active-class="bg-white" :style="$route.path.startsWith(`/ruta/${ruta.id}`)
+            exact-active-class="bg-gray-600 border-primary" :style="$route.path.startsWith(`/ruta/${ruta.id}`)
               ? { color: ruta.color }
               : {}">
             {{ ruta.nombre }}
@@ -113,15 +113,14 @@ function cerrarMenu() {
     -->
     <transition name="menu">
       <div v-show="menuAbierto" class="lg:hidden bg-black/70 backdrop-blur-sm px-6 py-4 flex flex-col">
-        <router-link to="/"
-          class="text-white font-medium py-3 border-b border-white/10 hover:text-acento transition-colors"
-          active-class="text-acento" @click="cerrarMenu">
+        <router-link to="/" class="text-white font-medium py-3 border-b border-white/10 "
+          exact-active-class="text-red-700" @click="cerrarMenu">
           Inicio
         </router-link>
 
         <router-link v-for="ruta in rutas" :key="ruta.id" :to="`/ruta/${ruta.id}`"
-          class="text-white font-medium py-3 border-b border-white/10 hover:text-acento transition-colors"
-          active-class="text-acento" @click="cerrarMenu">
+          class="text-white font-medium py-3 border-b border-white/10" exact-active-class="text-red-500"
+          @click="cerrarMenu">
           {{ ruta.nombre }}
         </router-link>
       </div>
