@@ -159,12 +159,12 @@ function crearIcono(numero) {
       <LMarker v-for="(hito, index) in hitos" :key="hito.id" :lat-lng="hito.coordenadas" :icon="crearIcono(index + 1)"
         @click="hitoActivo = hito">
         <LPopup>
-          <div class="min-w-48 flex flex-col items-center gap-1">
-            <h3 class="font-semibold text-sm mb-1">{{ hito.nombre }}</h3>
+          <div class="w-40 flex flex-col items-center gap-2">
+            <h3 class="font-semibold text-sm text-center">{{ hito.nombre }}</h3>
             <!--  <p class="text-xs text-gray-600 mb-2">{{ hito.descripcion_breve }}</p> -->
-            <img :src="hito.thumbnail" :alt="hito.nombre" class="w-25">
+            <img :src="hito.thumbnail" :alt="hito.nombre" class="w-50">
             <router-link :to="`/ruta/${$route.params.rutaId}/hito/${hito.id}`"
-              class="text-xs font-medium hover:underline" :style="`color: ${colorRuta}`">
+              class="font-medium mt-2 rounded-full py-1 px-3" :style="`backgroundColor: ${colorRuta}`">
               Ver más →
             </router-link>
           </div>
@@ -174,3 +174,8 @@ function crearIcono(numero) {
     </LMap>
   </div>
 </template>
+<style scoped>
+/* .leaflet-container a {
+  color: #242424;
+} */
+</style>
