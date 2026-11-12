@@ -68,12 +68,10 @@ import HeroLg from '@/assets/images/hero-lg.webp'
           <div class="flex items-center gap-3">
             <span>Rutas</span>
             <div class="flex items-center gap-1.5">
-              <span class="w-10 h-10 rounded-full bg-red-500"></span>
-              <span class="w-10 h-10 rounded-full bg-amber-500"></span>
-              <span class="w-10 h-10 rounded-full bg-emerald-500"></span>
+              <span v-for="ruta in rutas" :key="ruta.id" :style="{ backgroundColor: ruta.color }"
+                class="w-10 h-10 rounded-full"></span>
             </div>
           </div>
-
           <!-- Segunda fila -->
           <span>de Tortel</span>
         </h1>
