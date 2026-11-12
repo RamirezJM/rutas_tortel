@@ -6,6 +6,7 @@ import { createHead } from '@unhead/vue/client'
 import 'leaflet/dist/leaflet.css'
 import PrimeVue from 'primevue/config'
 import Aura from '@primevue/themes/aura'
+import DialogService from 'primevue/dialogservice';
 
 import './assets/main.css'
 import 'sal.js/dist/sal.css'
@@ -24,5 +25,6 @@ app.use(PrimeVue, {
     },
   },
 })
+app.use(DialogService)
 
 app.mount('#app')
