@@ -6,7 +6,7 @@ import { useRoute } from 'vue-router'
 /* import { useI18n } from 'vue-i18n' */
 import Carousel from 'primevue/carousel'
 import { getHitoById, getHitosAdyacentes } from '@/utils/rutaHelpers'
-/* import { useImageSchema } from '@/composables/useImageSchema' */
+import TextoCursiva from '@/components/TextoCursiva.vue'
 import AppNavbar from '@/components/layout/AppNavbar.vue'
 import { getRutaById } from '@/utils/rutaHelpers'
 import IconLeft from '../components/icons/IconLeft.vue'
@@ -37,16 +37,19 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
     <div class="p-12">
 
       <template v-if="hito">
-        <div class="flex flex-col items-center gap-6">
-          <div class="flex justify-center items-center gap-6">
+        <div class="flex flex-col items-center max-w-6xl mx-auto">
+          <div class="flex justify-center items-center gap-6 mb-10">
             <img :src="hito.icono" :alt="hito.nombre" class="w-20">
             <h1 class="text-xl font-medium font-serif text-center">{{ hito.nombre }}</h1>
           </div>
 
-          <p class="max-w-2xl">{{ hito.descripcion }}</p>
+          <!-- <p class="max-w-2xl">{{ hito.descripcion }}</p> -->
+          <p v-for="(parrafo, i) in hito.descripcion" :key="i" class="w-full max-w-2xl mx-auto my-2">
+            <TextoCursiva :texto="parrafo" />
+          </p>
 
           <Carousel v-if="isGaleria" :key="hito.id" :value="hito.galeria" :num-visible="1" :num-scroll="1"
-            class="mb-2 hito-slider">
+            class="my-10 hito-slider">
             <template #item="{ data }">
               <img :src="data" :alt="hito.nombre" width="1200" height="800"
                 :loading="hito.galeria.indexOf(data) === 0 ? 'eager' : 'lazy'"
@@ -56,7 +59,7 @@ const isGaleria = computed(() => (hito.value?.galeria?.length ?? 0) > 1)
           </Carousel>
 
           <img v-else-if="hito.galeria?.length === 1" :src="hito.galeria[0]" :alt="hito.nombre" width="1200"
-            height="800" fetchpriority="high" class="w-full h-auto aspect-3/2 object-contain rounded-sm mb-2" />
+            height="800" fetchpriority="high" class="w-full h-auto aspect-3/2 object-contain rounded-sm my-10" />
 
 
 
