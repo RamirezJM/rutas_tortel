@@ -175,7 +175,7 @@ function crearIcono(numero) {
   </div>
 </template>
 <style scoped>
-/* .leaflet-container a {
-  color: #242424;
-} */
+.leaflet-container a {
+  color: #121212;
+}
 </style>
