@@ -71,8 +71,11 @@ export default {
     {
       id: 1,
       nombre: 'Hito 1 — Muelle señora Carmen (Muelle 3)',
-      descripcion:
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'En Tortel, la navegación ha sido fundamental para la vida cotidiana desde los primeros asentamientos. Durante décadas, las embarcaciones fueron el principal medio para transportar personas, alimentos, materiales y madera, conectando a los habitantes de la bahía con los sectores rurales y otras localidades de la Patagonia.',
+        'Aunque la llegada del camino en 2003 transformó las posibilidades de acceso, el transporte marítimo sigue siendo parte esencial de la vida en Tortel. Los muelles permiten mantener estas conexiones y son puntos de partida para actividades de pesca, trabajo y navegación.',
+        'Desde el Muelle Señora Carmen comienza este recorrido, que invita a descubrir Tortel desde el agua y observar cómo la navegación ha influido en su historia, sus construcciones y sus formas de habitar el territorio.'
+      ],
       coordenadas: [-47.797639, -73.534000],
       thumbnail: `${thumbnailsImg}1-muelle-carmen-sm.webp`,
       icono: `${iconosImg}1-muelle-3.webp`,
@@ -90,7 +93,12 @@ export default {
     {
       id: 2,
       nombre: 'Hito 2 — Poblamiento de la bahía',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La historia del poblamiento de Tortel está estrechamente relacionada con la colonización de los valles del Río Baker y la explotación del ciprés de las Guaitecas. Durante la primera mitad del siglo XX, familias provenientes de Chiloé y otras zonas del sur de Chile comenzaron a establecerse en distintos sectores del territorio, dedicándose principalmente al trabajo con la madera, la ganadería y la agricultura de subsistencia.',
+        'Con el tiempo, algunas de estas familias se trasladaron hacia la bahía de Tortel, donde los primeros asentamientos se concentraron en Rincón Bajo y Playa Ancha. Los pobladores provenientes de Río Bravo, Lago Vargas y Ventisquero Steffen se establecieron principalmente en el sector Rincón, mientras que quienes llegaban desde Río Pascua, Lago Quetru y el Glaciar Jorge Montt se ubicaron hacia Playa Ancha y Junquillo.',
+        'La elección de los lugares para construir sus viviendas respondía a necesidades concretas: encontrar protección del viento, buenos sitios para desembarcar y resguardar los botes, y acceso cercano al agua dulce. Así fueron formándose pequeños grupos de viviendas vinculados por relaciones familiares, actividades productivas y recorridos marítimos.',
+        'Desde la bahía todavía es posible reconocer esta distribución del poblamiento, que no surgió a partir de calles o manzanas, sino de la relación entre las familias, sus embarcaciones y las condiciones naturales del territorio.'
+      ],
       coordenadas: [-47.797834, -73.533402],
       thumbnail: `${thumbnailsImg}2-poblamiento-bahia-sm.webp`,
       icono: `${iconosImg}2-poblamiento-bahia.webp`,
@@ -108,7 +116,11 @@ export default {
     {
       id: 3,
       nombre: 'Hito 3 — Paisaje austral',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Tortel se encuentra en un territorio modelado por los glaciares, entre los Campos de Hielo Norte y Sur. Durante miles de años, el movimiento de grandes masas de hielo fue excavando valles y dando forma a las montañas, fiordos y canales que caracterizan este paisaje austral.',
+        'Las laderas que rodean la bahía están cubiertas por bosques templados lluviosos, donde crecen especies como el coihue, el canelo, el mañío, el tepú y el ciprés de las Guaitecas. Este último ha tenido una importancia especial en la historia de Tortel, por su utilización en la construcción de viviendas, embarcaciones y pasarelas.',
+        'La presencia del agua también define este paisaje. Las lluvias abundantes, los ríos alimentados por los deshielos y las aguas marinas que ingresan desde los fiordos forman un entorno donde el agua dulce y salada interactúan constantemente.'
+      ],
       coordenadas: [-47.799526, -73.534217],
       thumbnail: `${thumbnailsImg}3-paisaje-austral-sm.webp`,
       icono: `${iconosImg}3-paisaje-austral.webp`,
@@ -127,7 +139,11 @@ export default {
     {
       id: 4,
       nombre: 'Hito 4 — Antiguos recorridos',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Las pasarelas de Tortel no surgieron como una red continua. En sus comienzos, los habitantes se desplazaban principalmente en bote y utilizaban pequeños caminos de madera para recorrer los tramos terrestres. Estos primeros senderos, conocidos como _envaralados_, se construían con tablas y postes de madera labrados a hacha, que permitían atravesar sectores de monte, terrenos húmedos y zanjas.',
+        'A medida que el pueblo creció, los _envaralados_ fueron dando paso a pasarelas elevadas, puentes y escaleras de ciprés de las Guaitecas. Su construcción permitió conectar progresivamente las viviendas y los distintos sectores de la bahía, adaptándose a las pendientes y a los roqueríos.',
+        'Desde el agua todavía pueden reconocerse algunos de esos antiguos recorridos, que transcurren a distintas alturas del terreno. Uno de sus puntos de referencia es la escalera situada junto a la actual Estación de Vacío, donde antiguamente terminaba un tramo del sendero para conectarse con la pasarela Padre Antonio Ronchi.'
+      ],
       coordenadas: [-47.800428, -73.534531],
       thumbnail: `${thumbnailsImg}4-antiguos-recorridos-sm.webp`,
       icono: `${iconosImg}4-antiguos-recorridos.webp`,
@@ -146,7 +162,11 @@ export default {
     {
       id: 5,
       nombre: 'Hito 5 — Bajo las pasarelas',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Al navegar junto a la costa de Tortel es posible observar las pasarelas desde una perspectiva poco habitual: por debajo de la superficie que recorremos al caminar. Desde aquí quedan a la vista las vigas, los soportes y las distintas soluciones utilizadas para sostener estas estructuras sobre las rocas, las pendientes y el agua.',
+        'Las pasarelas tradicionales se construyen principalmente con ciprés de las Guaitecas, una madera apreciada por su resistencia a la humedad. Su estructura se apoya en puntos específicos del terreno, evitando la necesidad de nivelar grandes superficies. En algunos sectores, los soportes descansan sobre la roca; en otros, las estructuras se elevan sobre el borde costero.',
+        'Estas construcciones son también testimonio del conocimiento de los carpinteros y madereros locales, que han desarrollado y transmitido formas de trabajar la madera adaptadas a las condiciones de Tortel. Observarlas desde abajo permite comprender que las pasarelas no son solamente caminos, sino una parte fundamental de la arquitectura y los oficios de la localidad.'
+      ],
       coordenadas: [-47.801719, -73.534069],
       thumbnail: `${thumbnailsImg}5-bajo-las-pasarelas-sm.webp`,
       icono: `${iconosImg}5-bajo-las-pasarelas.webp`,
@@ -165,7 +185,12 @@ export default {
     {
       id: 6,
       nombre: 'Hito 6 — Sector Base',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'El sector Base comenzó a adquirir importancia en 1955, cuando la Armada de Chile estableció en este lugar el Puesto de Vigías y Señales de Caleta Tortel, en respuesta a las necesidades de comunicación y abastecimiento de los pobladores del Bajo Baker.',
+        'La presencia de la Armada permitió establecer comunicaciones por radio, brindar atención sanitaria y organizar el transporte de provisiones y de la producción maderera. Los propios pobladores participaron en la construcción de las primeras instalaciones, entre ellas el recordado Galpón Rosado.',
+        'Con los años, el sector fue concentrando servicios e instituciones. En 1966 se instaló la Empresa de Comercio Agrícola (ECA), que compraba postes de ciprés y abastecía de alimentos a la población. Más adelante, la puesta en funcionamiento de la Municipalidad en 1981 contribuyó a consolidar este lugar como centro cívico de Tortel.',
+        'Actualmente, el sector Base reúne parte importante de los servicios públicos y mantiene su función como punto de conexión marítima. Desde su rampa opera actualmente el ferry que conecta a Tortel con Puerto Natales, recordando la importancia que tiene aún la navegación para el abastecimiento y la vida cotidiana de sus habitantes.'
+      ],
       coordenadas: [-47.803792, -73.535913],
       thumbnail: `${thumbnailsImg}6-sector-base-sm.webp`,
       icono: `${iconosImg}6-sector-base.webp`,
@@ -183,7 +208,11 @@ export default {
     {
       id: 7,
       nombre: 'Hito 7 — La turbina',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La llegada de la electricidad a Tortel fue resultado del esfuerzo de sus habitantes y de la colaboración del padre Antonio Ronchi. En 1989, el sacerdote llegó a la localidad con la noticia de que había conseguido una turbina para generar energía eléctrica. En ese entonces, el alcalde era Jorge Vera.',
+        'Para concretar su instalación se formó un comité presidido por Iris Herrera. Los vecinos organizaron beneficios y actividades para reunir parte del dinero necesario, participando activamente en un proyecto que transformaría la vida cotidiana del pueblo.',
+        'La central hidroeléctrica fue inaugurada el 9 de septiembre de 1991. Su funcionamiento permitió aprovechar la fuerza del agua para generar electricidad, aunque durante años el suministro estuvo sujeto a horarios y a la disponibilidad de agua, por lo que posteriormente fue necesario complementarlo con generadores diésel.'
+      ],
       coordenadas: [-47.804508, -73.536676],
       thumbnail: '/images/rutas/hero-lg.jpg',
       icono: `${iconosImg}7-turbina.webp`,
@@ -201,7 +230,13 @@ export default {
     {
       id: 8,
       nombre: 'Hito 8 — Cultura y comunidad',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Este sector del borde costero reúne distintas iniciativas que dan cuenta de la creación artística, los oficios y la investigación científica que se desarrollan en Tortel.',
+        'La Casa de la Cultura es uno de los principales espacios para la realización de talleres, exposiciones, presentaciones y encuentros comunitarios. En sus alrededores se encuentran esculturas del artesano y escultor local Augusto Hernández Aguilante, dedicadas a la memoria de los pueblos canoeros y a los oficios tradicionales de la madera.',
+        'Junto a ella se extiende el Centro de Interpretación Ambiental y Turístico de COPAS Coastal de la Universidad de Concepción. A través de cinco estaciones instaladas sobre una pasarela de madera, el recorrido acerca a los visitantes al conocimiento de los fiordos, la biodiversidad, la historia y las formas de vida de Tortel.',
+        'En este sector también se encuentra el taller del Colectivo de Madereros de Tortel, organización dedicada a la preservación y transmisión de los oficios tradicionales de la madera. A través de talleres, encuentros y proyectos comunitarios, sus integrantes mantienen activos conocimientos vinculados a la carpintería, el tallado y otras prácticas del territorio.',
+        'La Plaza Kawésqar, situada junto al borde costero, completa este conjunto de espacios públicos y culturales.'
+      ],
       coordenadas: [-47.804402, -73.538624],
       thumbnail: `${thumbnailsImg}8-cultura-comunidad-sm.webp`,
       icono: `${iconosImg}8-cultura-comunidad.webp`,
@@ -220,7 +255,11 @@ export default {
     {
       id: 9,
       nombre: 'Hito 9 — Nueva costanera',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Durante años, recorrer Tortel a pie implicaba subir y bajar escaleras, atravesando distintos niveles del terreno para desplazarse entre los sectores de la localidad.',
+        'La construcción de la costanera transformó esta forma de recorrer el pueblo. Hoy, una pasarela continua cuyo último tramo fue inaugurado en 2022, permite desplazarse por todo el borde costero, siguiendo un recorrido prácticamente plano que conecta los distintos sectores sin necesidad de subir hacia las pasarelas más altas.',
+        'Desde el agua se puede apreciar cómo esta extensa estructura de madera bordea la bahía, adaptándose a las rocas y al relieve. Además de facilitar los desplazamientos cotidianos, la costanera permite disfrutar de una nueva perspectiva del paisaje y de la vida junto al agua.'
+      ],
       coordenadas: [-47.805144, -73.539484],
       thumbnail: `${thumbnailsImg}9-nueva-costanera-sm.webp`,
       icono: `${iconosImg}9-nueva-costanera.webp`,
@@ -238,7 +277,11 @@ export default {
     {
       id: 10,
       nombre: 'Hito 10 — Hacia el fiordo',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Desde la bahía de Tortel se abre un extenso territorio de fiordos, canales e islas que conecta la desembocadura del río Baker con el océano Pacífico. Estas vías marítimas han sido fundamentales para la navegación y las comunicaciones en la Patagonia austral.',
+        'Hacia el noroeste se encuentra el golfo de Penas, mientras que hacia el sur se extiende una red de canales que permite llegar a Puerto Edén y Puerto Natales. En este territorio también se encuentran los glaciares que descienden desde los Campos de Hielo Norte y Sur, entre ellos el Jorge Montt y el Steffen.',
+        'Durante generaciones, estas rutas han permitido transportar personas, alimentos, madera y otros productos, conectando localidades y asentamientos que durante mucho tiempo dependieron casi exclusivamente de las embarcaciones.'
+      ],
       coordenadas: [-47.805895, -73.540866],
       thumbnail: `${thumbnailsImg}10-hacia-el-fiordo-sm.webp`,
       icono: `${iconosImg}10-hacia-fiordo.webp`,
@@ -255,7 +298,11 @@ export default {
     {
       id: 11,
       nombre: 'Hito 11 — Muelle La Bertola (Muelle 9)',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'El Muelle La Bertola es uno de los principales puntos de embarque y desembarque de Tortel, especialmente utilizado por los habitantes de Playa Ancha y Junquillo. Su importancia refleja el papel que sigue teniendo la navegación en los desplazamientos cotidianos de la localidad.',
+        'Su nombre recuerda a Berta Muñoz, pobladora y propietaria del Almacén La Bertola, considerado el primer negocio particular de Tortel. En una época en que el abastecimiento era especialmente difícil, el almacén recibía sus productos por avioneta, convirtiéndose en un importante punto de provisiones para los habitantes.',
+        'Este muelle conserva así una parte de la memoria comercial y cotidiana de Tortel, vinculada a las distintas formas en que sus pobladores han conseguido abastecerse y mantenerse conectados con el resto del territorio.'
+      ],
       coordenadas: [-47.805736, -73.543595],
       thumbnail: `${thumbnailsImg}11-muelle-la-bertola-sm.webp`,
       icono: `${iconosImg}11-muelle-9.webp`,
@@ -272,7 +319,11 @@ export default {
     {
       id: 12,
       nombre: 'Hito 12 — Playa',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La playa de Tortel se encuentra cerca de la desembocadura del río Baker, en un sector donde el paisaje de la bahía comienza a dar paso al entorno del río y sus canales.',
+        'Este lugar también está vinculado a la historia del trabajo maderero. Hasta aquí llegaban los trabajadores que transportaban por el río los postes de ciprés, aprovechando la corriente para trasladar la madera desde los sectores de explotación hacia la costa, donde se reunía para su posterior embarque.',
+        'Además de su importancia en la actividad maderera, la playa ha sido durante generaciones un lugar de recreación y encuentro para los habitantes de Tortel. En verano, las familias siguen llegando para bañarse, compartir y disfrutar del paisaje, mientras que el espacio también se utiliza para jugar al fútbol y realizar actividades comunitarias.',
+      ],
       coordenadas: [-47.807531, -73.548637],
       thumbnail: '/images/rutas/hero-lg.jpg',
       icono: `${iconosImg}12-playa.webp`,
@@ -290,7 +341,11 @@ export default {
     {
       id: 13,
       nombre: 'Hito 13 — Río Baker',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'El río Baker, el más caudaloso de Chile, fue durante décadas una de las principales vías de transporte y trabajo de los habitantes del territorio. Sus aguas conectaban los sectores del interior con Caleta Tortel y permitían trasladar la producción maderera hacia la costa.',
+        'Una de las prácticas más características era el _balseo_. Los madereros reunían los postes de ciprés de las Guaitecas, los ordenaban en hileras y los amarraban para construir grandes balsas que descendían por el río. Los propios balseros viajaban sobre estas estructuras, guiándolas entre corrientes y obstáculos hasta llegar a los puntos de acopio, donde la madera esperaba su embarque hacia Magallanes.',
+        'Este oficio exigía experiencia y un profundo conocimiento del río. Hoy, navegar por el Baker permite reconocer los paisajes que recorrieron generaciones de balseros y acercarse a una de las actividades que marcaron la historia y la identidad maderera de Tortel.'
+      ],
       coordenadas: [-47.793645, -73.547785],
       thumbnail: `${thumbnailsImg}13-rio-baker-sm.webp`,
       icono: `${iconosImg}13-rio-baker.webp`,
@@ -309,7 +364,11 @@ export default {
     {
       id: 14,
       nombre: 'Hito 14 — Aeródromo',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Antes de la llegada de la Carretera Austral, Tortel dependía de las embarcaciones y las avionetas para comunicarse con otras localidades. La construcción del aeródromo por parte del Ministerio de Obras Públicas en 1980 representó un importante avance para sus habitantes, al facilitar el transporte de personas y el acceso a servicios fuera de la localidad',
+        'En este sector también se encuentra el estadio, un importante lugar de encuentro para los habitantes de Tortel. Durante años, los pobladores llegaban remando desde distintos sectores de la bahía para reunirse cada semana y jugar al fútbol, haciendo del deporte una instancia de convivencia comunitaria.',
+        'La apertura del camino en 2003 transformó las posibilidades de acceso al pueblo, pero el aeródromo y la cancha conservan parte de la memoria de una época en que la navegación era fundamental tanto para viajar como para encontrarse con otros habitantes de Tortel.'
+      ],
       coordenadas: [-47.785239, -73.528048],
       thumbnail: `${thumbnailsImg}14-aerodromo-sm.webp`,
       icono: `${iconosImg}14-aerodromo.webp`,

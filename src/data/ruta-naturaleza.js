@@ -71,8 +71,10 @@ export default {
     {
       id: 1,
       nombre: 'Hito 1 — Rotonda',
-      descripcion:
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Durante gran parte de su historia, Tortel dependió de la navegación para comunicarse con otras localidades. Esta situación cambió en 2003, cuando se inauguró el camino que conectó el pueblo con la Carretera Austral, permitiendo por primera vez el acceso directo de vehículos.',
+        'La Rotonda se convirtió en el principal punto de llegada por tierra y en el lugar donde comienza una forma de recorrer el pueblo muy distinta a la de otras localidades: a pie, por una extensa red de pasarelas y escaleras de madera que conecta sus distintos sectores.'
+      ],
       coordenadas: [-47.795865, -73.531423],
       thumbnail: `${thumbnailsImg}1-rotonda-sm.webp`,
       icono: `${iconosImg}1-rotonda.webp`,
@@ -90,7 +92,11 @@ export default {
     {
       id: 2,
       nombre: 'Hito 2 — Escalera principal',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Esta escalera permite apreciar uno de los rasgos más característicos de Tortel: la adaptación de sus construcciones a un terreno de fuertes pendientes, donde las escaleras y pasarelas de madera conectan el borde costero con los sectores más altos de la localidad.',
+        'Actualmente une la costanera con Rincón Alto, sector donde se encuentran la escuela, la posta y la Rotonda, y donde reside gran parte de la población de Tortel.',
+        'Aunque ha sido reconstruida con el paso de los años, originalmente fue una de las principales conexiones peatonales hacia el aeródromo, cuando todavía no existía el camino de acceso a la localidad.'
+      ],
       coordenadas: [-47.796611, -73.533620],
       thumbnail: `${thumbnailsImg}2-escalera-sm.webp`,
       icono: `${iconosImg}2-escalera-principal.webp`,
@@ -107,7 +113,11 @@ export default {
     {
       id: 3,
       nombre: 'Hito 3 — La Barda',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'En este sector de Rincón Bajo es posible observar las huellas que dejaron los glaciares en el paisaje de Tortel. El afloramiento rocoso forma parte de un cordón que se extiende por el borde costero hasta desaparecer hacia Junquillo. Sobre estas rocas descansaron grandes masas de hielo que, con su movimiento y posterior retroceso, fueron modelando el relieve. Si se observa con atención, todavía pueden distinguirse algunas de las marcas dejadas por el glaciar.',
+        'A medida que el hielo retrocedió, comenzó un proceso de sucesión primaria: distintas especies vegetales fueron colonizando las superficies expuestas y los suelos pobres en nutrientes. Entre las plantas pioneras se encuentran el chilco, la lumilla, el fuinque y el ciruelillo.',
+        'Actualmente predomina la vegetación siempreverde del bosque subantártico de carácter periglaciar. Entre las rocas crecen helechos como el katalapi y la costilla de vaca, junto a un abundante sotobosque de chilcos, lumillas, sauco del diablo y madreselva, esta última una especie introducida. También es posible encontrar coihue de Magallanes, coihue de Chiloé y coihue común, además de otras plantas como el miño-miño, el voqui y el coicopihue.'
+      ],
       coordenadas: [-47.798269, -73.535809],
       thumbnail: `${thumbnailsImg}3-la-barda-sm.webp`,
       icono: `${iconosImg}3-la-barda.webp`,
@@ -126,7 +136,12 @@ export default {
     {
       id: 4,
       nombre: 'Hito 4 — Microbosque',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Sobre las rocas y entre la vegetación crecen musgos y líquenes que forman parte de la diversidad de los ambientes húmedos de Tortel.',
+        'Los musgos contribuyen a retener la humedad, mientras que los líquenes pueden establecerse sobre superficies rocosas y otros sustratos, formando parte de estos pequeños ecosistemas.',
+        'Entre las especies más singulares se encuentra la _Drosera uniflora_, una diminuta planta carnívora que utiliza sus hojas cubiertas de pelos glandulares y gotas pegajosas para atrapar pequeños insectos, de los que obtiene nutrientes.',
+        'Este microbosque revela una diversidad que muchas veces pasa inadvertida y que merece ser descubierta con atención.'
+      ],
       coordenadas: [-47.801975, -73.535132],
       thumbnail: `${thumbnailsImg}4-microbosque-sm.webp`,
       icono: `${iconosImg}4-microbosque.webp`,
@@ -145,7 +160,12 @@ export default {
     {
       id: 5,
       nombre: 'Hito 5 — Plaza San Pedro',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Desde la Plaza San Pedro es posible observar el centro cívico de Tortel y un paisaje de agua que cambia constantemente de apariencia.',
+        'La bahía recibe aportes de agua dulce del río Baker, alimentado en parte por los deshielos, que se encuentra con las aguas saladas provenientes del océano. Esta interacción varía a lo largo del año: durante el verano, el aumento de los deshielos y del caudal del río suele transportar más sedimentos en suspensión, modificando el color y la transparencia del agua. Las mareas y el viento también intervienen, transformando su superficie, sus corrientes y su movimiento.',
+        'Por eso, desde este mismo lugar es posible encontrar paisajes muy distintos según la estación, el tiempo atmosférico e incluso la hora del día.',
+        'En la construcción de esta plaza participó Paulo Landeros junto a otros trabajadores locales.'
+      ],
       coordenadas: [-47.802022, -73.535499],
       thumbnail: `${thumbnailsImg}5-plaza-san-pedro-sm.webp`,
       icono: `${iconosImg}5-plaza-san-pedro.webp`,
@@ -163,7 +183,11 @@ export default {
     {
       id: 6,
       nombre: 'Hito 6 — Costanera',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La costanera de Tortel comenzó a construirse por etapas durante la década de 1980, extendiendo la red de pasarelas de madera a lo largo del borde costero. Su construcción permitió mejorar la conexión entre distintos sectores del pueblo y facilitar el desplazamiento junto al agua.',
+        'En este recorrido también destaca el chilco (_Fuchsia magellanica_), un arbusto nativo característico de los ambientes húmedos del sur de Chile. Sus flores colgantes, de tonos rojos y violetas, atraen a aves como el picaflor, que se alimenta de su néctar y contribuye a su polinización.',
+        'La presencia de los chilcos junto a las pasarelas permite observar cómo la vegetación nativa convive con las construcciones de madera que caracterizan el paisaje de Tortel.'
+      ],
       coordenadas: [-47.802477, -73.537030],
       thumbnail: `${thumbnailsImg}6-costanera-sm.webp`,
       icono: `${iconosImg}6-costanera.webp`,
@@ -180,7 +204,11 @@ export default {
     {
       id: 7,
       nombre: 'Hito 7 — Biblioteca pública Luis Cruz Martínez',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La Biblioteca de Tortel fue construida en 1984 por Juan Cárcamo, en una época en que la localidad todavía dependía de las conexiones marítimas y aéreas para comunicarse con el resto de la región.',
+        'Desde entonces, ha sido un espacio de acceso a la lectura, la información y las actividades culturales de la comunidad. En 2009, el edificio fue ampliado mediante la incorporación de un nuevo volumen, que actualmente alberga el rincón infantil, un espacio especialmente destinado a niñas y niños.',
+        'Ubicada junto al borde costero, la biblioteca forma parte de la historia de los espacios públicos y culturales que se fueron consolidando en torno a las pasarelas de Tortel.'
+      ],
       coordenadas: [-47.803296, -73.537247],
       thumbnail: `${thumbnailsImg}7-biblioteca-sm.webp`,
       icono: `${iconosImg}7-biblioteca.webp`,
@@ -197,8 +225,13 @@ export default {
     },
     {
       id: 8,
-      nombre: 'Hito 8 — Plaza Kaweskar',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      nombre: 'Hito 8 — Plaza Kawéskar',
+      descripcion: [
+        'Construida en 2008, la Plaza Kawésqar forma parte de una red de plazas patrimoniales de Tortel, junto a las plazas Elicura y Morel. Su creación respondió a la necesidad de contar con nuevos espacios de encuentro al aire libre y poner en valor el borde costero de la localidad.',
+        'Su nombre reconoce la vinculación histórica de Tortel con el pueblo Kawésqar, especialmente a través de las prácticas marítimas.',
+        'En uno de sus bordes se encuentra una escultura de Augusto Hernández Aguilante que representa a una familia Kawésqar navegando. Su ubicación, con la bahía de fondo, genera la impresión de que la canoa flota sobre el agua. La obra busca destacar los vínculos entre el pueblo Kawésqar y los actuales habitantes de Tortel: la navegación, la construcción de embarcaciones y los conocimientos sobre la naturaleza que surgen de habitar un mismo territorio.',
+        'La escultura incorpora también un canasto de junco tejido por la artesana Ruth Barría Llancalahuén, integrando el trabajo artesanal a esta representación.'
+      ],
       coordenadas: [-47.803888, -73.538361],
       thumbnail: `${thumbnailsImg}8-plaza-kaweskar-sm.webp`,
       icono: `${iconosImg}8-plaza-kaweskar.webp`,
@@ -215,7 +248,11 @@ export default {
     {
       id: 9,
       nombre: 'Hito 9 — Escultura Tejuelero',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Realizada en 2018 por el escultor Augusto Hernández Aguilante, esta obra ubicada en el patio de la Casa de la Cultura rinde homenaje al trabajo con la madera y a la transmisión de los oficios entre generaciones.',
+        'La escultura está inspirada en su padre, Olegario Hernández Yefe, reconocido maestro tejuelero de Tortel, de quien Augusto aprendió a trabajar la madera. La obra representa ese vínculo: de un padre dedicado a la tejuelería surge un hijo que continúa el oficio y encuentra en la escultura una nueva forma de expresión.',
+        'Olegario fue reconocido como Tesoro Humano Vivo en 2022 por su trayectoria y sus conocimientos sobre la tejuelería artesanal, un oficio que exige comprender las características de la madera, el bosque y las herramientas con que se trabaja.'
+      ],
       coordenadas: [-47.803985, -73.539029],
       thumbnail: `${thumbnailsImg}9-tejuelero-sm.webp`,
       icono: `${iconosImg}9-tejuelero.webp`,
@@ -232,7 +269,11 @@ export default {
     {
       id: 10,
       nombre: 'Hito 10 — Casa de la Cultura',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La Casa de la Cultura nació de la necesidad de contar con un espacio especialmente destinado a las artes y las actividades culturales de Tortel.',
+        'El proyecto comenzó a impulsarse en 2012 y obtuvo financiamiento del Fondart Nacional en 2013. Para su construcción se utilizó madera de ciprés de las Guaitecas y se contó con la participación de maestros carpinteros locales, manteniendo elementos de la arquitectura tradicional de Tortel.',
+        'El edificio dispone de una sala para presentaciones, talleres y actividades comunitarias, además de espacios para exposiciones, convirtiéndose en un lugar de encuentro para la creación y la vida cultural de la localidad.'
+      ],
       coordenadas: [-47.804005, -73.539166],
       thumbnail: `${thumbnailsImg}10-casa-cultura-sm.webp`,
       icono: `${iconosImg}10-casa-cultura.webp`,
@@ -250,7 +291,11 @@ export default {
     {
       id: 11,
       nombre: 'Hito 11 — Centro de Interpretación Ambiental Copas',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Inaugurado en enero de 2024, el Centro de Interpretación Ambiental y Turística de Tortel nació del proyecto «Pasareleando entre Ciencia y Cultura», desarrollado por el Centro COPAS Coastal de la Universidad de Concepción para acercar el conocimiento científico a la comunidad y sus visitantes.',
+        'El centro ocupa una antigua pasarela de 47 metros que conecta la Casa de la Cultura con el Laboratorio de Oceanografía Costera. A lo largo del recorrido se distribuyen cinco estaciones interpretativas que permiten descubrir las características de los fiordos, glaciares y ecosistemas de la zona, junto con la historia y las tradiciones de sus habitantes.',
+        'El espacio combina información científica, ilustraciones y elementos tallados en madera, integrando el conocimiento del territorio con sus expresiones culturales y oficios tradicionales.'
+      ],
       coordenadas: [-47.804026, -73.539332],
       thumbnail: `${thumbnailsImg}11-centro-interpretacion-sm.webp`,
       icono: `${iconosImg}11-centro-interpretacion.webp`,
@@ -268,8 +313,12 @@ export default {
     },
     {
       id: 12,
-      nombre: 'Hito 12 — Escultura joven artesana Kaweskar',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      nombre: 'Hito 12 — Escultura joven artesana Kawéskar',
+      descripcion: [
+        'Esta escultura representa a una joven artesana kawésqar mientras teje una pieza destinada a su uso y el de su familia. Su expresión tranquila y alegre busca transmitir la satisfacción de trabajar con las manos y representar la plenitud de la vida cotidiana del pueblo kawésqar.',
+        'Ubicada en las cercanías de la Casa de la Cultura de Tortel, la escultura pone en valor la artesanía como una práctica vinculada a la vida familiar, la transmisión de conocimientos y la relación con los recursos naturales del territorio.',
+        'La obra fue realizada por Augusto Hernández Aguilante, con financiamiento del Fondo Regional de Fomento de las Artes 2014, e instalada en 2015.'
+      ],
       coordenadas: [-47.804072, -73.539126],
       thumbnail: `${thumbnailsImg}12-escultura-artesana-sm.webp`,
       icono: `${iconosImg}12-escultura-artesana.webp`,
@@ -288,7 +337,12 @@ export default {
     {
       id: 13,
       nombre: 'Hito 13 — Escultura Charkush Hallef',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        '_Charkush Hallef_, que puede traducirse como “canoa de fuego”, rinde homenaje a las prácticas tradicionales de construcción de embarcaciones del pueblo kawésqar.',
+        'La obra representa una canoa y una figura humana trabajando en su elaboración. Para construirla se utilizaron técnicas de ahuecado de la madera mediante el fuego y herramientas manuales, recuperando conocimientos asociados a la navegación en los canales australes, donde las canoas eran fundamentales para el desplazamiento y la vida cotidiana.',
+        'Instalada bajo la Casa de la Cultura de Tortel, la escultura forma parte de un proyecto que también incluyó talleres comunitarios y actividades con estudiantes de la escuela local, acercando estos conocimientos a nuevas generaciones.',
+        'La obra fue realizada por Augusto Hernández Aguilante, mediante un proyecto financiado por el Fondo Nacional de Desarrollo Cultural y las Artes, convocatoria 2024.'
+      ],
       coordenadas: [-47.804090, -73.539172],
       thumbnail: `${thumbnailsImg}13-escultura-charkush-hallef-sm.webp`,
       icono: `${iconosImg}13-charkush-hallef.webp`,
@@ -305,7 +359,11 @@ export default {
     {
       id: 14,
       nombre: 'Hito 14 — Mirador Las Antenas',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Este mirador debe su nombre a las antenas de telecomunicaciones instaladas en el sector, desde donde también es posible contemplar las viviendas, pasarelas y el paisaje que rodea Tortel.',
+        'En 1993 se construyeron instalaciones destinadas a resguardar los equipos que permitían recibir señales de televisión. Inicialmente se utilizaban para Televisión Nacional de Chile (TVN) y, posteriormente, para Chilevisión y Canal 13. Algunas de las pequeñas construcciones revestidas con tejuelas de madera todavía se conservan, como testimonio de una etapa importante en el desarrollo de las comunicaciones de la localidad.',
+        'Con el tiempo, el sector también incorporó infraestructura de telefonía móvil, ampliando su función como punto de conexión con el exterior.'
+      ],
       coordenadas: [-47.803614, -73.541006],
       thumbnail: `${thumbnailsImg}14-mirador-las-antenas-sm.webp`,
       icono: `${iconosImg}14-mirador.webp`,
@@ -324,7 +382,10 @@ export default {
     {
       id: 15,
       nombre: 'Hito 15 — Plaza Orompello',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Esta plaza lleva el nombre de la barcaza LSM-94 _Orompello_ de la Armada de Chile, que durante décadas conectó Tortel con Punta Arenas, transportando postes de ciprés para su comercialización y contribuyendo al abastecimiento de las comunidades aisladas. En reconocimiento a esta labor, los propios habitantes bautizaron la plaza con el nombre de la embarcación, que prestó servicio entre 1964 y 2012.',
+        'En este espacio se encuentra la escultura _Islas Húmedas_ de la artista Carolina Bloj, un homenaje a las familias que hicieron del trabajo con el ciprés de las Guaitecas una parte fundamental de la vida en Tortel. La obra recuerda a quienes participaron en la extracción y elaboración de la madera, una actividad que marcó el poblamiento y la economía de la localidad.'
+      ],
       coordenadas: [-47.805164, -73.540798],
       thumbnail: `${thumbnailsImg}15-plaza-orompello-sm.webp`,
       icono: `${iconosImg}15-plaza-orompello.webp`,
@@ -342,7 +403,11 @@ export default {
     {
       id: 16,
       nombre: 'Hito 16 — Arroyo Playa Ancha',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Este arroyo forma parte de la historia cotidiana de Playa Ancha y Junquillo. Antes de contar con las actuales redes de abastecimiento, sus aguas eran aprovechadas por los pobladores mediante una pequeña represa que permitía abastecer a las viviendas de ambos sectores.',
+        'El arroyo también era un lugar de encuentro. Hasta aquí llegaban las mujeres a lavar ropa, una tarea doméstica que se convertía en una oportunidad para conversar y compartir noticias de la comunidad.',
+        'Hoy, este curso de agua recuerda una época en que los recursos del entorno eran fundamentales para resolver las necesidades diarias y en que los espacios naturales también formaban parte de la vida social de Tortel.'
+      ],
       coordenadas: [-47.804706, -73.542247],
       thumbnail: `${thumbnailsImg}16-arroyo-sm.webp`,
       icono: `${iconosImg}16-arroyo.webp`,
@@ -360,7 +425,10 @@ export default {
     {
       id: 17,
       nombre: 'Hito 17 — Playa',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'La playa ha sido, durante generaciones, uno de los principales espacios de recreación de los habitantes de Tortel. Durante los días de verano, niños, jóvenes y adultos llegan hasta aquí para bañarse, disfrutar del agua y compartir al aire libre.',
+        'También es un lugar donde tradicionalmente se ha jugado fútbol y se han compartido momentos de encuentro entre vecinos. Estos usos se mantienen hasta hoy, haciendo de la playa un espacio importante para la vida cotidiana y comunitaria de Tortel.'
+      ],
       coordenadas: [-47.805758, -73.547631],
       thumbnail: `${thumbnailsImg}17-playa-sm.webp`,
       icono: `${iconosImg}17-playa.webp`,
@@ -379,7 +447,11 @@ export default {
     {
       id: 18,
       nombre: 'Hito 18 — Parque Costumbrista',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'Ubicado junto a la playa, este espacio funcionó originalmente como camping municipal, destinado a recibir a quienes visitaban Tortel. Con el tiempo, fue adquiriendo un carácter comunitario y se transformó en uno de los principales lugares de encuentro y celebración de la localidad.',
+        'Su consolidación como Parque Costumbrista estuvo vinculada a la primera versión de la Fiesta del Madereo, realizada en 2015, que impulsó su uso para actividades culturales y comunitarias.',
+        'Actualmente, el parque cuenta con infraestructura para realizar encuentros, celebraciones y actividades al aire libre, manteniendo su importancia como espacio de reunión para los habitantes de Tortel.'
+      ],
       coordenadas: [-47.805668, -73.551078],
       thumbnail: `${thumbnailsImg}18-parque-costumbrista-sm.webp`,
       icono: `${iconosImg}18-parque-costumbrista.webp`,
@@ -398,7 +470,12 @@ export default {
     {
       id: 19,
       nombre: 'Hito 19 — Desembocadura Río Baker',
-      descripcion: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam maiores dolore, distinctio quisquam ex quae voluptatem tenetur quas, quam, quis quod beatae recusandae porro totam quia asperiores fugiat quibusdam quo corporis? Omnis maiores nisi ducimus, officiis asperiores tempora odio sapiente?',
+      descripcion: [
+        'En este sector se encuentra la desembocadura del río Baker, el más caudaloso de Chile. Antes de llegar al mar, el río se divide en distintos brazos que forman un delta de canales, pequeñas islas y humedales, dando origen a un paisaje que cambia con las crecidas, las mareas y el movimiento de sus aguas.',
+        'En las riberas crecen bosques de canelo y ñirre, acompañados de arbustos como el calafate. Las zonas más bajas e inundables albergan junco y otras plantas adaptadas a los suelos saturados de agua.',
+        'Este encuentro entre el río y el mar también ofrece oportunidades para observar aves como la garza cuca, el huairavo, pato jergón, pato real, pájaro carpintero y caiquén. En los ambientes húmedos y boscosos del entorno de Tortel también se han registrado anfibios como la rana jaspeada (_Batrachyla antartandica_) y la rana esmeralda (_Hylorina sylvatica_).',
+        'La desembocadura permite descubrir cómo el agua dulce, las mareas, la vegetación y la fauna forman parte de un ecosistema en constante transformación.'
+      ],
       coordenadas: [-47.805517, -73.551718],
       thumbnail: `${thumbnailsImg}19-desembocadura-sm.webp`,
       icono: `${iconosImg}19-desembocadura.webp`,
