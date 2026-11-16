@@ -53,7 +53,7 @@ function cerrarMenu() {
       <ul class="hidden lg:flex items-center gap-8">
         <li>
           <router-link to="/" class="text-light font-medium border border-light p-2 rounded-sm"
-            exact-active-class="bg-gray-600 border-primary text-light">
+            exact-active-class="bg-[#0b3c44] text-light">
             <!-- {{ t('inicio') }} -->
             Inicio
           </router-link>
@@ -65,7 +65,7 @@ function cerrarMenu() {
         -->
         <li v-for="ruta in rutas" :key="ruta.id">
           <router-link :to="`/ruta/${ruta.id}`" class="text-light font-medium border border-light  p-2 rounded-sm"
-            exact-active-class="bg-gray-600 border-primary" :style="$route.path.startsWith(`/ruta/${ruta.id}`)
+            exact-active-class="bg-[#0b3c44]" :style="$route.path.startsWith(`/ruta/${ruta.id}`)
               ? { color: ruta.color }
               : {}">
             {{ ruta.nombre }}
