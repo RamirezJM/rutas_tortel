@@ -111,7 +111,7 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
 
         </section>
 
-        <section class="max-w-6xl py-6 my-8">
+        <section class="max-w-6xl py-6 my-4">
           <h3 class="text-display text-2xl font-semibold text-center mb-10">Lo que descubrirás</h3>
           <div v-for="car in ruta.caracteristicas" :key="car.titulo" class="max-w-2xl mx-auto">
             <h4 class="text-lg font-semibold my-4">{{ car.titulo }}</h4>
@@ -119,7 +119,7 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
           </div>
         </section>
 
-        <section class="max-w-6xl py-6 my-8">
+        <section class="max-w-6xl py-6 my-4">
           <h3 class="text-display text-2xl font-semibold text-center mb-10">Recorrido</h3>
           <p class="mb-4 max-w-2xl mx-auto">{{ ruta.recorrido.introduccion }}:</p>
           <ul class="ps-4 max-w-2xl">
@@ -133,7 +133,7 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
 
       </template>
       <template v-else>
-        <h1>ruta no encontrada</h1>
+        <h1>Ruta no encontrada</h1>
       </template>
     </section>
 
