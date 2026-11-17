@@ -11,6 +11,7 @@ import IconDistancia from '@/components/icons/IconDistancia.vue'
 import IconDuracion from '@/components/icons/IconDuracion.vue'
 import IconAcceso from '@/components/icons/IconAcceso.vue'
 import IconModalidad from '@/components/icons/IconModalidad.vue'
+import IconPin from '@/components/icons/IconPin.vue'
 
 /* const { t } = useI18n() */
 const route = useRoute()
@@ -69,8 +70,11 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
         </h2>
         <p class="text-xl font-medium text-center my-2">{{ ruta.bajada_titulo }}</p>
         <p v-for="(parrafo, i) in ruta.descripcion_ruta" :key="i" class="max-w-2xl mx-auto">{{ parrafo }}</p>
+        <p class="text-sm mx-auto mb-0 flex">Haz click sobre cada hito
+          <IconPin :color="ruta.color" :size="20" /> para más información.
+        </p>
         <MapaInteractivo :hitos="ruta.hitos" :trazado="ruta.trazado" :trazado-opcional="ruta.trazadoOpcional"
-          :color-ruta="ruta.color" :key="route.params.rutaId" class="my-8" />
+          :color-ruta="ruta.color" :key="route.params.rutaId" class="mb-8" />
 
         <!-- <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-8"> -->
         <section class="flex flex-wrap justify-center gap-6 my-8">
@@ -117,6 +121,9 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
             <h4 class="text-lg font-semibold my-4">{{ car.titulo }}</h4>
             <p>{{ car.descripcion }}</p>
           </div>
+          <!--  <div class=" lg:size-60  absolute -mt-90 translate-x-90 rounded-full -z-1 opacity-20"
+            :style="{ backgroundColor: ruta.color }">
+          </div> -->
         </section>
 
         <section class="max-w-6xl py-6 my-4">
