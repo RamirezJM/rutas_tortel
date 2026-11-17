@@ -164,7 +164,8 @@ function crearIcono(numero) {
             <!--  <p class="text-xs text-gray-600 mb-2">{{ hito.descripcion_breve }}</p> -->
             <img :src="hito.thumbnail" :alt="hito.nombre" class="w-50">
             <router-link :to="`/ruta/${$route.params.rutaId}/hito/${hito.id}`"
-              class="font-medium mt-2 rounded-full py-1 px-3" :style="`backgroundColor: ${colorRuta}`">
+              class="font-medium mt-2 rounded-full py-1 px-3 hover:border hover:border-[#0b3c44]"
+              :style="`backgroundColor: ${colorRuta}`">
               Ver más →
             </router-link>
           </div>
