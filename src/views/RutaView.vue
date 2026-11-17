@@ -51,9 +51,6 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
       <div class="absolute inset-0 flex flex-col pointer-events-none">
         <AppNavbar class="pointer-events-auto" />
         <div class="flex-1 flex items-center justify-center px-6 text-center">
-          <!-- <h1 class="font-display text-white text-4xl md:text-6xl font-bold drop-shadow-lg">
-            {{ ruta.nombre }}
-          </h1> -->
         </div>
       </div>
 
@@ -70,9 +67,13 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
         </h2>
         <p class="text-xl font-medium text-center my-2">{{ ruta.bajada_titulo }}</p>
         <p v-for="(parrafo, i) in ruta.descripcion_ruta" :key="i" class="max-w-2xl mx-auto">{{ parrafo }}</p>
-        <p class="text-sm mx-auto mb-0 flex">Haz click sobre cada hito
-          <IconPin :color="ruta.color" :size="20" /> para más información.
-        </p>
+        <div class="flex flex-col md:flex-row items-center mx-auto mb-2">
+          <p class="text-sm flex">Haz click sobre cada hito
+            <IconPin :color="ruta.color" :size="20" />
+          </p>
+          <p class="text-sm">para más información.</p>
+        </div>
+
         <MapaInteractivo :hitos="ruta.hitos" :trazado="ruta.trazado" :trazado-opcional="ruta.trazadoOpcional"
           :color-ruta="ruta.color" :key="route.params.rutaId" class="mb-8" />
 
