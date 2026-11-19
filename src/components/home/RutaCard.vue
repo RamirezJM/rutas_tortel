@@ -57,6 +57,6 @@ onMounted(() => {
 <style scoped>
 span {
   opacity: 0;
-  transition: opacity 0.6s ease;
+  transition: opacity 0.8s ease;
 }
 </style>
