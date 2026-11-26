@@ -38,7 +38,7 @@ import HeroLg from '@/assets/images/hero-lg.webp'
       </picture>
 
       <!-- <div class="bg-primary mix-blend-multiply absolute inset-0"></div> -->
-      <div class="bg-[#0b3c44] mix-blend-multiply absolute inset-0"></div>
+      <div class="bg-[#0b3c44] mix-blend-multiply absolute inset-0 opacity-60"></div>
 
       <!-- <div class="bg-fuchsia-400 mix-blend-multiply absolute inset-0"></div> -->
       <!--  <div class="absolute inset-x-0 bottom-0 h-16 bg-linear-to-t from-emerald-900 to-transparent pointer-events-none">
@@ -73,7 +73,7 @@ import HeroLg from '@/assets/images/hero-lg.webp'
             </div>
           </div>
           <!-- Segunda fila -->
-          <span>de Tortel</span>
+          <span class="-mt-10">de Tortel</span>
         </h1>
 
       </div>
@@ -114,12 +114,55 @@ import HeroLg from '@/assets/images/hero-lg.webp'
           Agradecemos especialmente a quienes dedicaron su tiempo a conversar con nosotros y aportar sus experiencias
           para dar forma a los contenidos de estas rutas:
         </p>
-        <ul class="my-2">
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
+        <ul class="my-2 ps-4">
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Valeria
+            Landeros Sepúlveda
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span> Elba
+            Zurita
+            Márquez</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Ismael Mellado
+            Vasquez</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Carlos
+            Mansilla González
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span> Jaime
+            Maripillán Catelicán
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Segundo Barría
+            Zapata</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Matías Poblete
+            Poblete</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Moisés
+            Velasquez Muñoz</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span> Alba
+            Aguilante
+            Baigorria
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Carmen Rojas
+            Chávez</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span> Sara
+            Miranda
+            Neumann</li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Javiera
+            Cisternas Tirapegui
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Mauricio
+            Melgarejo Jorquera
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Rodrigo
+            Mansilla Andrade
+          </li>
         </ul>
 
 
