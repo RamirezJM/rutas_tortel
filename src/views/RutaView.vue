@@ -44,7 +44,8 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
         </template>
       </Carousel>
 
-      <div class="absolute inset-0 pointer-events-none mix-blend-multiply" :style="{ backgroundColor: ruta.color }">
+      <div class="absolute inset-0 pointer-events-none mix-blend-multiply opacity-75"
+        :style="{ backgroundColor: ruta.color }">
       </div>
 
       <!-- Navbar y título sobre la imagen -->
@@ -78,7 +79,7 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
           :color-ruta="ruta.color" :key="route.params.rutaId" class="mb-8" />
 
         <!-- <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-8"> -->
-        <section class="flex flex-wrap justify-center gap-6 my-8">
+        <section class="flex flex-wrap justify-center gap-6 my-8 max-w-2xl">
           <div
             class="flex flex-col basis-48 items-center gap-6 border border-gray-200 shadow-md p-3 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
             <h2 class="text-lg font-semibold">Modalidad</h2>
