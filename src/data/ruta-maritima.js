@@ -62,7 +62,7 @@ export default {
     '/images/rutas/maritima/galeria/3-rio-baker.webp'
   ],
   color: '#ED7133',
-  modalidad: 'guiada, en embarcación',
+  modalidad: 'Guiada, en embarcación',
   duracion: '1,5 horas',
   dificultad: 'Difícil',
   distancia: '4 kilometros',
@@ -214,11 +214,10 @@ export default {
         'La central hidroeléctrica fue inaugurada el 9 de septiembre de 1991. Su funcionamiento permitió aprovechar la fuerza del agua para generar electricidad, aunque durante años el suministro estuvo sujeto a horarios y a la disponibilidad de agua, por lo que posteriormente fue necesario complementarlo con generadores diésel.'
       ],
       coordenadas: [-47.804508, -73.536676],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}6-sector-base-sm.webp`,
       icono: `${iconosImg}7-turbina.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}6-sector-base-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',
@@ -325,11 +324,10 @@ export default {
         'Además de su importancia en la actividad maderera, la playa ha sido durante generaciones un lugar de recreación y encuentro para los habitantes de Tortel. En verano, las familias siguen llegando para bañarse, compartir y disfrutar del paisaje, mientras que el espacio también se utiliza para jugar al fútbol y realizar actividades comunitarias.',
       ],
       coordenadas: [-47.807531, -73.548637],
-      thumbnail: '/images/rutas/hero-lg.jpg',
+      thumbnail: `${thumbnailsImg}13-rio-baker-sm.webp`,
       icono: `${iconosImg}12-playa.webp`,
       galeria: [
-        '/images/hitos/colonial-3-a.jpg',
-        '/images/hitos/colonial-3-b.jpg'
+        `${hitosImg}13-rio-baker-b.webp`
       ],
       creditos: {
         autor: 'Rutas de Tortel',

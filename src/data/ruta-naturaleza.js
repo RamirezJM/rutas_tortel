@@ -62,11 +62,11 @@ export default {
     '/images/rutas/naturaleza/galeria/3-playa.webp'
   ],
   color: '#EE779C',
-  modalidad: 'autoguiada, peatonal',
-  duracion: '3 horas',
+  modalidad: 'Autoguiada, peatonal',
+  duracion: '1.30 horas',
   dificultad: 'Media',
-  distancia: '3 kilometros',
-  acceso: 'gratuito',
+  distancia: '3 kilómetros',
+  acceso: 'Gratuito',
   hitos: [
     {
       id: 1,

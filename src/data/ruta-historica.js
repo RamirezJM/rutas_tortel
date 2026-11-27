@@ -61,11 +61,11 @@ export default {
     '/images/rutas/historica/galeria/3-plaza-armas.webp'
   ],
   color: '#F2DC57',
-  modalidad: 'autoguiada, peatonal',
-  duracion: '2 horas',
+  modalidad: 'Autoguiada, peatonal',
+  duracion: '45 minutos',
   dificultad: 'Fácil',
-  distancia: '1,5 kilometros',
-  acceso: 'gratuito',
+  distancia: '2.3 kilometros',
+  acceso: 'Gratuito',
 
   hitos: [
     {
