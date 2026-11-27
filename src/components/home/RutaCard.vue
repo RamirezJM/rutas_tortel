@@ -39,8 +39,9 @@ onMounted(() => {
     </div>
 
     <div class="flex flex-col lg:flex-1 gap-6 relative h-100 justify-center max-w-2xl">
-      <h2 class="text-emerald-900 font-medium text-4xl lg:text-6xl lg:text-center lg:items-center mt-12 md:mt-6">{{
-        ruta.nombre
+      <h2 class="text-emerald-900 font-medium text-4xl lg:text-6xl lg:text-center lg:items-center mt-24 sm:mt-6">
+        {{
+          ruta.nombre
         }}
       </h2>
       <p class="mt-10">{{ ruta.descripcion_card }}</p>
