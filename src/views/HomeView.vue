@@ -73,7 +73,7 @@ import HeroLg from '@/assets/images/hero-lg.webp'
             </div>
           </div>
           <!-- Segunda fila -->
-          <span class="-mt-10">de Tortel</span>
+          <span class="-mt-4 md:-mt-10">de Tortel</span>
         </h1>
 
       </div>
@@ -114,7 +114,13 @@ import HeroLg from '@/assets/images/hero-lg.webp'
           Agradecemos especialmente a quienes dedicaron su tiempo a conversar con nosotros y aportar sus experiencias
           para dar forma a los contenidos de estas rutas:
         </p>
-        <ul class="my-2 ps-4">
+        <ul class="my-4 ps-4">
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Francisca Ramírez Ibarra
+          </li>
+          <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
+            Lázaro Igor Aguilante
+          </li>
           <li class="my-2 relative"> <span class="absolute -left-4 top-2 size-2 rounded-full bg-[#0b3c44]"></span>
             Valeria
             Landeros Sepúlveda
