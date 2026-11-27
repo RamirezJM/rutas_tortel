@@ -9,6 +9,7 @@ import { rutas } from '@/data/rutas'
 import HeroSm from '@/assets/images/hero-sm.webp'
 import HeroMd from '@/assets/images/hero-md.webp'
 import HeroLg from '@/assets/images/hero-lg.webp'
+import Logo from '@/assets/images/logo-light.png'
 
 /* const { t } = useI18n() */
 </script>
@@ -57,24 +58,23 @@ import HeroLg from '@/assets/images/hero-lg.webp'
       <AppNavbar />
 
       <!-- Texto del hero -->
-      <div class="flex-1 flex flex-col items-center justify-center text-center px-6 py-20 md:py-32">
-        <!--   <h1 class="text-white text-4xl md:text-8xl font-serif font-bold leading-tight drop-shadow-lg mb-4">
-
-          Rutas de Tortel
-        </h1> -->
+      <div class="flex-1 flex flex-col items-center justify-center text-center px-6 py-6 z-100">
+        <!--
         <h1
           class="flex flex-col items-start text-light text-5xl md:text-8xl font-display font-bold leading-tight drop-shadow-lg mb-4">
-          <!-- Primera fila: "Rutas" + Círculos -->
+
           <div class="flex items-center gap-3">
             <span>Rutas</span>
-            <div class="flex items-center gap-1.5">
+            <div class="flex items-center">
               <span v-for="ruta in rutas" :key="ruta.id" :style="{ backgroundColor: ruta.color }"
                 class="w-10 h-10 rounded-full"></span>
             </div>
           </div>
-          <!-- Segunda fila -->
+
           <span class="-mt-4 md:-mt-10">de Tortel</span>
-        </h1>
+        </h1> -->
+
+        <img :src="Logo" alt="logo Rutas de Tortel" class="w-3/4 md:w-full max-w-xl">
 
       </div>
 
