@@ -80,36 +80,36 @@ const ruta = computed(() => getRutaById(route.params.rutaId))
 
         <!-- <section class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 my-8"> -->
         <section class="flex flex-wrap justify-center gap-6 my-8 max-w-2xl">
-          <div
-            class="flex flex-col basis-48 items-center gap-6 border border-gray-200 shadow-md p-3 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+          <div class="flex flex-col basis-48 items-center gap-6 border shadow-md p-3 rounded-md
+            hover:border-2 hover:border-primary hover:shadow-lg" :style="{ borderColor: ruta.color }">
             <h2 class="text-lg font-semibold">Modalidad</h2>
             <p class="text-center">{{ ruta.modalidad }}</p>
             <IconModalidad :color="ruta.color" :size="80" class="-order-1" />
           </div>
 
-          <div
-            class="flex flex-col basis-48 items-center gap-6 border border-gray-200 shadow-md p-3 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+          <div class="flex flex-col basis-48 items-center gap-6 border shadow-md p-3 rounded-md
+            hover:border-2 hover:border-primary hover:shadow-lg" :style="{ borderColor: ruta.color }">
             <h2 class="text-lg font-semibold">Distancia</h2>
             <p>{{ ruta.distancia }}</p>
             <IconDistancia :color="ruta.color" :size="80" class="-order-1" />
           </div>
 
-          <div
-            class="flex flex-col basis-48 items-center gap-6 border border-gray-200 shadow-md p-3 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+          <div class="flex flex-col basis-48 items-center gap-6 border shadow-md p-3 rounded-md
+            hover:border-2 hover:border-primary hover:shadow-lg" :style="{ borderColor: ruta.color }">
             <h2 class="text-lg font-semibold">Dificultad</h2>
             <p>{{ ruta.dificultad }}</p>
             <IconDificultad :color="ruta.color" :size="80" class="-order-1" />
           </div>
 
-          <div
-            class="flex flex-col basis-48 items-center gap-6 border border-gray-200 shadow-md p-3 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+          <div class="flex flex-col basis-48 items-center gap-6 border shadow-md p-3 rounded-md
+            hover:border-2 hover:border-primary hover:shadow-lg" :style="{ borderColor: ruta.color }">
             <h2 class="text-lg font-semibold">Duración</h2>
             <p>{{ ruta.duracion }}</p>
             <IconDuracion :color="ruta.color" :size="80" class="-order-1" />
           </div>
 
-          <div
-            class="flex flex-col basis-48 items-center gap-6 border border-gray-200  shadow-md p-3 rounded-md hover:border-2 hover:border-primary hover:shadow-lg">
+          <div class="flex flex-col basis-48 items-center gap-6 border shadow-md p-3 rounded-md
+            hover:border-2 hover:border-primary hover:shadow-lg" :style="{ borderColor: ruta.color }">
             <h2 class="text-lg font-semibold">Acceso</h2>
             <p>{{ ruta.acceso }}</p>
             <IconAcceso :color="ruta.color" :size="80" class="-order-1" />
