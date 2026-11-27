@@ -21,7 +21,7 @@ onMounted(() => {
   const observer = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
-        elemento.value.style.opacity = '0.4'
+        elemento.value.style.opacity = '0.5'
         observer.disconnect()
       }
     },
