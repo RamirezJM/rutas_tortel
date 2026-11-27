@@ -101,7 +101,7 @@ import Logo from '@/assets/images/logo-light.png'
         <RutaCard v-for="(ruta, index) in rutas" :key="ruta.id" :ruta="ruta" :numero="index + 1" class="my-12" />
       </div>
 
-      <div class="mb-20 max-w-2xl mx-auto">
+      <section class="mt-30 md:my-20 max-w-2xl mx-auto">
         <h2 class="font-display text-3xl font-semibold text-center mb-12">
           Un proyecto construido con muchas voces
         </h2>
@@ -172,7 +172,7 @@ import Logo from '@/assets/images/logo-light.png'
         </ul>
 
 
-      </div>
+      </section>
 
     </section>
 
